@@ -1,0 +1,1 @@
+s1(26Mar2026:16:11:53):  irun traffic.v traffic_tb.v -access +rwc -gui -coverage all 

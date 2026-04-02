@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+full_adder.v
+full_adder_tb.v
+-access
++rwc
+-gui
+-coverage
+all

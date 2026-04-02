@@ -1,0 +1,88 @@
+*** Message Type: info ***
+When: Mon Mar 23 07:33:23 AM EDT 2026
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s012
+User: user015
+Host: ECE-15.gsv.ac.in
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Mon Mar 23 07:33:23 AM EDT 2026
+Command: /home/install/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ECE-15.gsv.ac.in:49869 -64BIT -nocopyright
+Work Directory: /home/user015/Desktop/sscd
+ 
+*** Message Type: info ***
+When: Mon Mar 23 07:33:23 AM EDT 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Mar 23 07:33:24 AM EDT 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Mar 23 07:33:24 AM EDT 2026
+Connect to Simulator
+      Design: worklib.counter_test:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Mon Mar 23 07:33:21 AM EDT 2026
+  Process ID: 18732
+   Directory: /home/user015/Desktop/sscd
+     Command: xrun counter.v counter_test.v -access +rwc -gui
+
+ 
+*** Message Type: info ***
+When: Mon Mar 23 07:33:25 AM EDT 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Mar 23 07:33:48 AM EDT 2026
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Mar 23 07:38:52 AM EDT 2026
+Exit XM-Sim: user
+      Design: worklib.counter_test:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Mon Mar 23 07:33:21 AM EDT 2026
+  Process ID: 18732
+   Directory: /home/user015/Desktop/sscd
+     Command: xrun counter.v counter_test.v -access +rwc -gui
+
+ 
+*** Message Type: error ***
+When: Mon Mar 23 07:38:52 AM EDT 2026
+XM-Sim Crashed:
+      Design: worklib.counter_test:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Mon Mar 23 07:33:21 AM EDT 2026
+  Process ID: 18732
+   Directory: /home/user015/Desktop/sscd
+     Command: xrun counter.v counter_test.v -access +rwc -gui
+      Design: worklib.counter_test:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Mon Mar 23 07:33:21 AM EDT 2026
+  Process ID: 18732
+   Directory: /home/user015/Desktop/sscd
+     Command: xrun counter.v counter_test.v -access +rwc -gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Mon Mar 23 07:39:07 AM EDT 2026
+SimVision Exit.
+ 

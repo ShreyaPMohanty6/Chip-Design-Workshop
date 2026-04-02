@@ -1,0 +1,96 @@
+*** Message Type: info ***
+When: Thu Mar 26 03:10:09 PM IST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s012
+User: user015
+Host: ECE-15.gsv.ac.in
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Thu Mar 26 03:10:09 PM IST 2026
+Command: /home/install/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ECE-15.gsv.ac.in:42739 -64BIT -nocopyright
+Work Directory: /home/user015/Desktop/sscd/day4mealy1010
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:10:09 PM IST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:10:10 PM IST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:10:11 PM IST 2026
+Connect to Simulator
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 03:10:08 PM IST 2026
+  Process ID: 19721
+   Directory: /home/user015/Desktop/sscd/day4mealy1010
+     Command: xrun mealy1010.v mealy1010_tb.v -access +rwc -gui -coverage all
+
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:10:11 PM IST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:10:27 PM IST 2026
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:11:14 PM IST 2026
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:11:17 PM IST 2026
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:11:20 PM IST 2026
+Exit XM-Sim: user
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 03:10:08 PM IST 2026
+  Process ID: 19721
+   Directory: /home/user015/Desktop/sscd/day4mealy1010
+     Command: xrun mealy1010.v mealy1010_tb.v -access +rwc -gui -coverage all
+
+ 
+*** Message Type: error ***
+When: Thu Mar 26 03:11:20 PM IST 2026
+XM-Sim Crashed:
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 03:10:08 PM IST 2026
+  Process ID: 19721
+   Directory: /home/user015/Desktop/sscd/day4mealy1010
+     Command: xrun mealy1010.v mealy1010_tb.v -access +rwc -gui -coverage all
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 03:10:08 PM IST 2026
+  Process ID: 19721
+   Directory: /home/user015/Desktop/sscd/day4mealy1010
+     Command: xrun mealy1010.v mealy1010_tb.v -access +rwc -gui -coverage all
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Thu Mar 26 03:11:22 PM IST 2026
+SimVision Exit.
+ 

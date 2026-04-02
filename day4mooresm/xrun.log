@@ -1,0 +1,116 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 26, 2026 at 11:28:17 IST
+xrun
+	moore.v
+	moore_tb.v
+	-access +rwc
+	-gui
+file: moore_tb.v
+	module worklib.seq_det_11_moore_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		seq_det_11_moore_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.seq_det_11_moore:v <0x03c128d7>
+			streams:   3, words:  1517
+		worklib.seq_det_11_moore_tb:v <0x746216d2>
+			streams:   6, words:  3853
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           6       6
+		Scalar wires:        4       -
+		Always blocks:       1       1
+		Initial blocks:      3       3
+		Pseudo assignments:  3       3
+	Writing initial simulation snapshot: worklib.seq_det_11_moore_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm seq_det_11_moore_tb.clk seq_det_11_moore_tb.i seq_det_11_moore_tb.in seq_det_11_moore_tb.out seq_det_11_moore_tb.reset
+Created probe 1
+xcelium> run
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+Simulation complete via $finish(1) at time 1056 NS + 0
+./moore_tb.v:20        #50;$finish;
+xcelium> ^C
+xcelium> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	xrun(64)	20.09-s012: Exiting on Mar 26, 2026 at 11:52:27 IST  (total: 00:24:10)

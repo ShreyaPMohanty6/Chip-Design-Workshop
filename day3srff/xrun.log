@@ -1,0 +1,56 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 25, 2026 at 15:57:22 IST
+xrun
+	srff.v
+	srff_tb.v
+	-access +rwc
+	-gui
+file: srff.v
+	module worklib.sr_flop:v
+		errors: 0, warnings: 0
+file: srff_tb.v
+	module worklib.st_flop_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		st_flop_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.sr_flop:v <0x09844375>
+			streams:   2, words:   766
+		worklib.st_flop_tb:v <0x6854de8c>
+			streams:  11, words:  9118
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           5       5
+		Scalar wires:        5       -
+		Always blocks:       2       2
+		Initial blocks:      4       4
+		Pseudo assignments:  4       4
+	Writing initial simulation snapshot: worklib.st_flop_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm st_flop_tb.clk st_flop_tb.r st_flop_tb.rst st_flop_tb.s st_flop_tb.sr_ff
+Created probe 1
+xcelium> run
+rst=x,s=x, r=x, output = x
+rst=1,s=1, r=0, output = 0
+rst=1,s=0, r=1, output = 0
+rst=0,s=0, r=0, output = 0
+rst=0,s=0, r=1, output = 0
+rst=0,s=1, r=0, output = 1
+rst=0,s=1, r=1, output = x
+Simulation complete via $finish(1) at time 100 NS + 0
+./srff_tb.v:23 #100 $finish;
+xcelium> coverage -analyze
+xmsim: *E,NOCOVE: Loaded snapshot was not instrumented for any coverage type. To generate coverage data, coverage type(s) must be specified at the elaboration stage using appropriate coverage options/commands.
+xcelium> TOOL:	xrun(64)	20.09-s012: Exiting on Mar 25, 2026 at 16:24:37 IST  (total: 00:27:15)

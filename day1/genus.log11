@@ -1,0 +1,41 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.11-s111_1, built Mon Apr 26 02:27:38 PDT 2021
+Options: 
+Date:    Thu Apr 02 13:04:48 2026
+Host:    ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*1physical cpu*13th Gen Intel(R) Core(TM) i7-13700F 30720KB) (15876260KB)
+PID:     27965
+OS:      Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: This version of the tool is 1801 days old.
+@genus:root: 1> source run_dft.tcl
+Sourcing './run_dft.tcl' (Thu Apr 02 13:05:08 IST 2026)...
+#@ Begin verbose source ./run_dft.tcl
+@file(run_dft.tcl) 2: set_db init_lib_search_path ./45nm_library/lib/
+  Setting attribute of root '/': 'init_lib_search_path' = ./45nm_library/lib/
+@file(run_dft.tcl) 3: set_db library  slow_vdd1v0_basicCells.lib    
+Error   : File error. [FILE-100] [set_db]
+        : Cannot open file 'slow_vdd1v0_basicCells.lib'
+        : Make sure that the file is a readable regular file and has the specified name.
+Error   : A library file does not exist. [LBR-68] [set_db]
+        : File 'slow_vdd1v0_basicCells.lib' could not be found. File '<none>' was the last file that was successfully read in.
+        : Make sure that the library file exists or check for a typo in the file name.
+Error   : The data value for this attribute is invalid. [TUI-24] [set_db]
+        : The value 'slow_vdd1v0_basicCells.lib' cannot be set for attribute 'library'.
+        : To see the usage/description for this attribute, type '::legacy::set_attribute -h <attr_name> *' (in legacy UI mode) or 'help * <attr_name> -detail' (in CUI mode).
+#@ End verbose source ./run_dft.tcl
+1

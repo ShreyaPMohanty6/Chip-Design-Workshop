@@ -1,0 +1,104 @@
+*** Message Type: info ***
+When: Thu Mar 26 12:09:54 PM IST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s012
+User: user015
+Host: ECE-15.gsv.ac.in
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Thu Mar 26 12:09:54 PM IST 2026
+Command: /home/install/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ECE-15.gsv.ac.in:42459 -64BIT -nocopyright
+Work Directory: /home/user015/Desktop/sscd/day4meally
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:09:54 PM IST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:09:55 PM IST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:09:56 PM IST 2026
+Connect to Simulator
+      Design: worklib.seq_det_11_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 12:09:52 PM IST 2026
+  Process ID: 8103
+   Directory: /home/user015/Desktop/sscd/day4meally
+     Command: xrun mealy.v mealy_tb.v -access +rwc -gui
+
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:09:56 PM IST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:10:02 PM IST 2026
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:14:10 PM IST 2026
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:14:13 PM IST 2026
+Delete source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:14:56 PM IST 2026
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:15:00 PM IST 2026
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:15:07 PM IST 2026
+Exit XM-Sim: user
+      Design: worklib.seq_det_11_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 12:09:52 PM IST 2026
+  Process ID: 8103
+   Directory: /home/user015/Desktop/sscd/day4meally
+     Command: xrun mealy.v mealy_tb.v -access +rwc -gui
+
+ 
+*** Message Type: error ***
+When: Thu Mar 26 12:15:07 PM IST 2026
+XM-Sim Crashed:
+      Design: worklib.seq_det_11_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 12:09:52 PM IST 2026
+  Process ID: 8103
+   Directory: /home/user015/Desktop/sscd/day4meally
+     Command: xrun mealy.v mealy_tb.v -access +rwc -gui
+      Design: worklib.seq_det_11_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL: xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Thu Mar 26 12:09:52 PM IST 2026
+  Process ID: 8103
+   Directory: /home/user015/Desktop/sscd/day4meally
+     Command: xrun mealy.v mealy_tb.v -access +rwc -gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Thu Mar 26 12:15:10 PM IST 2026
+SimVision Exit.
+ 

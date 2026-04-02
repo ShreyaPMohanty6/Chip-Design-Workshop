@@ -1,0 +1,9 @@
+s1(25Mar2026:12:41:59):  xrun half_adder.v multiplier.v multiplier.v -access +rwc -gui 
+s2(25Mar2026:12:42:16):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 
+s3(25Mar2026:12:44:10):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 
+s4(25Mar2026:12:45:44):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 
+s5(25Mar2026:12:46:27):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 
+s6(25Mar2026:12:48:59):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 
+s7(25Mar2026:12:52:53):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 
+s8(25Mar2026:13:40:44):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 
+s9(25Mar2026:14:26:21):  xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui 

@@ -1,0 +1,6 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(26Mar2026:11:27:01):( xrun moore.v moore_tb.v -access +rwc -gui )
+s2::(26Mar2026:11:28:18):( xrun moore.v moore_tb.v -access +rwc -gui )

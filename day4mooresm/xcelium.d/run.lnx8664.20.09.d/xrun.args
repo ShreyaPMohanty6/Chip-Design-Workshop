@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+moore.v
+moore_tb.v
+-access
++rwc
+-gui

@@ -1,0 +1,162 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 26, 2026 at 13:03:11 IST
+xrun
+	mealy.v
+	mealy_tb.v
+	-access +rwc
+	-gui
+Recompiling... reason: file './mealy.v' is newer than expected.
+	expected: Thu Mar 26 12:06:31 2026
+	actual:   Thu Mar 26 13:02:49 2026
+file: mealy.v
+	module worklib.seq_det_11_mealy:v
+		errors: 0, warnings: 0
+file: mealy_tb.v
+	module worklib.seq_det_11_mealy_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		seq_det_11_mealy_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.seq_det_11_mealy:v <0x7fa58f1e>
+			streams:   5, words:  1707
+		worklib.seq_det_11_mealy_tb:v <0x65f23325>
+			streams:   6, words:  3727
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           7       7
+		Scalar wires:        4       -
+		Always blocks:       2       2
+		Initial blocks:      3       3
+		Pseudo assignments:  3       3
+	Writing initial simulation snapshot: worklib.seq_det_11_mealy_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm seq_det_11_mealy_tb.clk seq_det_11_mealy_tb.i seq_det_11_mealy_tb.in seq_det_11_mealy_tb.out seq_det_11_mealy_tb.reset
+Created probe 1
+xcelium> run
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+PASS:Sequence 11 detected
+
+Simulation complete via $finish(1) at time 1050 NS + 0
+./mealy_tb.v:21        #50;$finish;
+xcelium> TOOL:	xrun(64)	20.09-s012: Exiting on Mar 26, 2026 at 14:18:21 IST  (total: 01:15:10)

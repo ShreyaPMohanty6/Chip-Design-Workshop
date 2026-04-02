@@ -1,0 +1,2 @@
+s1(26Mar2026:14:28:13):  xrun mealy1010.v mealy1010_tb.v -access +rwc -gui 
+s2(26Mar2026:15:10:06):  irun mealy1010.v mealy1010_tb.v -access +rwc -gui -coverage all 

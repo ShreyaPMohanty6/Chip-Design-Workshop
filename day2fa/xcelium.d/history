@@ -1,0 +1,14 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(25Mar2026:11:04:09):( xrun full_adder.v full_adder_tb.v -access +rwc -gui -coverage all )
+s2::(25Mar2026:11:05:17):( xrun full_adder.v full_adder_tb.v -access +rwc -gui -coverage all )
+s3::(25Mar2026:11:07:18):( xrun full_adder.v full_adder_tb.v -access +rwc -gui -coverage all )
+s4::(25Mar2026:11:08:45):( xrun full_adder.v full_adder_tb.v -access +rwc -gui -coverage all )
+s5::(25Mar2026:11:13:56):( xrun full_adder.v full_adder_tb.v -access +rwc -gui -coverage all )
+s6::(25Mar2026:11:14:19):( xrun full_adder.v full_adder_tb.v -access +rwc -gui )
+s7::(25Mar2026:11:16:19):( xrun full_adder.v full_adder_tb.v -access +rwc -gui )
+s8::(25Mar2026:11:18:06):( xrun half_adder.v full_adder.v full_adder_tb.v -access +rwc -gui )
+s9::(25Mar2026:11:22:13):( xrun half_adder.v full_adder.v full_adder_tb.v -access +rwc -gui )
+s10::(25Mar2026:11:33:51):( xrun full_adder.v full_adder_tb.v -access +rwc -gui -coverage all )

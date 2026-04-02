@@ -1,0 +1,59 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 24, 2026 at 16:13:33 IST
+xrun
+	mux.v
+	mux_tb.v
+	-access +rwc
+	-gui
+Recompiling... reason: file './mux_tb.v' is newer than expected.
+	expected: Tue Mar 24 15:41:32 2026
+	actual:   Tue Mar 24 16:13:20 2026
+file: mux_tb.v
+	module worklib.mux_ff_ex_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mux_ff_ex_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_ff_ex_tb:v <0x526e4be0>
+			streams:   9, words:  7800
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           9       9
+		Scalar wires:        8       -
+		Vectored wires:      1       -
+		Always blocks:       2       2
+		Initial blocks:      1       1
+		Cont. assignments:   1       2
+		Pseudo assignments:  7       7
+	Writing initial simulation snapshot: worklib.mux_ff_ex_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm mux_ff_ex_tb.clk_tb mux_ff_ex_tb.count mux_ff_ex_tb.i0_tb mux_ff_ex_tb.i1_tb mux_ff_ex_tb.i2_tb mux_ff_ex_tb.i3_tb mux_ff_ex_tb.q_tb mux_ff_ex_tb.resetn_tb mux_ff_ex_tb.sel_tb
+Created probe 1
+xcelium> run
+                   0Verilog testbench
+                   0In reset
+
+                   6Out of reset
+
+                  16PASS- Data matched:count=0, actual data =0
+                  26PASS- Data matched:count=1, actual data =1
+                  36PASS- Data matched:count=2, actual data =x
+                  46PASS- Data matched:count=3, actual data =z
+Simulation stopped via $stop(1) at time 56 NS + 0
+xcelium> ^C
+xcelium> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	xrun(64)	20.09-s012: Exiting on Mar 24, 2026 at 16:23:14 IST  (total: 00:09:41)

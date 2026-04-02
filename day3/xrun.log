@@ -1,0 +1,25 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 25, 2026 at 14:26:21 IST
+xrun
+	half_adder.v
+	multiplier.v
+	multiplier_tb.v
+	-access +rwc
+	-gui
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm multiplier_tbb.A0 multiplier_tbb.A1 multiplier_tbb.B0 multiplier_tbb.B1 multiplier_tbb.C0 multiplier_tbb.C1 multiplier_tbb.C2 multiplier_tbb.C3
+Created probe 1
+xcelium> run
+Simulation complete via $finish(1) at time 80 NS + 0
+./multiplier_tb.v:26      $finish;
+xcelium> ^C
+xcelium> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	xrun(64)	20.09-s012: Exiting on Mar 25, 2026 at 16:24:51 IST  (total: 02:44:07)

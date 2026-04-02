@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(23Mar2026:06:50:51):( xrun counter.v counter_test.v -access +rwc -gui )
+s2::(23Mar2026:06:52:05):( xrun counter.v counter_test.v -access +rwc -gui )
+s3::(23Mar2026:07:17:28):( xrun counter.v counter_test.v -access +rwc -gui )
+s4::(23Mar2026:07:31:10):( xrun counter.v counter_test.v -access +rwc -gui )

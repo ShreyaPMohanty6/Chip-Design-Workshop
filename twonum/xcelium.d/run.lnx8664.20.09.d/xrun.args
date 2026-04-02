@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+twonum.v
+twonum_tb.v
+-access
++rwc
+-gui
+-coverage
+all

@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(27Mar2026:12:31:35):( xrun memory.v memory_tb.v -access +rwc -gui -coverage all )
+s2::(27Mar2026:12:33:34):( xrun memory.v memory_tb.v -access +rwc -gui -coverage all )
+s3::(27Mar2026:12:36:02):( xrun memory.v memory_tb.v -access +rwc -gui -coverage all )
+s4::(27Mar2026:12:37:30):( xrun memory.v memory_tb.v -access +rwc -gui -coverage all )

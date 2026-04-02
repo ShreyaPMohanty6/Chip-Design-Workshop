@@ -1,0 +1,4 @@
+s1(24Mar2026:16:42:47):  xrun half_adder.v half_adder_tb.v -access +rwc -gui 
+s2(24Mar2026:16:50:04):  xrun half_adder.v half_adder_tb.v -access +rwc -gui 
+s3(25Mar2026:10:19:38):  xrun half_adder.v half_adder_tb.v -access +rwc -gui -coverge all 
+s4(25Mar2026:10:19:52):  xrun half_adder.v half_adder_tb.v -access +rwc -gui -coverage all 

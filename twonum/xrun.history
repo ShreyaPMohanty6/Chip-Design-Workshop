@@ -1,0 +1,8 @@
+s1(26Mar2026:16:20:28):  irun twonum.v twonum_tb.v -access +rwc -gui -coverage all 
+s2(26Mar2026:16:22:56):  irun twonum.v twonum_tb.v -access +rwc -gui -coverage all 
+s3(26Mar2026:16:23:48):  xrun twonum.v twonum_tb.v -access +rwc -gui -coverage all 
+s4(26Mar2026:16:25:27):  xrun twonum.v twonum_tb.v -access +rwc -gui -coverage all 
+s5(26Mar2026:16:30:49):  xrun twonum.v twonum_tb.v -access +rwc -gui -coverage all 
+s6(26Mar2026:16:31:03):  xrun twosum.v twonum_tb.v -access +rwc -gui -coverage all 
+s7(26Mar2026:16:31:20):  xrun twonum.v twonum_tb.v -access +rwc -gui -coverage all 
+s8(26Mar2026:16:32:10):  xrun twonum.v twonum_tb.v -access +rwc -gui -coverage all 

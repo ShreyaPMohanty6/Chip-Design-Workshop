@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+mealy.v
+mealy_tb.v
+-access
++rwc
+-gui

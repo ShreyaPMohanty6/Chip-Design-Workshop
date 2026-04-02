@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(26Mar2026:14:21:44):( xrun moore1010.v moore1010_tb.v -access +rwc -gui )
+s2::(26Mar2026:14:22:53):( xrun moore1010.v moore1010_tb.v -access +rwc -gui )
+s3::(26Mar2026:14:23:13):( xrun moore1010.v moore1010_tb.v -access +rwc -gui )
+s4::(26Mar2026:14:24:28):( xrun moore1010.v moore1010_tb.v -access +rwc -gui )
+s5::(26Mar2026:15:13:07):( irun moore1010.v moore1010_tb.v -access +rwc -gui -coverage all )

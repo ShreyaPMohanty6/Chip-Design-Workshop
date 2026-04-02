@@ -1,0 +1,7 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(26Mar2026:12:09:51):( xrun mealy.v mealy_tb.v -access +rwc -gui )
+s2::(26Mar2026:12:15:27):( xrun mealy.v mealy_tb.v -access +rwc -gui )
+s3::(26Mar2026:13:03:11):( xrun mealy.v mealy_tb.v -access +rwc -gui )
