@@ -251,20 +251,20 @@
 "object":"/designs/counter/instances_seq/count_reg[0]",
 "type":"instance"},
 {"index": "1", 
- "date": "Thu Apr 02 07:36:32 UTC 2026",
- "seconds": 1775115392.045007,
+ "date": "Thu Apr 02 09:06:13 UTC 2026",
+ "seconds": 1775120773.2550259,
  "netlist": "fv/counter/fv_map.v.gz", 
  "netlist_exists": "1", 
  "netlist_normalize": "/home/user015/Desktop/sscd/day1/fv/counter/fv_map.v.gz", 
- "netlist_mtime": "1775115391", 
- "netlist_timestamp": "Thu Apr 02 07:36:31 UTC 2026", 
+ "netlist_mtime": "1775120772", 
+ "netlist_timestamp": "Thu Apr 02 09:06:12 UTC 2026", 
  "netlist_size": "1056", 
- "netlist_cksum": "3269411231", 
+ "netlist_cksum": "1704416387", 
  "design_name": "counter", 
  "synth_workdir": "/home/user015/Desktop/sscd/day1", 
  "synthesis_command":"",
  "current_label": "fv_map", 
  "previous_label": "rtl", 
- "write_verif_file_runtime": 0.395984 
+ "write_verif_file_runtime": 0.40049799999999997 
  }
 ]

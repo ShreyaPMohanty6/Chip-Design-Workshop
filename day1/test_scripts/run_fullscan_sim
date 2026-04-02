@@ -18,7 +18,7 @@ xrun \
    +xmoverride_timescale \
    +xmseq_udp_delay+2ps \
    +libext+.v+.V+.z+.Z+.gz \
-   +xmlibdirname+$WORKDIR/Inca_libs_13_06_32 \
+   +xmlibdirname+$WORKDIR/Inca_libs_14_36_13 \
    -l $WORKDIR/ncverilog_FULLSCAN.log \
   -v ./45nm_library/lib/slow_vdd1v0_basiccells.v \
 $WORKDIR/counter.test_netlist.v \
