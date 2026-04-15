@@ -1,0 +1,602 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Tue Apr  7 16:12:14 2026
+Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> save_global Default.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
+<CMD> set init_verilog output_2GHZ/counter_netlist.v
+<CMD> set init_mmmc_file Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#% Begin Load MMMC data ... (date=04/07 16:13:36, mem=662.6M)
+#% End Load MMMC data ... (date=04/07 16:13:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=663.0M, current mem=663.0M)
+RC
+
+Loading LEF file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+viaInitial starts at Tue Apr  7 16:13:36 2026
+viaInitial ends at Tue Apr  7 16:13:36 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from Default.view
+Reading SLOW timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib)
+Read 480 cells in library 'slow_vdd1v0' 
+Reading FAST timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib)
+Read 480 cells in library 'fast_vdd1v0' 
+*** End library_loading (cpu=0.01min, real=0.02min, mem=15.9M, fe_cpu=0.39min, fe_real=1.38min, fe_mem=792.4M) ***
+#% Begin Load netlist data ... (date=04/07 16:13:37, mem=681.5M)
+*** Begin netlist parsing (mem=792.4M) ***
+Created 480 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'output_2GHZ/counter_netlist.v'
+
+*** Memory Usage v#1 (Current mem = 792.402M, initial mem = 284.301M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=792.4M) ***
+#% End Load netlist data ... (date=04/07 16:13:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=691.2M, current mem=691.2M)
+Top level cell is counter.
+Hooked 960 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell counter ...
+*** Netlist is unique.
+** info: there are 968 modules.
+** info: there are 64 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 836.828M, initial mem = 284.301M) ***
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+Type 'man IMPEXT-6202' for more detail.
+Reading Capacitance Table File 45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl ...
+Cap table was created using Encounter 10.10-b056_1.
+Process name: cln28hpl_1p10m+alrdl_5x2yu2yz_typical.
+Set Shrink Factor to 0.90000
+**WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via RV specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+#WARNING (NRDB-21) The number of routing layer 9 in the database does not match with the value of 11 in the Extended Cap Table file.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: WC
+    RC-Corner Name        : RC
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 12 Celsius
+    RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '45nm_library/QRC_Tech/gpdk045.tch'
+ 
+ Analysis View: BC
+    RC-Corner Name        : RC
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 12 Celsius
+    RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '45nm_library/QRC_Tech/gpdk045.tch'
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+*Info: initialize multi-corner CTS.
+Reading timing constraints file 'counter_tool.sdc' ...
+Current (total cpu=0:00:23.9, real=0:01:23, peak res=948.8M, current mem=948.8M)
+**WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File counter_tool.sdc, Line 9).
+
+**WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File counter_tool.sdc, Line 10).
+
+counter
+INFO (CTE): Reading of timing constraints file counter_tool.sdc completed, with 2 WARNING
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=968.2M, current mem=968.2M)
+Current (total cpu=0:00:23.9, real=0:01:23, peak res=968.2M, current mem=968.2M)
+Total number of combinational cells: 318
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-201          571  Pin '%s' in macro '%s' has no ANTENNADIF...
+WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+WARNING   IMPEXT-2710          1  Basic Cap table for layer M%d is ignored...
+WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+*** Message Summary: 581 warning(s), 0 error(s)
+
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -coreMarginsBy die -site CoreSite -r 1 0.699948 8 8 8 8
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 1 0.697562 8.0 8.17 8.0 8.17
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 1 0.697562 8.0 8 8.0 8
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 0.855 0.697562 8.0 8.17 8.0 8.17
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 1 0.697562 8.0 8 8.0 8
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+The ring targets are set to core/block ring wires.
+addRing command will consider rows while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will ignore shorts while creating rings.
+<CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1451.8M)
+Ring generation is complete.
+vias are now being generated.
+addRing created 8 wires.
+ViaGen created 8 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal8 |        4       |       NA       |
+|  Via8  |        8       |        0       |
+| Metal9 |        4       |       NA       |
++--------+----------------+----------------+
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -number_of_sets 2 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1456.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1456.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1456.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1456.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1456.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 4 wires.
+ViaGen created 8 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal8 |        4       |       NA       |
+|  Via8  |        8       |        0       |
++--------+----------------+----------------+
+<CMD> setSrouteMode -viaConnectToShape { noshape }
+<CMD> sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal9(9) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal9(9) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal9(9) }
+*** Begin SPECIAL ROUTE on Tue Apr  7 16:20:26 2026 ***
+SPECIAL ROUTE ran on directory: /home/user015/Desktop/sscd/day1
+SPECIAL ROUTE ran on machine: ECE-15.gsv.ac.in (Linux 3.10.0-1160.119.1.el7.x86_64 x86_64 2.11Ghz)
+
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSelectNet set to "VDD VSS"
+routeSpecial set to true
+srouteBlockPin set to "useLef"
+srouteBottomLayerLimit set to 1
+srouteBottomTargetLayerLimit set to 1
+srouteConnectConverterPin set to false
+srouteCrossoverViaBottomLayer set to 1
+srouteCrossoverViaTopLayer set to 9
+srouteFloatingStripeTarget set to "blockring padring ring stripe ringpin blockpin followpin"
+srouteFollowCorePinEnd set to 3
+srouteJogControl set to "preferWithChanges differentLayer"
+srouteNoViaOnWireShape set to "padring ring stripe blockring blockpin coverpin blockwire corewire followpin iowire"
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteRoutePowerBarPortOnBothDir set to true
+srouteStopBlockPin set to "nearestTarget"
+srouteTopLayerLimit set to 9
+srouteTopTargetLayerLimit set to 9
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2567.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+**WARN: (IMPSR-4302):	Cap-table/qrcTechFile is found in the design, so the same information from the technology file will be ignored.
+Read in 19 layers, 9 routing layers, 1 overlap layer
+Read in 2 nondefault rules, 0 used
+Read in 487 macros, 35 used
+Read in 35 components
+  35 core components: 35 unplaced, 0 placed, 0 fixed
+Read in 11 logical pins
+Read in 11 nets
+Read in 2 special nets, 2 routed
+2 nets selected.
+
+Begin power routing ...
+**WARN: (IMPSR-1253):	Unable to find any standard cell pin connected to the VDD net.
+ Run the globalNetConnect command or change the CPF file to ensure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as 'USE POWER' or 'USE GROUND' for the connection.
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VDD net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VDD net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VDD. Check net list, or change port class in the technology file, or change option to include pin in given range.
+**WARN: (IMPSR-1253):	Unable to find any standard cell pin connected to the VSS net.
+ Run the globalNetConnect command or change the CPF file to ensure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as 'USE POWER' or 'USE GROUND' for the connection.
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VSS net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VSS net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VSS. Check net list, or change port class in the technology file, or change option to include pin in given range.
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VDD.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+CPU time for FollowPin 0 seconds
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+**WARN: (IMPSR-468):	Cannot find any standard cell pin connected to net VSS.
+Use setSrouteMode -corePinReferenceMacro <standard cell> to specify a reference macro for followpin connection, or run globalNetConnect command or change CPF file to make sure that the netlist reflects the correct power ground connections. The standard cell pins must be defined as "USE POWER" or "USE GROUND".
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 24
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 12
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 2621.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 0 via definition ...Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+
+sroute created 36 wires.
+ViaGen created 168 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal1 |       36       |       NA       |
+|  Via1  |       24       |        0       |
+|  Via2  |       24       |        0       |
+|  Via3  |       24       |        0       |
+|  Via4  |       24       |        0       |
+|  Via5  |       24       |        0       |
+|  Via6  |       24       |        0       |
+|  Via7  |       24       |        0       |
++--------+----------------+----------------+
+<CMD> setLayerPreference allM2 -isVisible 0
+<CMD> setLayerPreference allM2Cont -isVisible 0
+<CMD> setLayerPreference allM3Cont -isVisible 0
+<CMD> setLayerPreference allM4Cont -isVisible 1
+<CMD> setLayerPreference allM5Cont -isVisible 1
+<CMD> setLayerPreference allM6Cont -isVisible 1
+<CMD> setLayerPreference allM7Cont -isVisible 1
+<CMD> setLayerPreference allM8Cont -isVisible 1
+<CMD> setLayerPreference allM9Cont -isVisible 1
+<CMD> setLayerPreference allM10Cont -isVisible 1
+Message: Click to select single object. Shift+Click to de/select multiple objects.
+<CMD> saveDesign counter
+#% Begin save design ... (date=04/07 16:39:40, mem=1222.7M)
+% Begin Save ccopt configuration ... (date=04/07 16:39:40, mem=1224.7M)
+% End Save ccopt configuration ... (date=04/07 16:39:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1225.6M, current mem=1225.6M)
+% Begin Save netlist data ... (date=04/07 16:39:40, mem=1225.6M)
+Writing Binary DB to counter.dat/counter.v.bin in single-threaded mode...
+% End Save netlist data ... (date=04/07 16:39:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1225.7M, current mem=1225.7M)
+Saving symbol-table file ...
+Saving congestion map file counter.dat/counter.route.congmap.gz ...
+% Begin Save AAE data ... (date=04/07 16:39:40, mem=1225.8M)
+Saving AAE Data ...
+% End Save AAE data ... (date=04/07 16:39:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1225.9M, current mem=1225.9M)
+Saving preference file counter.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=04/07 16:39:40, mem=1229.1M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=04/07 16:39:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1229.1M, current mem=1229.1M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save placement data ... (date=04/07 16:39:40, mem=1229.2M)
+** Saving stdCellPlacement_binary (version# 2) ...
+Save Adaptive View Pruning View Names to Binary file
+% End Save placement data ... (date=04/07 16:39:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1229.2M, current mem=1229.2M)
+% Begin Save routing data ... (date=04/07 16:39:40, mem=1229.2M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1496.0M) ***
+% End Save routing data ... (date=04/07 16:39:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1229.3M, current mem=1229.3M)
+Saving property file counter.dat/counter.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1499.0M) ***
+% Begin Save power constraints data ... (date=04/07 16:39:40, mem=1230.0M)
+% End Save power constraints data ... (date=04/07 16:39:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1230.1M, current mem=1230.1M)
+RC
+RC
+RC
+Generated self-contained design counter.dat
+#% End save design ... (date=04/07 16:39:40, total cpu=0:00:00.3, real=0:00:00.0, peak res=1259.8M, current mem=1234.7M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> saveDesign counter_power.enc
+#% Begin save design ... (date=04/07 16:44:46, mem=1262.6M)
+% Begin Save ccopt configuration ... (date=04/07 16:44:46, mem=1262.6M)
+% End Save ccopt configuration ... (date=04/07 16:44:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=1262.6M, current mem=1262.6M)
+% Begin Save netlist data ... (date=04/07 16:44:46, mem=1262.6M)
+Writing Binary DB to counter_power.enc.dat/counter.v.bin in single-threaded mode...
+% End Save netlist data ... (date=04/07 16:44:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=1262.6M, current mem=1262.6M)
+Saving symbol-table file ...
+Saving congestion map file counter_power.enc.dat/counter.route.congmap.gz ...
+% Begin Save AAE data ... (date=04/07 16:44:47, mem=1262.6M)
+Saving AAE Data ...
+% End Save AAE data ... (date=04/07 16:44:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1262.6M, current mem=1262.6M)
+Saving preference file counter_power.enc.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=04/07 16:44:47, mem=1262.8M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=04/07 16:44:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1262.8M, current mem=1262.8M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save placement data ... (date=04/07 16:44:47, mem=1262.8M)
+** Saving stdCellPlacement_binary (version# 2) ...
+Save Adaptive View Pruning View Names to Binary file
+% End Save placement data ... (date=04/07 16:44:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1262.8M, current mem=1262.8M)
+% Begin Save routing data ... (date=04/07 16:44:47, mem=1262.8M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1534.1M) ***
+% End Save routing data ... (date=04/07 16:44:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1262.8M, current mem=1262.8M)
+Saving property file counter_power.enc.dat/counter.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1537.1M) ***
+% Begin Save power constraints data ... (date=04/07 16:44:47, mem=1262.8M)
+% End Save power constraints data ... (date=04/07 16:44:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=1262.8M, current mem=1262.8M)
+RC
+RC
+RC
+Generated self-contained design counter_power.enc.dat
+#% End save design ... (date=04/07 16:44:47, total cpu=0:00:00.2, real=0:00:01.0, peak res=1293.6M, current mem=1260.9M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Apr  7 16:46:06 2026
+  Total CPU time:     0:06:43
+  Total real time:    0:33:53
+  Peak memory (main): 1274.20MB
+
+
+*** Memory Usage v#1 (Current mem = 1558.383M, initial mem = 284.301M) ***
+*** Message Summary: 598 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:06:41, real=0:33:52, mem=1558.4M) ---

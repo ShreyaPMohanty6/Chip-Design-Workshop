@@ -1,0 +1,88 @@
+*** Message Type: info ***
+When: Wed Apr 15 02:29:28 PM IST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s012
+User: user015
+Host: ECE-15.gsv.ac.in
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Wed Apr 15 02:29:28 PM IST 2026
+Command: /home/install/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ECE-15.gsv.ac.in:57964 -64BIT -nocopyright
+Work Directory: /home/user015/Desktop/sscd/fifo
+ 
+*** Message Type: info ***
+When: Wed Apr 15 02:29:28 PM IST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Apr 15 02:29:29 PM IST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Wed Apr 15 02:29:30 PM IST 2026
+Connect to Simulator
+      Design: worklib.async_fifo_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Wed Apr 15 02:29:26 PM IST 2026
+  Process ID: 5842
+   Directory: /home/user015/Desktop/sscd/fifo
+     Command: xrun async_fifo.v async_fifo_tb.v -access +rwc -gui
+
+ 
+*** Message Type: info ***
+When: Wed Apr 15 02:29:30 PM IST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Apr 15 02:32:30 PM IST 2026
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Apr 15 02:38:01 PM IST 2026
+Exit XM-Sim: user
+      Design: worklib.async_fifo_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Wed Apr 15 02:29:26 PM IST 2026
+  Process ID: 5842
+   Directory: /home/user015/Desktop/sscd/fifo
+     Command: xrun async_fifo.v async_fifo_tb.v -access +rwc -gui
+
+ 
+*** Message Type: error ***
+When: Wed Apr 15 02:38:01 PM IST 2026
+XM-Sim Crashed:
+      Design: worklib.async_fifo_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Wed Apr 15 02:29:26 PM IST 2026
+  Process ID: 5842
+   Directory: /home/user015/Desktop/sscd/fifo
+     Command: xrun async_fifo.v async_fifo_tb.v -access +rwc -gui
+      Design: worklib.async_fifo_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:   xmsim(64)       20.09-s012
+        User: user015
+        Host: ECE-15.gsv.ac.in
+Time Started: Wed Apr 15 02:29:26 PM IST 2026
+  Process ID: 5842
+   Directory: /home/user015/Desktop/sscd/fifo
+     Command: xrun async_fifo.v async_fifo_tb.v -access +rwc -gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Wed Apr 15 02:38:05 PM IST 2026
+SimVision Exit.
+ 

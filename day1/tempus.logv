@@ -1,0 +1,39 @@
+[04/13 15:42:48      0s] 
+[04/13 15:42:48      0s] Cadence Tempus(TM) Timing Signoff Solution.
+[04/13 15:42:48      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/13 15:42:48      0s] 
+[04/13 15:42:48      0s] Version:	v20.20-p001_1, built Wed Dec 2 16:07:28 PST 2020
+[04/13 15:42:48      0s] Options:	
+[04/13 15:42:48      0s] Date:		Mon Apr 13 15:42:48 2026
+[04/13 15:42:48      0s] Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+[04/13 15:42:48      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[04/13 15:42:48      0s] 
+[04/13 15:42:48      0s] License:
+[04/13 15:42:49      0s] 		tpsxl	Tempus Timing Signoff Solution XL	20.2	checkout succeeded
+[04/13 15:42:49      0s] 		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[04/13 15:42:56      5s] @(#)CDS: Tempus Timing Signoff Solution v20.20-p001_1 (64bit) 12/02/2020 16:07 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/13 15:42:56      5s] @(#)CDS: NanoRoute 20.20-p001_1 NR200917-0125/MT (database version 18.20.530) {superthreading v2.11}
+[04/13 15:42:56      5s] @(#)CDS: AAE 20.20-p005 (64bit) 12/02/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/13 15:42:56      5s] @(#)CDS: CTE 20.20-p010_1 () Dec  2 2020 14:35:30 ( )
+[04/13 15:42:56      5s] @(#)CDS: SYNTECH 20.20-p001_1 () Nov 24 2020 02:28:20 ( )
+[04/13 15:42:56      5s] @(#)CDS: CPE v20.20-p009
+[04/13 15:42:56      5s] @(#)CDS: OA 22.60-s011 Tue Jun 16 12:27:00 2020
+[04/13 15:42:56      5s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[04/13 15:42:56      5s] @(#)CDS: RCDB 11.15.0
+[04/13 15:42:56      5s] @(#)CDS: STYLUS 21.10-d018_1 (08/28/2020 09:14 PDT)
+[04/13 15:42:56      5s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[04/13 15:42:56      5s] **INFO: (TMPDIR-1001): The environment variable TMPDIR is not set.
+Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_21874_GdzmFi'.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_21874_GdzmFi'.
+[04/13 15:43:05      7s] 
+--------------------------------------------------------------------------------
+Exiting Tempus Timing Signoff Solution on Mon Apr 13 15:43:05 2026
+  Total CPU time:     0:00:07
+  Total real time:    0:00:19
+  Peak memory (main): 576.49MB
+
+[04/13 15:43:05      7s] 
+[04/13 15:43:05      7s] *** Memory Usage v#1 (Current mem = 681.398M, initial mem = 291.699M) ***
+[04/13 15:43:05      7s] *** Message Summary: 0 warning(s), 0 error(s)
+[04/13 15:43:05      7s] 
+[04/13 15:43:05      7s] --- Ending "Tempus Timing Signoff Solution" (totcpu=0:00:07.7, real=0:00:17.0, mem=681.4M) ---

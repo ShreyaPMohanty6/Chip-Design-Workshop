@@ -1,0 +1,122 @@
+Starting Command: build_faultmodel 
+
+INFO (TDA-005): Command Line Invocation: 
+            build_faultmodel -includedynamic no -workdir /home/user015/Desktop/sscd/day1/test_scripts -stdout summary  [end TDA_005]
+
+INFO (TDA-014): Cadence(R) Modus(TM) DFT Software Solution, Version 20.12-s002_1, built Feb 26 2021 (linux26_64) [end TDA_014]
+
+INFO (TDA-015): Log File: /home/user015/Desktop/sscd/day1/test_scripts/testresults/logs/log_build_faultmodel_040226163728-062370000 [end TDA_015]
+
+INFO (TDA-007): Job Information:
+            Date Started: Thursday Apr 02 16:37:28 2026  IST
+            Host machine is ECE-15.gsv.ac.in, x86_64 running Linux 3.10.0-1160.119.1.el7.x86_64.
+            This job is process number 5587.
+[end TDA_007]
+
+INFO (TDA-009): Options/Values information.
+            (options marked with '*' have program generated values,
+             options marked with '+' were specified to default.)
+
+            -WORKDIR /home/user015/Desktop/sscd/day1/test_scripts
+
+            -LOGFILE /home/user015/Desktop/sscd/day1/test_scripts/testresults/logs/log_build_faultmodel_040226163728-062370000
+            -STDOUT summary
+            -includedynamic no
+[end TDA_009]
+INFO (TFW-117): Modus checked out a modus_atpg license.  [end TFW_117] 
+INFO (TFM-099): Build Fault Model started.  [end TFM_099] 
+INFO (TFM-102): Creating faultModel file /home/user015/Desktop/sscd/day1/test_scripts/tbdata/faultModel.  [end TFM_102] 
+
+Global Ignored Static Fault Count                 0
+Global Ignored Dynamic Fault Count                0
+
+
+                            Global Statistics
+
+                    ATCov  ----------------------- Global Faults --------------------------
+                   Global        Total       Tested     Possibly    Redundant     Untested
+
+Total Static         0.00          358            0            0            0          358
+Collapsed Static     0.00          254            0            0            0          254
+PI Static            0.00           10            0            0            0           10
+PO Static            0.00           18            0            0            0           18
+
+Total Dynamic                        0
+
+Parametric        
+
+IDDq                 0.00          358            0                                    358
+
+
+
+INFO (TFM-103): Creating faultStatus file /home/user015/Desktop/sscd/day1/test_scripts/tbdata/faultStatus.  [end TFM_103] 
+
+                           Testmode Statistics: FULLSCAN
+
+                 ---- ATCov ---- ------------------------ Testmode Faults ----------------------- ------------------------- Global Faults ------------------------
+                 Testmode Global        Total       Tested     Possibly    Redundant     Untested        Total       Tested     Possibly    Redundant     Untested
+
+Total Static         0.00   0.00          358            0            0            0          358          358            0            0            0          358
+Collapsed Static     0.00   0.00          254            0            0            0          254          254            0            0            0          254
+PI Static            0.00   0.00           10            0            0            0           10           10            0            0            0           10
+PO Static            0.00   0.00           18            0            0            0           18           18            0            0            0           18
+
+Total Dynamic                               0
+
+Parametric        
+
+IDDq                 0.00   0.00          358            0                                    358          358            0                                    358
+
+Path                 0.00   0.00            0            0                                      0            0            0                                      0
+
+
+
+INFO (TFM-704): Maximum Global Test Coverage Statistics: 
+
+                  %Active      #Faults      #Active    #Inactive
+Total Static       100.00          358          358            0
+Collapsed Static   100.00          254          254            0
+PI Static          100.00           10           10            0
+PO Static          100.00           18           18            0
+
+Total Dynamic                        0
+
+Parametric        
+
+There are 1 test mode(s) defined:
+      FULLSCAN
+
+[end TFM_704]
+INFO (TFM-109): Build Fault Model has completed with highest level severity message of INFO.  [end TFM_109] 
+
+INFO (TDA-001): Maximum Memory used during the run and Cumulative Time in hours:minutes:seconds:
+
+                  Total Memory =            6,307,024  bytes
+
+                      CPU Time =    0:00:00.00
+                  Elapsed Time =    0:00:00.02                    [end TDA_001]
+
+     Date Ended:  Thursday Apr 02 16:37:29 2026  IST
+
+INFO (TFW-119): Modus checked in a modus_atpg license.  [end TFW_119] 
+
+
+
+-------------------------------------------------------------------------------
+*                      Message Summary                                        *
+-------------------------------------------------------------------------------
+ Count  Number             First Instance of Message Text
+------- ------             ------------------------------
+
+  INFO Messages...
+      1 INFO (TFM-099): Build Fault Model started.   
+      1 INFO (TFM-102): Creating faultModel file /home/user015/Desktop/sscd/day1/test_scripts/tbdata/faultModel.   
+      1 INFO (TFM-103): Creating faultStatus file /home/user015/Desktop/sscd/day1/test_scripts/tbdata/faultStatus.   
+      1 INFO (TFM-109): Build Fault Model has completed with highest level severity message of INFO.   
+      1 INFO (TFM-704): Maximum Global Test Coverage Statistics: 
+      1 INFO (TFW-117): Modus checked out a modus_atpg license.   
+      1 INFO (TFW-119): Modus checked in a modus_atpg license.   
+
+ For a detailed explanation of a message and a suggested user response execute 'msgHelp <message id>'.  For example: msgHelp TDA-009
+
+-------------------------------------------------------------------------------

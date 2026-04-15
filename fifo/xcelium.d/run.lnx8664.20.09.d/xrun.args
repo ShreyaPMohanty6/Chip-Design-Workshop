@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+async_fifo.v
+async_fifo_tb.v
+-access
++rwc
+-gui
+-coverage
+all

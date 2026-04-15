@@ -1,0 +1,18 @@
+create_clock -name wclk -period 1 -waveform {0 0.5} [get_ports "wclk"]
+set_clock_transition -rise 0.1 [get_clocks "wclk"]
+set_clock_transition -fall 0.1 [get_clocks "wclk"]
+set_clock_uncertainty 0.01 [get_ports "wclk"]
+set_input_delay -max 0.4 [get_ports "wrst_n"] -clock [get_clocks "wclk"]
+set_input_delay -max 0.4 [get_ports "wreq"] -clock [get_clocks "wclk"]
+set_input_delay -max 0.4 [get_ports "wdata"] -clock [get_clocks "wclk"]
+set_output_delay -max 0.4 [get_ports "wfull"] -clock [get_clocks "wclk"]
+
+
+create_clock -name rclk -period 1 -waveform {0 0.5} [get_ports "rclk"]
+set_clock_transition -rise 0.1 [get_clocks "rclk"]
+set_clock_transition -fall 0.1 [get_clocks "rclk"]
+set_clock_uncertainty 0.01 [get_ports "rclk"]
+set_input_delay -max 0.4 [get_ports "rrst_n"] -clock [get_clocks "rclk"]
+set_input_delay -max 0.4 [get_ports "rreq"] -clock [get_clocks "rclk"]
+set_output_delay -max 0.4 [get_ports "rdata"] -clock [get_clocks "rclk"]
+set_output_delay -max 0.4 [get_ports "rempty"] -clock [get_clocks "rclk"]

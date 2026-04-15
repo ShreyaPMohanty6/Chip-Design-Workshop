@@ -1,0 +1,6 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(15Apr2026:14:29:24):( xrun async_fifo.v async_fifo_tb.v -access +rwc -gui )
+s2::(15Apr2026:14:39:22):( irun async_fifo.v async_fifo_tb.v -access +rwc -gui -coverage all )

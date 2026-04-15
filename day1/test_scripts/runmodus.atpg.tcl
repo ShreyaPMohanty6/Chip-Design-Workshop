@@ -110,4 +110,4 @@ commit_tests \
 
 check_log log_commit_tests_FULLSCAN_counter_atpg
 
-exit
+gui_open

@@ -1,0 +1,364 @@
+[04/15 15:25:53      0s] 
+[04/15 15:25:53      0s] Cadence Innovus(TM) Implementation System.
+[04/15 15:25:53      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/15 15:25:53      0s] 
+[04/15 15:25:53      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[04/15 15:25:53      0s] Options:	
+[04/15 15:25:53      0s] Date:		Wed Apr 15 15:25:53 2026
+[04/15 15:25:53      0s] Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+[04/15 15:25:53      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[04/15 15:25:53      0s] 
+[04/15 15:25:53      0s] License:
+[04/15 15:25:54      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[04/15 15:25:54      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/15 15:26:03      6s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 15:26:03      6s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[04/15 15:26:03      6s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 15:26:03      6s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[04/15 15:26:03      6s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[04/15 15:26:03      6s] @(#)CDS: CPE v20.14-s080
+[04/15 15:26:03      6s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 15:26:03      6s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[04/15 15:26:03      6s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[04/15 15:26:03      6s] @(#)CDS: RCDB 11.15.0
+[04/15 15:26:03      6s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[04/15 15:26:03      6s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_15280_ECE-15.gsv.ac.in_user015_aFDbQW.
+
+[04/15 15:26:03      6s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[04/15 15:26:04      7s] 
+[04/15 15:26:04      7s] **INFO:  MMMC transition support version v31-84 
+[04/15 15:26:04      7s] 
+[04/15 15:26:04      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/15 15:26:04      7s] <CMD> suppressMessage ENCEXT-2799
+[04/15 15:26:04      7s] <CMD> win
+[04/15 15:32:48     87s] <CMD> save_global Default.globals
+[04/15 15:32:52     88s] <CMD> set init_gnd_net VSS
+[04/15 15:32:52     88s] <CMD> set init_lef_file 45nm_library/lef/gsclib045_tech.lef
+[04/15 15:32:52     88s] <CMD> set init_design_settop 0
+[04/15 15:32:52     88s] <CMD> set init_verilog output_1GHz/async_fifo_netlist.v
+[04/15 15:32:52     88s] <CMD> set init_mmmc_file Default.view
+[04/15 15:32:52     88s] <CMD> set init_pwr_net VDD
+[04/15 15:32:52     88s] <CMD> init_design
+[04/15 15:32:52     88s] #% Begin Load MMMC data ... (date=04/15 15:32:52, mem=674.9M)
+[04/15 15:32:52     88s] #% End Load MMMC data ... (date=04/15 15:32:52, total cpu=0:00:00.0, real=0:00:00.0, peak res=675.2M, current mem=675.2M)
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] Loading LEF file 45nm_library/lef/gsclib045_tech.lef ...
+[04/15 15:32:53     88s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+[04/15 15:32:53     88s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+[04/15 15:32:53     88s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+[04/15 15:32:53     88s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+[04/15 15:32:53     88s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+[04/15 15:32:53     88s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+[04/15 15:32:53     88s] Set DBUPerIGU to M2 pitch 400.
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] viaInitial starts at Wed Apr 15 15:32:53 2026
+viaInitial ends at Wed Apr 15 15:32:53 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[04/15 15:32:53     88s] Loading view definition file from Default.view
+[04/15 15:32:53     88s] Reading SLOW timing library '/home/user015/Desktop/sscd/fifo/45nm_library/lib/slow_vdd1v0_basicCells.lib' ...
+[04/15 15:32:53     88s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/fifo/45nm_library/lib/slow_vdd1v0_basicCells.lib)
+[04/15 15:32:53     88s] Read 480 cells in library 'slow_vdd1v0' 
+[04/15 15:32:53     88s] Ending "PreSetAnalysisView" (total cpu=0:00:00.2, real=0:00:00.0, peak res=734.1M, current mem=689.8M)
+[04/15 15:32:53     88s] *** End library_loading (cpu=0.00min, real=0.00min, mem=13.5M, fe_cpu=1.48min, fe_real=7.00min, fe_mem=791.9M) ***
+[04/15 15:32:53     88s] #% Begin Load netlist data ... (date=04/15 15:32:53, mem=689.8M)
+[04/15 15:32:53     88s] *** Begin netlist parsing (mem=791.9M) ***
+[04/15 15:32:53     88s] Created 480 new cells from 1 timing libraries.
+[04/15 15:32:53     88s] Reading netlist ...
+[04/15 15:32:53     88s] Backslashed names will retain backslash and a trailing blank character.
+[04/15 15:32:53     88s] Reading verilog netlist 'output_1GHz/async_fifo_netlist.v'
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] *** Memory Usage v#1 (Current mem = 791.934M, initial mem = 284.301M) ***
+[04/15 15:32:53     88s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=791.9M) ***
+[04/15 15:32:53     88s] #% End Load netlist data ... (date=04/15 15:32:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=698.4M, current mem=698.4M)
+[04/15 15:32:53     88s] Top level cell is async_fifo.
+[04/15 15:32:53     88s] Hooked 480 DB cells to tlib cells.
+[04/15 15:32:53     88s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=706.7M, current mem=706.7M)
+[04/15 15:32:53     88s] Starting recursive module instantiation check.
+[04/15 15:32:53     88s] No recursion found.
+[04/15 15:32:53     88s] Building hierarchical netlist for Cell async_fifo ...
+[04/15 15:32:53     88s] *** Netlist is unique.
+[04/15 15:32:53     88s] Setting Std. cell height to 6840 DBU, based on Site CoreSiteDouble.
+[04/15 15:32:53     88s] **WARN: (IMPTRN-1101):	Could not determine power-rail locations in cells. Use default value GNDOnBtm.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance rempty_reg of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance wfull_reg of the cell DFFRHQX4 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11069__2398 of the cell NOR3X8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11070__5107 of the cell NOR3X4 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11071__6260 of the cell NAND2X8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11073__4319 of the cell NAND2X4 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11074__8428 of the cell NOR3X8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11079__5526 of the cell NAND3X6 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11086__6783 of the cell AOI22X2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11072__3680 of the cell XNOR2X1 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11081__2802 of the cell XNOR3XL has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance \wq2_rptr_reg[3]  of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11080__7098 of the cell AOI22X4 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance g11085__6131 of the cell NOR2X6 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance \wq1_rptr_reg[3]  of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance \wq2_rptr_reg[2]  of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance \rq2_wptr_reg[2]  of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance \rq2_wptr_reg[3]  of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance \wq1_rptr_reg[1]  of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-102):	Instance \rq2_wptr_reg[1]  of the cell DFFRHQX2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+[04/15 15:32:53     88s] **WARN: (EMS-27):	Message (IMPREPO-102) has exceeded the current message display limit of 20.
+[04/15 15:32:53     88s] To increase the message display limit, refer to the product command reference manual.
+[04/15 15:32:53     88s] ** info: there are 481 modules.
+[04/15 15:32:53     88s] ** info: there are 419 stdCell insts.
+[04/15 15:32:53     88s] **ERROR: (IMPREPO-103):	There are 419 instances (62 cells) with no dimension defined.
+
+[04/15 15:32:53     88s] *** Memory Usage v#1 (Current mem = 837.359M, initial mem = 284.301M) ***
+[04/15 15:32:53     88s] Set Default Net Delay as 1000 ps.
+[04/15 15:32:53     88s] Set Default Net Load as 0.5 pF. 
+[04/15 15:32:53     88s] Set Default Input Pin Transition as 0.1 ps.
+[04/15 15:32:53     88s] Extraction setup Started 
+[04/15 15:32:53     88s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[04/15 15:32:53     88s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[04/15 15:32:53     88s] Type 'man IMPEXT-6202' for more detail.
+[04/15 15:32:53     88s] Reading Capacitance Table File 45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl ...
+[04/15 15:32:53     88s] Cap table was created using Encounter 10.10-b056_1.
+[04/15 15:32:53     88s] Process name: cln28hpl_1p10m+alrdl_5x2yu2yz_typical.
+[04/15 15:32:53     88s] Set Shrink Factor to 0.90000
+[04/15 15:32:53     88s] Importing multi-corner RC tables ... 
+[04/15 15:32:53     88s] Summary of Active RC-Corners : 
+[04/15 15:32:53     88s]  
+[04/15 15:32:53     88s]  Analysis View: WC
+[04/15 15:32:53     88s]     RC-Corner Name        : RC
+[04/15 15:32:53     88s]     RC-Corner Index       : 0
+[04/15 15:32:53     88s]     RC-Corner Temperature : 25 Celsius
+[04/15 15:32:53     88s]     RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+[04/15 15:32:53     88s]     RC-Corner PreRoute Res Factor         : 1
+[04/15 15:32:53     88s]     RC-Corner PreRoute Cap Factor         : 1
+[04/15 15:32:53     88s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/15 15:32:53     88s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/15 15:32:53     88s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/15 15:32:53     88s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner Technology file: '45nm_library/QRC_Tech/gpdk045.tch'
+[04/15 15:32:53     88s]  
+[04/15 15:32:53     88s]  Analysis View: BC
+[04/15 15:32:53     88s]     RC-Corner Name        : RC
+[04/15 15:32:53     88s]     RC-Corner Index       : 0
+[04/15 15:32:53     88s]     RC-Corner Temperature : 25 Celsius
+[04/15 15:32:53     88s]     RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+[04/15 15:32:53     88s]     RC-Corner PreRoute Res Factor         : 1
+[04/15 15:32:53     88s]     RC-Corner PreRoute Cap Factor         : 1
+[04/15 15:32:53     88s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/15 15:32:53     88s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/15 15:32:53     88s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/15 15:32:53     88s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[04/15 15:32:53     88s]     RC-Corner Technology file: '45nm_library/QRC_Tech/gpdk045.tch'
+[04/15 15:32:53     88s] LayerId::1 widthSet size::4
+[04/15 15:32:53     88s] LayerId::2 widthSet size::4
+[04/15 15:32:53     88s] LayerId::3 widthSet size::4
+[04/15 15:32:53     88s] LayerId::4 widthSet size::4
+[04/15 15:32:53     88s] LayerId::5 widthSet size::4
+[04/15 15:32:53     88s] LayerId::6 widthSet size::4
+[04/15 15:32:53     88s] LayerId::7 widthSet size::5
+[04/15 15:32:53     88s] LayerId::8 widthSet size::5
+[04/15 15:32:53     88s] LayerId::9 widthSet size::5
+[04/15 15:32:53     88s] LayerId::10 widthSet size::4
+[04/15 15:32:53     88s] LayerId::11 widthSet size::3
+[04/15 15:32:53     88s] Updating RC grid for preRoute extraction ...
+[04/15 15:32:53     88s] eee: pegSigSF::1.070000
+[04/15 15:32:53     88s] Initializing multi-corner capacitance tables ... 
+[04/15 15:32:53     88s] Initializing multi-corner resistance tables ...
+[04/15 15:32:53     88s] Creating RPSQ from WeeR and WRes ...
+[04/15 15:32:53     88s] eee: l::1 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::2 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::3 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::4 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::7 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::8 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::9 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::10 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] eee: l::11 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/15 15:32:53     88s] **Info: Trial Route has Max Route Layer 15/11.
+[04/15 15:32:53     88s] {RT RC 0 11 11 {7 0} {10 0} 2}
+[04/15 15:32:53     88s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 0.000000 ; uaWlH: 0.000000 ; aWlH: 0.000000 ; Pmax: 0.850000 ; wcR: 0.000000 ; newSi: 0.000000 ; pMod: 82 ; 
+[04/15 15:32:53     88s] *Info: initialize multi-corner CTS.
+[04/15 15:32:53     88s] Ending "SetAnalysisView" (total cpu=0:00:00.0, real=0:00:00.0, peak res=933.1M, current mem=724.8M)
+[04/15 15:32:53     88s] Reading timing constraints file 'constraints_top.sdc' ...
+[04/15 15:32:53     88s] Current (total cpu=0:01:29, real=0:07:00, peak res=950.6M, current mem=950.6M)
+[04/15 15:32:53     88s] INFO (CTE): Constraints read successfully.
+[04/15 15:32:53     88s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=968.3M, current mem=968.3M)
+[04/15 15:32:53     88s] Current (total cpu=0:01:29, real=0:07:00, peak res=968.3M, current mem=968.3M)
+[04/15 15:32:53     88s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[04/15 15:32:53     88s] Summary for sequential cells identification: 
+[04/15 15:32:53     88s]   Identified SBFF number: 0
+[04/15 15:32:53     88s]   Identified MBFF number: 0
+[04/15 15:32:53     88s]   Identified SB Latch number: 0
+[04/15 15:32:53     88s]   Identified MB Latch number: 0
+[04/15 15:32:53     88s]   Not identified SBFF number: 0
+[04/15 15:32:53     88s]   Not identified MBFF number: 0
+[04/15 15:32:53     88s]   Not identified SB Latch number: 0
+[04/15 15:32:53     88s]   Not identified MB Latch number: 0
+[04/15 15:32:53     88s]   Number of sequential cells which are not FFs: 0
+[04/15 15:32:53     88s] Total number of combinational cells: 0
+[04/15 15:32:53     88s] Total number of sequential cells: 0
+[04/15 15:32:53     88s] Total number of tristate cells: 0
+[04/15 15:32:53     88s] Total number of level shifter cells: 0
+[04/15 15:32:53     88s] Total number of power gating cells: 0
+[04/15 15:32:53     88s] Total number of isolation cells: 0
+[04/15 15:32:53     88s] Total number of power switch cells: 0
+[04/15 15:32:53     88s] Total number of pulse generator cells: 0
+[04/15 15:32:53     88s] Total number of always on buffers: 0
+[04/15 15:32:53     88s] Total number of retention cells: 0
+[04/15 15:32:53     88s] List of usable buffers:
+[04/15 15:32:53     88s] Total number of usable buffers: 0
+[04/15 15:32:53     88s] List of unusable buffers:
+[04/15 15:32:53     88s] Total number of unusable buffers: 0
+[04/15 15:32:53     88s] List of usable inverters:
+[04/15 15:32:53     88s] Total number of usable inverters: 0
+[04/15 15:32:53     88s] List of unusable inverters:
+[04/15 15:32:53     88s] Total number of unusable inverters: 0
+[04/15 15:32:53     88s] List of identified usable delay cells:
+[04/15 15:32:53     88s] Total number of identified usable delay cells: 0
+[04/15 15:32:53     88s] List of identified unusable delay cells:
+[04/15 15:32:53     88s] Total number of identified unusable delay cells: 0
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+[04/15 15:32:53     88s] No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] TimeStamp Deleting Cell Server Begin ...
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] TimeStamp Deleting Cell Server End ...
+[04/15 15:32:53     88s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=988.6M, current mem=988.6M)
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[04/15 15:32:53     88s] Summary for sequential cells identification: 
+[04/15 15:32:53     88s]   Identified SBFF number: 0
+[04/15 15:32:53     88s]   Identified MBFF number: 0
+[04/15 15:32:53     88s]   Identified SB Latch number: 0
+[04/15 15:32:53     88s]   Identified MB Latch number: 0
+[04/15 15:32:53     88s]   Not identified SBFF number: 0
+[04/15 15:32:53     88s]   Not identified MBFF number: 0
+[04/15 15:32:53     88s]   Not identified SB Latch number: 0
+[04/15 15:32:53     88s]   Not identified MB Latch number: 0
+[04/15 15:32:53     88s]   Number of sequential cells which are not FFs: 0
+[04/15 15:32:53     88s] **WARN: (IMPOPT-3000):	Buffer footprint is not defined or is an invalid buffer footprint.
+[04/15 15:32:53     88s] Type 'man IMPOPT-3000' for more detail.
+[04/15 15:32:53     88s] **WARN: (IMPOPT-3001):	Inverter footprint is not defined or is an invalid inverter footprint.
+[04/15 15:32:53     88s] Type 'man IMPOPT-3001' for more detail.
+[04/15 15:32:53     88s]  Visiting view : WC
+[04/15 15:32:53     88s]    : PowerDomain = none : Weighted F : unweighted  = -922337203685477632.00 (1.000) with rcCorner = 0
+[04/15 15:32:53     88s]    : PowerDomain = none : no stdDelay from this view
+[04/15 15:32:53     88s]    : PowerDomain = none : Weighted F : unweighted  = -922337203685477632.00 (1.000) with rcCorner = -1
+[04/15 15:32:53     88s]  Visiting view : BC
+[04/15 15:32:53     88s]    : PowerDomain = none : Weighted F : unweighted  = -922337203685477632.00 (1.000) with rcCorner = 0
+[04/15 15:32:53     88s]    : PowerDomain = none : no stdDelay from this view
+[04/15 15:32:53     88s]    : PowerDomain = none : Weighted F : unweighted  = -922337203685477632.00 (1.000) with rcCorner = -1
+[04/15 15:32:53     88s] *INFO : stdDelay is calculated as zero; using legacy method.
+[04/15 15:32:53     88s] *INFO : stdSlew is calculated as zero; using legacy method.
+[04/15 15:32:53     88s] TLC MultiMap info (StdDelay):
+[04/15 15:32:53     88s]   : MAXDELAY + SLOW + 1 + no RcCorner := -9.22337e+17ps
+[04/15 15:32:53     88s]   : MAXDELAY + SLOW + 1 + RC := -9.22337e+17ps
+[04/15 15:32:53     88s]  Setting StdDelay to: 10ps
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[04/15 15:32:53     88s] 
+[04/15 15:32:53     88s] *** Summary of all messages that are not suppressed in this session:
+[04/15 15:32:53     88s] Severity  ID               Count  Summary                                  
+[04/15 15:32:53     88s] WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+[04/15 15:32:53     88s] WARNING   IMPTRN-1101          1  Could not determine power-rail locations...
+[04/15 15:32:53     88s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[04/15 15:32:53     88s] WARNING   IMPOPT-3000          1  Buffer footprint is not defined or is an...
+[04/15 15:32:53     88s] WARNING   IMPOPT-3001          1  Inverter footprint is not defined or is ...
+[04/15 15:32:53     88s] ERROR     IMPREPO-102        419  Instance %s of the cell %s has no physic...
+[04/15 15:32:53     88s] ERROR     IMPREPO-103          1  There are %d instances (%d cells) with n...
+[04/15 15:32:53     88s] WARNING   TECHLIB-302          1  No function defined for cell '%s'. The c...
+[04/15 15:32:53     88s] *** Message Summary: 11 warning(s), 420 error(s)
+[04/15 15:32:53     88s] 
+[04/15 15:33:03     90s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Wed Apr 15 15:33:03 2026
+  Total CPU time:     0:01:31
+  Total real time:    0:07:12
+  Peak memory (main): 1001.10MB
+
+[04/15 15:33:03     90s] 
+[04/15 15:33:03     90s] *** Memory Usage v#1 (Current mem = 1127.297M, initial mem = 284.301M) ***
+[04/15 15:33:03     90s] 
+[04/15 15:33:03     90s] *** Summary of all messages that are not suppressed in this session:
+[04/15 15:33:03     90s] Severity  ID               Count  Summary                                  
+[04/15 15:33:03     90s] WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+[04/15 15:33:03     90s] WARNING   IMPTRN-1101          1  Could not determine power-rail locations...
+[04/15 15:33:03     90s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[04/15 15:33:03     90s] WARNING   IMPOPT-3000          1  Buffer footprint is not defined or is an...
+[04/15 15:33:03     90s] WARNING   IMPOPT-3001          1  Inverter footprint is not defined or is ...
+[04/15 15:33:03     90s] ERROR     IMPREPO-102        419  Instance %s of the cell %s has no physic...
+[04/15 15:33:03     90s] ERROR     IMPREPO-103          1  There are %d instances (%d cells) with n...
+[04/15 15:33:03     90s] WARNING   TECHLIB-302          1  No function defined for cell '%s'. The c...
+[04/15 15:33:03     90s] *** Message Summary: 11 warning(s), 420 error(s)
+[04/15 15:33:03     90s] 
+[04/15 15:33:03     90s] --- Ending "Innovus" (totcpu=0:01:31, real=0:07:10, mem=1127.3M) ---

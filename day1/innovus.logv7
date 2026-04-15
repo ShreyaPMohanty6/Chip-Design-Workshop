@@ -1,0 +1,625 @@
+[04/07 15:39:14      0s] 
+[04/07 15:39:14      0s] Cadence Innovus(TM) Implementation System.
+[04/07 15:39:14      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/07 15:39:14      0s] 
+[04/07 15:39:14      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[04/07 15:39:14      0s] Options:	
+[04/07 15:39:14      0s] Date:		Tue Apr  7 15:39:14 2026
+[04/07 15:39:14      0s] Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+[04/07 15:39:14      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[04/07 15:39:14      0s] 
+[04/07 15:39:14      0s] License:
+[04/07 15:39:15      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[04/07 15:39:15      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/07 15:39:22      6s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/07 15:39:22      6s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[04/07 15:39:22      6s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/07 15:39:22      6s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[04/07 15:39:22      6s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[04/07 15:39:22      6s] @(#)CDS: CPE v20.14-s080
+[04/07 15:39:22      6s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/07 15:39:22      6s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[04/07 15:39:22      6s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[04/07 15:39:22      6s] @(#)CDS: RCDB 11.15.0
+[04/07 15:39:22      6s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[04/07 15:39:22      6s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_17915_ECE-15.gsv.ac.in_user015_NSuswZ.
+
+[04/07 15:39:22      6s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[04/07 15:39:23      7s] 
+[04/07 15:39:23      7s] **INFO:  MMMC transition support version v31-84 
+[04/07 15:39:23      7s] 
+[04/07 15:39:23      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/07 15:39:23      7s] <CMD> suppressMessage ENCEXT-2799
+[04/07 15:39:23      7s] <CMD> win
+[04/07 15:40:20     18s] <CMD> set init_lef_file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
+[04/07 15:40:20     18s] <CMD> set init_verilog output_2GHZ/counter_netlist.v
+[04/07 15:40:20     18s] <CMD> set init_mmmc_file Default.view
+[04/07 15:40:20     18s] <CMD> init_design
+[04/07 15:40:20     18s] #% Begin Load MMMC data ... (date=04/07 15:40:20, mem=662.1M)
+[04/07 15:40:20     18s] #% End Load MMMC data ... (date=04/07 15:40:20, total cpu=0:00:00.0, real=0:00:00.0, peak res=662.5M, current mem=662.5M)
+[04/07 15:40:20     18s] 
+[04/07 15:40:20     18s] Loading LEF file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef ...
+[04/07 15:40:20     18s] Set DBUPerIGU to M2 pitch 400.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:40:20     18s] Type 'man IMPLF-201' for more detail.
+[04/07 15:40:20     18s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[04/07 15:40:20     18s] To increase the message display limit, refer to the product command reference manual.
+[04/07 15:40:20     18s] 
+[04/07 15:40:20     18s] viaInitial starts at Tue Apr  7 15:40:20 2026
+viaInitial ends at Tue Apr  7 15:40:20 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[04/07 15:40:20     18s] Loading view definition file from Default.view
+[04/07 15:40:20     18s] Reading SLOW timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib' ...
+[04/07 15:40:20     18s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib)
+[04/07 15:40:20     18s] Read 480 cells in library 'slow_vdd1v0' 
+[04/07 15:40:20     18s] Reading FAST timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib' ...
+[04/07 15:40:20     19s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib)
+[04/07 15:40:20     19s] Read 480 cells in library 'fast_vdd1v0' 
+[04/07 15:40:20     19s] Ending "PreSetAnalysisView" (total cpu=0:00:00.5, real=0:00:00.0, peak res=735.3M, current mem=682.0M)
+[04/07 15:40:20     19s] *** End library_loading (cpu=0.01min, real=0.00min, mem=15.9M, fe_cpu=0.32min, fe_real=1.10min, fe_mem=792.4M) ***
+[04/07 15:40:20     19s] #% Begin Load netlist data ... (date=04/07 15:40:20, mem=681.2M)
+[04/07 15:40:20     19s] *** Begin netlist parsing (mem=792.4M) ***
+[04/07 15:40:20     19s] Created 480 new cells from 2 timing libraries.
+[04/07 15:40:20     19s] Reading netlist ...
+[04/07 15:40:20     19s] Backslashed names will retain backslash and a trailing blank character.
+[04/07 15:40:20     19s] Reading verilog netlist 'output_2GHZ/counter_netlist.v'
+[04/07 15:40:20     19s] 
+[04/07 15:40:20     19s] *** Memory Usage v#1 (Current mem = 792.398M, initial mem = 284.301M) ***
+[04/07 15:40:20     19s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=792.4M) ***
+[04/07 15:40:20     19s] #% End Load netlist data ... (date=04/07 15:40:20, total cpu=0:00:00.0, real=0:00:00.0, peak res=690.9M, current mem=690.9M)
+[04/07 15:40:20     19s] Top level cell is counter.
+[04/07 15:40:20     19s] Hooked 960 DB cells to tlib cells.
+[04/07 15:40:20     19s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=706.2M, current mem=706.2M)
+[04/07 15:40:20     19s] Starting recursive module instantiation check.
+[04/07 15:40:20     19s] No recursion found.
+[04/07 15:40:20     19s] Building hierarchical netlist for Cell counter ...
+[04/07 15:40:20     19s] *** Netlist is unique.
+[04/07 15:40:20     19s] Setting Std. cell height to 3420 DBU (smallest netlist inst).
+[04/07 15:40:20     19s] ** info: there are 968 modules.
+[04/07 15:40:20     19s] ** info: there are 64 stdCell insts.
+[04/07 15:40:20     19s] 
+[04/07 15:40:20     19s] *** Memory Usage v#1 (Current mem = 837.824M, initial mem = 284.301M) ***
+[04/07 15:40:20     19s] Horizontal Layer M1 offset = 190 (derived)
+[04/07 15:40:20     19s] Vertical Layer M2 offset = 200 (derived)
+[04/07 15:40:20     19s] Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 15:40:20     19s] Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+[04/07 15:40:20     19s] Set Default Net Delay as 1000 ps.
+[04/07 15:40:20     19s] Set Default Net Load as 0.5 pF. 
+[04/07 15:40:20     19s] Set Default Input Pin Transition as 0.1 ps.
+[04/07 15:40:20     19s] Extraction setup Started 
+[04/07 15:40:20     19s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[04/07 15:40:20     19s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[04/07 15:40:20     19s] Type 'man IMPEXT-6202' for more detail.
+[04/07 15:40:20     19s] Reading Capacitance Table File 45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl ...
+[04/07 15:40:20     19s] Cap table was created using Encounter 10.10-b056_1.
+[04/07 15:40:20     19s] Process name: cln28hpl_1p10m+alrdl_5x2yu2yz_typical.
+[04/07 15:40:20     19s] Set Shrink Factor to 0.90000
+[04/07 15:40:20     19s] **WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/07 15:40:20     19s] **WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/07 15:40:20     19s] **WARN: (IMPEXT-2771):	Via VIA9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/07 15:40:20     19s] **WARN: (IMPEXT-2771):	Via RV specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/07 15:40:20     19s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+[04/07 15:40:20     19s] #WARNING (NRDB-21) The number of routing layer 9 in the database does not match with the value of 11 in the Extended Cap Table file.
+[04/07 15:40:20     19s] Importing multi-corner RC tables ... 
+[04/07 15:40:20     19s] Summary of Active RC-Corners : 
+[04/07 15:40:20     19s]  
+[04/07 15:40:20     19s]  Analysis View: WC
+[04/07 15:40:20     19s]     RC-Corner Name        : RC
+[04/07 15:40:20     19s]     RC-Corner Index       : 0
+[04/07 15:40:20     19s]     RC-Corner Temperature : 12 Celsius
+[04/07 15:40:20     19s]     RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+[04/07 15:40:20     19s]     RC-Corner PreRoute Res Factor         : 1
+[04/07 15:40:20     19s]     RC-Corner PreRoute Cap Factor         : 1
+[04/07 15:40:20     19s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/07 15:40:20     19s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/07 15:40:20     19s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/07 15:40:20     19s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner Technology file: '45nm_library/QRC_Tech/gpdk045.tch'
+[04/07 15:40:20     19s]  
+[04/07 15:40:20     19s]  Analysis View: BC
+[04/07 15:40:20     19s]     RC-Corner Name        : RC
+[04/07 15:40:20     19s]     RC-Corner Index       : 0
+[04/07 15:40:20     19s]     RC-Corner Temperature : 12 Celsius
+[04/07 15:40:20     19s]     RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+[04/07 15:40:20     19s]     RC-Corner PreRoute Res Factor         : 1
+[04/07 15:40:20     19s]     RC-Corner PreRoute Cap Factor         : 1
+[04/07 15:40:20     19s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/07 15:40:20     19s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/07 15:40:20     19s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/07 15:40:20     19s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:40:20     19s]     RC-Corner Technology file: '45nm_library/QRC_Tech/gpdk045.tch'
+[04/07 15:40:20     19s] LayerId::1 widthSet size::4
+[04/07 15:40:20     19s] LayerId::2 widthSet size::4
+[04/07 15:40:20     19s] LayerId::3 widthSet size::4
+[04/07 15:40:20     19s] LayerId::4 widthSet size::4
+[04/07 15:40:20     19s] LayerId::5 widthSet size::4
+[04/07 15:40:20     19s] LayerId::6 widthSet size::4
+[04/07 15:40:20     19s] LayerId::7 widthSet size::5
+[04/07 15:40:20     19s] LayerId::8 widthSet size::5
+[04/07 15:40:20     19s] LayerId::9 widthSet size::5
+[04/07 15:40:20     19s] Updating RC grid for preRoute extraction ...
+[04/07 15:40:20     19s] eee: pegSigSF::1.070000
+[04/07 15:40:20     19s] Initializing multi-corner capacitance tables ... 
+[04/07 15:40:20     19s] Initializing multi-corner resistance tables ...
+[04/07 15:40:20     19s] Creating RPSQ from WeeR and WRes ...
+[04/07 15:40:20     19s] eee: l::1 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::2 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::3 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::4 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::7 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::8 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] eee: l::9 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:40:20     19s] **Info: Trial Route has Max Route Layer 15/9.
+[04/07 15:40:20     19s] {RT RC 0 9 9 {7 0} 1}
+[04/07 15:40:20     19s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 0.000000 ; uaWlH: 0.000000 ; aWlH: 0.000000 ; Pmax: 0.850000 ; wcR: 0.000000 ; newSi: 0.000000 ; pMod: 82 ; 
+[04/07 15:40:20     19s] *Info: initialize multi-corner CTS.
+[04/07 15:40:21     19s] Ending "SetAnalysisView" (total cpu=0:00:00.0, real=0:00:01.0, peak res=930.2M, current mem=717.3M)
+[04/07 15:40:21     19s] Reading timing constraints file 'counter_tool.sdc' ...
+[04/07 15:40:21     19s] Current (total cpu=0:00:19.6, real=0:01:07, peak res=947.1M, current mem=947.1M)
+[04/07 15:40:21     19s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File counter_tool.sdc, Line 9).
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File counter_tool.sdc, Line 10).
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] INFO (CTE): Reading of timing constraints file counter_tool.sdc completed, with 2 WARNING
+[04/07 15:40:21     19s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=966.5M, current mem=966.5M)
+[04/07 15:40:21     19s] Current (total cpu=0:00:19.6, real=0:01:07, peak res=966.5M, current mem=966.5M)
+[04/07 15:40:21     19s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[04/07 15:40:21     19s] Summary for sequential cells identification: 
+[04/07 15:40:21     19s]   Identified SBFF number: 104
+[04/07 15:40:21     19s]   Identified MBFF number: 0
+[04/07 15:40:21     19s]   Identified SB Latch number: 0
+[04/07 15:40:21     19s]   Identified MB Latch number: 0
+[04/07 15:40:21     19s]   Not identified SBFF number: 16
+[04/07 15:40:21     19s]   Not identified MBFF number: 0
+[04/07 15:40:21     19s]   Not identified SB Latch number: 0
+[04/07 15:40:21     19s]   Not identified MB Latch number: 0
+[04/07 15:40:21     19s]   Number of sequential cells which are not FFs: 32
+[04/07 15:40:21     19s] Total number of combinational cells: 318
+[04/07 15:40:21     19s] Total number of sequential cells: 152
+[04/07 15:40:21     19s] Total number of tristate cells: 10
+[04/07 15:40:21     19s] Total number of level shifter cells: 0
+[04/07 15:40:21     19s] Total number of power gating cells: 0
+[04/07 15:40:21     19s] Total number of isolation cells: 0
+[04/07 15:40:21     19s] Total number of power switch cells: 0
+[04/07 15:40:21     19s] Total number of pulse generator cells: 0
+[04/07 15:40:21     19s] Total number of always on buffers: 0
+[04/07 15:40:21     19s] Total number of retention cells: 0
+[04/07 15:40:21     19s] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[04/07 15:40:21     19s] Total number of usable buffers: 16
+[04/07 15:40:21     19s] List of unusable buffers:
+[04/07 15:40:21     19s] Total number of unusable buffers: 0
+[04/07 15:40:21     19s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[04/07 15:40:21     19s] Total number of usable inverters: 19
+[04/07 15:40:21     19s] List of unusable inverters:
+[04/07 15:40:21     19s] Total number of unusable inverters: 0
+[04/07 15:40:21     19s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[04/07 15:40:21     19s] Total number of identified usable delay cells: 8
+[04/07 15:40:21     19s] List of identified unusable delay cells:
+[04/07 15:40:21     19s] Total number of identified unusable delay cells: 0
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] TimeStamp Deleting Cell Server Begin ...
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] TimeStamp Deleting Cell Server End ...
+[04/07 15:40:21     19s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=988.4M, current mem=988.4M)
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[04/07 15:40:21     19s] Summary for sequential cells identification: 
+[04/07 15:40:21     19s]   Identified SBFF number: 104
+[04/07 15:40:21     19s]   Identified MBFF number: 0
+[04/07 15:40:21     19s]   Identified SB Latch number: 0
+[04/07 15:40:21     19s]   Identified MB Latch number: 0
+[04/07 15:40:21     19s]   Not identified SBFF number: 16
+[04/07 15:40:21     19s]   Not identified MBFF number: 0
+[04/07 15:40:21     19s]   Not identified SB Latch number: 0
+[04/07 15:40:21     19s]   Not identified MB Latch number: 0
+[04/07 15:40:21     19s]   Number of sequential cells which are not FFs: 32
+[04/07 15:40:21     19s]  Visiting view : WC
+[04/07 15:40:21     19s]    : PowerDomain = none : Weighted F : unweighted  = 36.10 (1.000) with rcCorner = 0
+[04/07 15:40:21     19s]    : PowerDomain = none : Weighted F : unweighted  = 14.70 (1.000) with rcCorner = -1
+[04/07 15:40:21     19s]  Visiting view : BC
+[04/07 15:40:21     19s]    : PowerDomain = none : Weighted F : unweighted  = 11.60 (1.000) with rcCorner = 0
+[04/07 15:40:21     19s]    : PowerDomain = none : Weighted F : unweighted  = 3.60 (1.000) with rcCorner = -1
+[04/07 15:40:21     19s] TLC MultiMap info (StdDelay):
+[04/07 15:40:21     19s]   : MINDELAY + FAST + 1 + RC := 11.6ps
+[04/07 15:40:21     19s]   : MAXDELAY + SLOW + 1 + no RcCorner := 14.7ps
+[04/07 15:40:21     19s]   : MINDELAY + FAST + 1 + no RcCorner := 3.6ps
+[04/07 15:40:21     19s]   : MAXDELAY + SLOW + 1 + RC := 36.1ps
+[04/07 15:40:21     19s]  Setting StdDelay to: 36.1ps
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[04/07 15:40:21     19s] 
+[04/07 15:40:21     19s] *** Summary of all messages that are not suppressed in this session:
+[04/07 15:40:21     19s] Severity  ID               Count  Summary                                  
+[04/07 15:40:21     19s] WARNING   IMPLF-201          571  Pin '%s' in macro '%s' has no ANTENNADIF...
+[04/07 15:40:21     19s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[04/07 15:40:21     19s] WARNING   IMPEXT-2710          1  Basic Cap table for layer M%d is ignored...
+[04/07 15:40:21     19s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+[04/07 15:40:21     19s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+[04/07 15:40:21     19s] WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+[04/07 15:40:21     19s] WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+[04/07 15:40:21     19s] *** Message Summary: 581 warning(s), 0 error(s)
+[04/07 15:40:21     19s] 
+[04/07 16:06:49    318s] <CMD> getIoFlowFlag
+[04/07 16:08:29    338s] <CMD> setIoFlowFlag 0
+[04/07 16:08:29    338s] <CMD> floorPlan -coreMarginsBy die -site CoreSite -r 1 0.7 8 8 8 8
+[04/07 16:08:29    338s] Horizontal Layer M1 offset = 190 (derived)
+[04/07 16:08:29    338s] Vertical Layer M2 offset = 200 (derived)
+[04/07 16:08:29    338s] Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:29    338s] Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+[04/07 16:08:29    338s] <CMD> uiSetTool select
+[04/07 16:08:29    338s] <CMD> getIoFlowFlag
+[04/07 16:08:29    338s] <CMD> fit
+[04/07 16:08:30    338s] <CMD> setIoFlowFlag 0
+[04/07 16:08:30    338s] <CMD> floorPlan -site CoreSite -r 0.855 0.697562 8.0 8.17 8.0 8.17
+[04/07 16:08:30    338s] Horizontal Layer M1 offset = 190 (derived)
+[04/07 16:08:30    338s] Vertical Layer M2 offset = 200 (derived)
+[04/07 16:08:30    338s] Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:08:30    338s] Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+[04/07 16:08:30    338s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[04/07 16:08:30    338s] <CMD> uiSetTool select
+[04/07 16:08:30    338s] <CMD> getIoFlowFlag
+[04/07 16:08:30    338s] <CMD> fit
+[04/07 16:08:42    341s] <CMD> getIoFlowFlag
+[04/07 16:09:04    345s] <CMD> setIoFlowFlag 0
+[04/07 16:09:04    345s] <CMD> floorPlan -site CoreSite -r 1 0.697562 8.0 8 8.0 8
+[04/07 16:09:04    345s] Horizontal Layer M1 offset = 190 (derived)
+[04/07 16:09:04    345s] Vertical Layer M2 offset = 200 (derived)
+[04/07 16:09:04    345s] Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+[04/07 16:09:04    345s] Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+[04/07 16:09:04    345s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[04/07 16:09:04    345s] <CMD> uiSetTool select
+[04/07 16:09:04    345s] <CMD> getIoFlowFlag
+[04/07 16:09:04    345s] <CMD> fit
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingOffset 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingThreshold 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingJogDistance 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingLayers {}
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingOffset 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingThreshold 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingJogDistance 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingLayers {}
+[04/07 16:09:38    352s] <CMD> set sprCreateIeStripeWidth 10.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeStripeThreshold 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeStripeWidth 10.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeStripeThreshold 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingOffset 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingThreshold 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingJogDistance 1.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeRingLayers {}
+[04/07 16:09:38    352s] <CMD> set sprCreateIeStripeWidth 10.0
+[04/07 16:09:38    352s] <CMD> set sprCreateIeStripeThreshold 1.0
+[04/07 16:11:18    372s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:18    372s] The ring targets are set to core/block ring wires.
+[04/07 16:11:18    372s] addRing command will consider rows while creating rings.
+[04/07 16:11:18    372s] addRing command will disallow rings to go over rows.
+[04/07 16:11:18    372s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:18    372s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:18    372s] 
+[04/07 16:11:18    372s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:18    372s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:38    376s] <CMD> set init_gnd_net VSS
+[04/07 16:11:38    376s] <CMD> set init_pwr_net VDD
+[04/07 16:11:38    376s] <CMD> init_design
+[04/07 16:11:41    377s] **ERROR: **ERROR: (IMPSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+[04/07 16:11:41    377s] 
+[04/07 16:11:54    379s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:54    379s] The ring targets are set to core/block ring wires.
+[04/07 16:11:54    379s] addRing command will consider rows while creating rings.
+[04/07 16:11:54    379s] addRing command will disallow rings to go over rows.
+[04/07 16:11:54    379s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:54    379s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:54    379s] 
+[04/07 16:11:54    379s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:54    379s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:55    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:55    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:55    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:55    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:55    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:55    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:55    380s] 
+[04/07 16:11:55    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:55    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:55    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:55    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:55    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:55    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:55    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:55    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:55    380s] 
+[04/07 16:11:55    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:55    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:55    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:55    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:55    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:55    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:55    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:55    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:55    380s] 
+[04/07 16:11:55    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:55    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:55    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:55    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:55    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:55    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:55    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:55    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:55    380s] 
+[04/07 16:11:55    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:55    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:55    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:55    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:55    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:55    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:55    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:55    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:55    380s] 
+[04/07 16:11:55    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:55    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:56    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:56    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:56    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:56    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:56    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:56    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:56    380s] 
+[04/07 16:11:56    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:56    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:56    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:56    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:56    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:56    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:56    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:56    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:56    380s] 
+[04/07 16:11:56    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:56    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:56    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:56    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:56    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:56    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:56    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:56    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:56    380s] 
+[04/07 16:11:56    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:56    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:56    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:56    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:56    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:56    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:56    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:56    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:56    380s] 
+[04/07 16:11:56    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:56    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:56    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:56    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:56    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:56    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:56    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:56    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:56    380s] 
+[04/07 16:11:56    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:56    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:57    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:57    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:57    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:57    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:57    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:57    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:57    380s] 
+[04/07 16:11:57    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:57    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:57    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:57    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:57    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:57    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:57    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:57    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:57    380s] 
+[04/07 16:11:57    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:57    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:57    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:57    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:57    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:57    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:57    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:57    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:57    380s] 
+[04/07 16:11:57    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:57    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:57    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:57    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:57    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:57    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:57    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:57    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:57    380s] 
+[04/07 16:11:57    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:57    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:57    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:57    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:57    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:57    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:57    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:57    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:57    380s] 
+[04/07 16:11:57    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:57    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:58    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:58    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:58    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:58    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:58    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:58    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:58    380s] 
+[04/07 16:11:58    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:58    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:58    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:58    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:58    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:58    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:58    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:58    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:58    380s] 
+[04/07 16:11:58    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:58    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:58    380s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:58    380s] The ring targets are set to core/block ring wires.
+[04/07 16:11:58    380s] addRing command will consider rows while creating rings.
+[04/07 16:11:58    380s] addRing command will disallow rings to go over rows.
+[04/07 16:11:58    380s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:58    380s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:58    380s] 
+[04/07 16:11:58    380s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:58    380s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:58    381s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:58    381s] The ring targets are set to core/block ring wires.
+[04/07 16:11:58    381s] addRing command will consider rows while creating rings.
+[04/07 16:11:58    381s] addRing command will disallow rings to go over rows.
+[04/07 16:11:58    381s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:58    381s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:58    381s] 
+[04/07 16:11:58    381s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:58    381s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:11:58    381s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[04/07 16:11:58    381s] The ring targets are set to core/block ring wires.
+[04/07 16:11:58    381s] addRing command will consider rows while creating rings.
+[04/07 16:11:58    381s] addRing command will disallow rings to go over rows.
+[04/07 16:11:58    381s] addRing command will ignore shorts while creating rings.
+[04/07 16:11:58    381s] <CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[04/07 16:11:58    381s] 
+[04/07 16:11:58    381s] **ERROR: (IMPPP-190):	The net 'VDD' does not exist in design.
+Type 'man IMPPP-190' for more detail.
+[04/07 16:11:58    381s] **ERROR: Error: Invalid net names specified. 
+[04/07 16:12:07    382s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Apr  7 16:12:07 2026
+  Total CPU time:     0:06:23
+  Total real time:    0:32:54
+  Peak memory (main): 1184.97MB
+
+[04/07 16:12:07    382s] 
+[04/07 16:12:07    382s] *** Memory Usage v#1 (Current mem = 1449.480M, initial mem = 284.301M) ***
+[04/07 16:12:07    382s] 
+[04/07 16:12:07    382s] *** Summary of all messages that are not suppressed in this session:
+[04/07 16:12:07    382s] Severity  ID               Count  Summary                                  
+[04/07 16:12:07    382s] WARNING   IMPLF-201          571  Pin '%s' in macro '%s' has no ANTENNADIF...
+[04/07 16:12:07    382s] WARNING   IMPFP-325            2  Floorplan of the design is resized. All ...
+[04/07 16:12:07    382s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[04/07 16:12:07    382s] WARNING   IMPEXT-2710          1  Basic Cap table for layer M%d is ignored...
+[04/07 16:12:07    382s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+[04/07 16:12:07    382s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+[04/07 16:12:07    382s] ERROR     IMPSYT-7329          1  Cannot load design with init_design, aft...
+[04/07 16:12:07    382s] ERROR     IMPPP-190           22  The net '%s' does not exist in design.   
+[04/07 16:12:07    382s] WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+[04/07 16:12:07    382s] WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+[04/07 16:12:07    382s] *** Message Summary: 583 warning(s), 23 error(s)
+[04/07 16:12:07    382s] 
+[04/07 16:12:07    382s] --- Ending "Innovus" (totcpu=0:06:23, real=0:32:53, mem=1449.5M) ---

@@ -1,0 +1,3 @@
+SOURCE=/home/user015/Desktop/sscd/day1/test_scripts/counter.test_netlist.v
+TECHLIB=./45nm_library/lib/slow_vdd1v0_basiccells.v
+RUNDIR=/home/user015/Desktop/sscd/day1/

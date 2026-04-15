@@ -1,0 +1,160 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Wed Apr 15 12:45:23 2026
+Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC
+**WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Loading view definition file from /home/user015/Desktop/sscd/day1/counter_ROUTED.ENC.dat/viewDefinition.tcl
+**WARN: (TECHLIB-9153):	Duplicate definition for attribute 'dont_use' encountered. The last definition will be retained. (File /home/install/FOUNDRY/digital/45nm/LIBS/lib/min/fast.lib, Line 19302)
+*** End library_loading (cpu=0.01min, real=0.00min, mem=13.5M, fe_cpu=0.20min, fe_real=0.48min, fe_mem=793.7M) ***
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OA22XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OA22XL' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+Loading preference file /home/user015/Desktop/sscd/day1/counter_ROUTED.ENC.dat/gui.pref.tcl ...
+Loading place ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+**WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via Via9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via Via10 specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+MAXDELAY MINDELAY
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> setDrawView place
+<CMD> setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+<CMD> setDelayCalMode -engine default -siAware true
+<CMD> optDesign -postRoute
+**optDesign ... cpu = 0:00:00, real = 0:00:00, mem = 1151.5M, totSessionCpu=0:00:16 **
+**INFO: User settings:
+setNanoRouteMode -drouteEndIteration                            1
+setNanoRouteMode -droutePostRouteSpreadWire                     1
+setNanoRouteMode -droutePostRouteWidenWireRule                  VLMDefaultSetup
+setNanoRouteMode -drouteUseLefPinTaperRule                      true
+setNanoRouteMode -extractRcModelFile                            /home/user015/Desktop/sscd/day1/counter_ROUTED.ENC.dat/libs/misc/rc_model.bin
+setNanoRouteMode -extractThirdPartyCompatible                   false
+setNanoRouteMode -grouteExpTdUseTifTimingEngineForImportDesign  false
+setNanoRouteMode -routeBottomRoutingLayer                       1
+setNanoRouteMode -routeTopRoutingLayer                          9
+setNanoRouteMode -routeWithSiDriven                             true
+setNanoRouteMode -routeWithTimingDriven                         true
+setNanoRouteMode -timingEngine                                  {}
+setExtractRCMode -engine                                        preRoute
+setUsefulSkewMode -maxAllowedDelay                              1
+setUsefulSkewMode -maxSkew                                      false
+setUsefulSkewMode -noBoundary                                   false
+setUsefulSkewMode -useCells                                     {DLY4X4 DLY3X1 DLY2X1 BUFX6 DLY4X1 DLY1X1 BUFX8 DLY3X4 DLY2X4 DLY1X4 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX16 INVX6 INVX4 INVX20 INVX3 INVX2 INVX12 INVX1}
+setDelayCalMode -engine                                         aae
+setDelayCalMode -ignoreNetLoad                                  false
+setDelayCalMode -SIAware                                        true
+setOptMode -fixCap                                              true
+setOptMode -fixFanoutLoad                                       false
+setOptMode -fixTran                                             true
+setPlaceMode -place_design_floorplan_mode                       false
+setPlaceMode -place_detail_check_route                          false
+setPlaceMode -place_detail_preserve_routing                     true
+setPlaceMode -place_detail_remove_affected_routing              false
+setPlaceMode -place_detail_swap_eeq_cells                       false
+setPlaceMode -place_global_clock_gate_aware                     true
+setPlaceMode -place_global_cong_effort                          auto
+setPlaceMode -place_global_ignore_scan                          true
+setPlaceMode -place_global_ignore_spare                         false
+setPlaceMode -place_global_module_aware_spare                   false
+setPlaceMode -place_global_place_io_pins                        true
+setPlaceMode -place_global_reorder_scan                         true
+setPlaceMode -powerDriven                                       false
+setPlaceMode -timingDriven                                      true
+setAnalysisMode -analysisType                                   bcwc
+setAnalysisMode -clkSrcPath                                     true
+setAnalysisMode -clockPropagation                               sdcControl
+setAnalysisMode -virtualIPO                                     false
+
+**INFO: setDesignMode -flowEffort standard -> setting 'setOptMode -allEndPoints true' for the duration of this command.
+Disable merging buffers from different footprints for postRoute code for non-MSV designs
+Need call spDPlaceInit before registerPrioInstLoc.
+*** optDesign #1 [begin] : totSession cpu/real = 0:00:16.4/0:00:46.6 (0.4), mem = 1478.6M
+*** InitOpt #1 [begin] : totSession cpu/real = 0:00:16.4/0:00:46.6 (0.4), mem = 1478.6M
+GigaOpt running with 1 threads.
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Estimated cell power/ground rail width = 0.160 um
+Setting timing_disable_library_data_to_data_checks to 'true'.
+Setting timing_disable_user_data_to_data_checks to 'true'.
+**optDesign ... cpu = 0:00:00, real = 0:00:01, mem = 1105.9M, totSessionCpu=0:00:17 **
+Existing Dirty Nets : 0
+New Signature Flow (optDesignCheckOptions) ....
+#Taking db snapshot
+#Taking db snapshot ... done
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Begin checking placement ... (start mem=1412.6M, init mem=1412.6M)
+*info: Placed = 43            
+*info: Unplaced = 0           
+Placement Density:69.45%(201/289)
+Placement Density (including fixed std cells):69.45%(201/289)
+Finished checkPlace (total: cpu=0:00:00.0, real=0:00:00.0; vio checks: cpu=0:00:00.0, real=0:00:00.0; mem=1412.6M)
+
+**ERROR: (IMPOPT-6080):	AAE-SI Optimization can only be turned on when the timing analysis mode is set to OCV.
+
+Info: Destroy the CCOpt slew target map.
+*** InitOpt #1 [finish] : cpu/real = 0:00:00.4/0:00:00.4 (1.0), totSession cpu/real = 0:00:16.8/0:00:47.0 (0.4), mem = 1413.6M
+*** optDesign #1 [finish] : cpu/real = 0:00:00.4/0:00:00.4 (1.0), totSession cpu/real = 0:00:16.8/0:00:47.0 (0.4), mem = 1413.6M

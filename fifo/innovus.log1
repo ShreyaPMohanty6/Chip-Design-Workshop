@@ -1,0 +1,733 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Wed Apr 15 15:37:30 2026
+Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog output_1GHz/async_fifo_netlist.v
+<CMD> set init_mmmc_file Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#% Begin Load MMMC data ... (date=04/15 15:43:52, mem=674.9M)
+#% End Load MMMC data ... (date=04/15 15:43:52, total cpu=0:00:00.0, real=0:00:00.0, peak res=675.2M, current mem=675.2M)
+RC
+
+Loading LEF file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+viaInitial starts at Wed Apr 15 15:43:52 2026
+viaInitial ends at Wed Apr 15 15:43:52 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from Default.view
+Reading SLOW timing library '/home/install/FOUNDRY/digital/45nm/LIBS/lib/max/slow.lib' ...
+Read 477 cells in library 'gpdk045bc' 
+*** End library_loading (cpu=0.00min, real=0.00min, mem=12.0M, fe_cpu=1.47min, fe_real=6.37min, fe_mem=797.4M) ***
+#% Begin Load netlist data ... (date=04/15 15:43:52, mem=691.3M)
+*** Begin netlist parsing (mem=797.4M) ***
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OA22XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OA22XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Created 477 new cells from 1 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'output_1GHz/async_fifo_netlist.v'
+
+*** Memory Usage v#1 (Current mem = 797.445M, initial mem = 284.301M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=797.4M) ***
+#% End Load netlist data ... (date=04/15 15:43:52, total cpu=0:00:00.0, real=0:00:00.0, peak res=698.7M, current mem=698.7M)
+Top level cell is async_fifo.
+Hooked 477 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell async_fifo ...
+*** Netlist is unique.
+** info: there are 488 modules.
+** info: there are 457 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 840.871M, initial mem = 284.301M) ***
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+Type 'man IMPEXT-6202' for more detail.
+Reading Capacitance Table File 45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl ...
+Cap table was created using Encounter 10.10-b056_1.
+Process name: cln28hpl_1p10m+alrdl_5x2yu2yz_typical.
+Set Shrink Factor to 0.90000
+**WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via RV specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+#WARNING (NRDB-21) The number of routing layer 9 in the database does not match with the value of 11 in the Extended Cap Table file.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: WC
+    RC-Corner Name        : RC
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '../../../../install/FOUNDRY/digital/45nm/LIBS/qx/qrcTechFile'
+ 
+ Analysis View: BC
+    RC-Corner Name        : RC
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : '45nm_library/captable/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '../../../../install/FOUNDRY/digital/45nm/LIBS/qx/qrcTechFile'
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+*Info: initialize multi-corner CTS.
+Reading timing constraints file 'constraints_top.sdc' ...
+Current (total cpu=0:01:28, real=0:06:22, peak res=948.4M, current mem=948.4M)
+INFO (CTE): Constraints read successfully.
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=966.1M, current mem=966.1M)
+Current (total cpu=0:01:28, real=0:06:22, peak res=966.1M, current mem=966.1M)
+Total number of combinational cells: 317
+Total number of sequential cells: 150
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 BUFX3 BUFX4 BUFX8 BUFX6
+Total number of usable buffers: 8
+List of unusable buffers: CLKBUFX2 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX4 CLKBUFX6 CLKBUFX8 CLKBUFX3
+Total number of unusable buffers: 8
+List of usable inverters: INVX1 INVX12 INVX2 INVX3 INVX20 INVX4 INVX6 INVX16 INVXL INVX8
+Total number of usable inverters: 10
+List of unusable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8
+Total number of unusable inverters: 9
+List of identified usable delay cells: DLY1X4 DLY2X4 DLY3X4 DLY1X1 DLY4X1 DLY2X1 DLY3X1 DLY4X4
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-201          571  Pin '%s' in macro '%s' has no ANTENNADIF...
+WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+WARNING   IMPEXT-2710          1  Basic Cap table for layer M%d is ignored...
+WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+WARNING   IMPVL-159          954  Pin '%s' of cell '%s' is defined in LEF ...
+*** Message Summary: 1531 warning(s), 0 error(s)
+
+<CMD> gui_select -rect {75.35000 18.34950 73.85700 17.39950}
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -coreMarginsBy die -site CoreSite -r 1 0.700005 0.8 0.8 0.8 0.8
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site CoreSite -r 1 0.698484 0.8 0.8 0.8 0.8
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+The ring targets are set to core/block ring wires.
+addRing command will consider rows while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will ignore shorts while creating rings.
+<CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 0.45 bottom 0.45 left 0.45 right 0.45} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1454.8M)
+**WARN: (IMPPP-220):	The power planner does not create core rings outside the design boundary. Check the design boundary, or specify valid offsets.
+**WARN: (IMPPP-4051):	Fail to add rings. Gaps among IO cells may exist. Execute command addIoFiller to fill gaps among cells before addRing.
+Type 'man IMPPP-4051' for more detail.
+<CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+The ring targets are set to core/block ring wires.
+addRing command will consider rows while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will ignore shorts while creating rings.
+<CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 0.45 bottom 0.45 left 0.45 right 0.45} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1454.8M)
+**WARN: (IMPPP-220):	The power planner does not create core rings outside the design boundary. Check the design boundary, or specify valid offsets.
+**WARN: (IMPPP-4051):	Fail to add rings. Gaps among IO cells may exist. Execute command addIoFiller to fill gaps among cells before addRing.
+Type 'man IMPPP-4051' for more detail.
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 1.8 -set_to_set_distance 100 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1459.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 2 wires.
+ViaGen created 0 via, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal8 |        2       |       NA       |
++--------+----------------+----------------+
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -set_to_set_distance 100 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1459.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.950000 0.950000 3.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (1.700000, 0.950000) (1.700000, 50.540001) because same wire already exists.
+Stripe generation is complete.
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -set_to_set_distance 1 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1459.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+**WARN: (IMPPP-385):	The set width(VDD width+spacing(1.8+0.45) + VSS width(1.8)=4.05) specified by -width and -spacing is greater than or is equal to set distance specified by -set_to_set_distance 1. Tool will not check drc between stripes in different sets so that there may be potential drc issues.
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.950000 0.950000 3.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 4.950000 0.950000 4.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.700000 0.950000 3.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 4.700000 0.950000 4.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 5.700000 0.950000 5.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+Completing 10% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 6.700000 0.950000 6.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 7.700000 0.950000 7.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 8.700000 0.950000 8.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 9.700000 0.950000 9.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+Completing 20% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 10.700000 0.950000 10.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 11.700000 0.950000 11.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 12.700000 0.950000 12.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 13.700000 0.950000 13.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+Completing 30% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 14.700000 0.950000 14.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 15.700000 0.950000 15.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 16.700001 0.950000 16.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 17.700001 0.950000 17.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+Completing 40% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 18.700001 0.950000 18.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 19.700001 0.950000 19.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 20.700001 0.950000 20.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (EMS-27):	Message (IMPPP-354) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Completing 50% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Completing 60% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Completing 70% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Completing 80% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Completing 90% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+Completing 100% stripe generation(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1459.9M)
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (1.700000, 0.950000) (1.700000, 50.540001) because same wire already exists.
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 46 wires.
+ViaGen created 0 via, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal8 |       46       |       NA       |
++--------+----------------+----------------+
+<CMD> zoomSelected
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -set_to_set_distance 8 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1457.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 1.700000 0.950000 1.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.950000 0.950000 3.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 9.700000 0.950000 9.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 17.700001 0.950000 17.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 25.700001 0.950000 25.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 33.700001 0.950000 33.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 41.700001 0.950000 41.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 49.700001 0.950000 49.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (11.950000, 0.950000) (11.950000, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (19.950001, 0.950000) (19.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (27.950001, 0.950000) (27.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (35.950001, 0.950000) (35.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (43.950001, 0.950000) (43.950001, 50.540001) because same wire already exists.
+Stripe generation is complete.
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -set_to_set_distance 8 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1457.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 1.700000 0.950000 1.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.950000 0.950000 3.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 9.700000 0.950000 9.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 17.700001 0.950000 17.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 25.700001 0.950000 25.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 33.700001 0.950000 33.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 41.700001 0.950000 41.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 49.700001 0.950000 49.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (11.950000, 0.950000) (11.950000, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (19.950001, 0.950000) (19.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (27.950001, 0.950000) (27.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (35.950001, 0.950000) (35.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (43.950001, 0.950000) (43.950001, 50.540001) because same wire already exists.
+Stripe generation is complete.
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -set_to_set_distance 8 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1457.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1457.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 1.700000 0.950000 1.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.950000 0.950000 3.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 9.700000 0.950000 9.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 17.700001 0.950000 17.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 25.700001 0.950000 25.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 33.700001 0.950000 33.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 41.700001 0.950000 41.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 49.700001 0.950000 49.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (11.950000, 0.950000) (11.950000, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (19.950001, 0.950000) (19.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (27.950001, 0.950000) (27.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (35.950001, 0.950000) (35.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (43.950001, 0.950000) (43.950001, 50.540001) because same wire already exists.
+Stripe generation is complete.
+**ERROR: (IMPSYT-6000):	No Object Selected.
+<CMD> selectWire 30.0500 0.9500 31.8500 50.5400 8 VSS
+<CMD> deselectAll
+<CMD> selectWire 30.0500 0.9500 31.8500 50.5400 8 VSS
+<CMD> deselectAll
+<CMD> selectWire 14.0500 0.9500 15.8500 50.5400 8 VSS
+<CMD> deleteSelectedFromFPlan
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -set_to_set_distance 8 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1455.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 1.700000 0.950000 1.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.950000 0.950000 3.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 9.700000 0.950000 9.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 11.950000 0.950000 11.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 17.700001 0.950000 17.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 25.700001 0.950000 25.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 33.700001 0.950000 33.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 41.700001 0.950000 41.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 49.700001 0.950000 49.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (19.950001, 0.950000) (19.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (27.950001, 0.950000) (27.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (35.950001, 0.950000) (35.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (43.950001, 0.950000) (43.950001, 50.540001) because same wire already exists.
+Stripe generation is complete.
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal8 -direction vertical -width 1.8 -spacing 0.45 -set_to_set_distance 8 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1455.9M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1455.9M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+The core ring for VDD is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+The core ring for VSS is incomplete. The core ring will not be used as a boundary for stripes. In this situation, the power planner will generate stripes only within the core area.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 1.700000 0.950000 1.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 3.950000 0.950000 3.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 9.700000 0.950000 9.700000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 11.950000 0.950000 11.950000 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 17.700001 0.950000 17.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 25.700001 0.950000 25.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 33.700001 0.950000 33.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 41.700001 0.950000 41.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-354):	The power planner did not generate the vertical stripe at 49.700001 0.950000 49.700001 50.540001 with width 1.800000 due to one of these reasons: the stripe would merge with rings, the stripe could not connect to any legal target, or the stripe would break the design rule.
+Type 'man IMPPP-354' for more detail.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (19.950001, 0.950000) (19.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (27.950001, 0.950000) (27.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (35.950001, 0.950000) (35.950001, 50.540001) because same wire already exists.
+**WARN: (IMPPP-170):	The power planner failed to create a wire at (43.950001, 0.950000) (43.950001, 50.540001) because same wire already exists.
+Stripe generation is complete.
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Wed Apr 15 16:14:57 2026
+  Total CPU time:     0:06:35
+  Total real time:    0:37:29
+  Peak memory (main): 1208.23MB
+
+
+*** Memory Usage v#1 (Current mem = 1455.934M, initial mem = 284.301M) ***
+*** Message Summary: 1652 warning(s), 2 error(s)
+
+--- Ending "Innovus" (totcpu=0:06:35, real=0:37:27, mem=1455.9M) ---

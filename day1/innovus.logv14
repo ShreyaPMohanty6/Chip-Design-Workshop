@@ -1,0 +1,316 @@
+[04/15 12:45:23      0s] 
+[04/15 12:45:23      0s] Cadence Innovus(TM) Implementation System.
+[04/15 12:45:23      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/15 12:45:23      0s] 
+[04/15 12:45:23      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[04/15 12:45:23      0s] Options:	
+[04/15 12:45:23      0s] Date:		Wed Apr 15 12:45:23 2026
+[04/15 12:45:23      0s] Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+[04/15 12:45:23      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[04/15 12:45:23      0s] 
+[04/15 12:45:23      0s] License:
+[04/15 12:45:24      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[04/15 12:45:24      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/15 12:45:32      6s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 12:45:32      6s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[04/15 12:45:32      6s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 12:45:32      6s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[04/15 12:45:32      6s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[04/15 12:45:32      6s] @(#)CDS: CPE v20.14-s080
+[04/15 12:45:32      6s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 12:45:32      6s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[04/15 12:45:32      6s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[04/15 12:45:32      6s] @(#)CDS: RCDB 11.15.0
+[04/15 12:45:32      6s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[04/15 12:45:32      6s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_11786_ECE-15.gsv.ac.in_user015_h4vAGH.
+
+[04/15 12:45:32      6s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[04/15 12:45:33      7s] 
+[04/15 12:45:33      7s] **INFO:  MMMC transition support version v31-84 
+[04/15 12:45:33      7s] 
+[04/15 12:45:33      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/15 12:45:33      7s] <CMD> suppressMessage ENCEXT-2799
+[04/15 12:45:33      7s] <CMD> win
+[04/15 12:45:52     11s] <CMD> encMessage warning 0
+[04/15 12:45:52     11s] Suppress "**WARN ..." messages.
+[04/15 12:45:52     11s] <CMD> encMessage debug 0
+[04/15 12:45:52     11s] <CMD> encMessage info 0
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 12:45:52     11s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[04/15 12:45:52     11s] To increase the message display limit, refer to the product command reference manual.
+[04/15 12:45:52     11s] Loading view definition file from /home/user015/Desktop/sscd/day1/counter_ROUTED.ENC.dat/viewDefinition.tcl
+[04/15 12:45:52     11s] **WARN: (TECHLIB-9153):	Duplicate definition for attribute 'dont_use' encountered. The last definition will be retained. (File /home/install/FOUNDRY/digital/45nm/LIBS/lib/min/fast.lib, Line 19302)
+[04/15 12:45:52     11s] *** End library_loading (cpu=0.01min, real=0.00min, mem=13.5M, fe_cpu=0.20min, fe_real=0.48min, fe_mem=793.7M) ***
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKAND2X4' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'CLKMX2X8' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'OA22XL' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'OA22XL' is defined in LEF but not in the timing library.
+[04/15 12:45:52     11s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[04/15 12:45:52     11s] To increase the message display limit, refer to the product command reference manual.
+[04/15 12:45:52     12s] *** Netlist is unique.
+[04/15 12:45:53     12s] Loading preference file /home/user015/Desktop/sscd/day1/counter_ROUTED.ENC.dat/gui.pref.tcl ...
+[04/15 12:45:53     12s] 
+[04/15 12:45:53     12s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[04/15 12:45:53     12s] 
+[04/15 12:45:53     12s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[04/15 12:45:53     12s] 
+[04/15 12:45:53     12s] TimeStamp Deleting Cell Server Begin ...
+[04/15 12:45:53     12s] 
+[04/15 12:45:53     12s] TimeStamp Deleting Cell Server End ...
+[04/15 12:45:53     12s] 
+[04/15 12:45:53     12s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[04/15 12:45:53     12s] 
+[04/15 12:45:53     12s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[04/15 12:45:53     12s] Loading place ...
+[04/15 12:45:53     12s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[04/15 12:45:53     12s] **WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 12:45:53     12s] **WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 12:45:53     12s] **WARN: (IMPEXT-2771):	Via Via9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 12:45:53     12s] **WARN: (IMPEXT-2771):	Via Via10 specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 12:45:53     12s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+[04/15 12:45:54     12s] {RT RC 0 9 9 {8 0} 1}
+[04/15 12:45:54     12s] 
+[04/15 12:45:54     12s] TimeStamp Deleting Cell Server Begin ...
+[04/15 12:45:54     12s] 
+[04/15 12:45:54     12s] TimeStamp Deleting Cell Server End ...
+[04/15 12:45:54     12s] 
+[04/15 12:45:54     12s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[04/15 12:45:54     12s] 
+[04/15 12:45:54     12s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[04/15 12:45:54     12s] 
+[04/15 12:45:54     12s] TimeStamp Deleting Cell Server Begin ...
+[04/15 12:45:54     12s] 
+[04/15 12:45:54     12s] TimeStamp Deleting Cell Server End ...
+[04/15 12:45:54     12s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+[04/15 12:45:54     12s] timing_enable_default_delay_arc
+[04/15 12:45:58     13s] <CMD> setDrawView place
+[04/15 12:46:12     16s] <CMD> setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+[04/15 12:46:12     16s] <CMD> setDelayCalMode -engine default -siAware true
+[04/15 12:46:12     16s] <CMD> optDesign -postRoute
+[04/15 12:46:12     16s] **optDesign ... cpu = 0:00:00, real = 0:00:00, mem = 1151.5M, totSessionCpu=0:00:16 **
+[04/15 12:46:12     16s] **INFO: User settings:
+[04/15 12:46:12     16s] setNanoRouteMode -drouteEndIteration                            1
+[04/15 12:46:12     16s] setNanoRouteMode -droutePostRouteSpreadWire                     1
+[04/15 12:46:12     16s] setNanoRouteMode -droutePostRouteWidenWireRule                  VLMDefaultSetup
+[04/15 12:46:12     16s] setNanoRouteMode -drouteUseLefPinTaperRule                      true
+[04/15 12:46:12     16s] setNanoRouteMode -extractRcModelFile                            /home/user015/Desktop/sscd/day1/counter_ROUTED.ENC.dat/libs/misc/rc_model.bin
+[04/15 12:46:12     16s] setNanoRouteMode -extractThirdPartyCompatible                   false
+[04/15 12:46:12     16s] setNanoRouteMode -grouteExpTdUseTifTimingEngineForImportDesign  false
+[04/15 12:46:12     16s] setNanoRouteMode -routeBottomRoutingLayer                       1
+[04/15 12:46:12     16s] setNanoRouteMode -routeTopRoutingLayer                          9
+[04/15 12:46:12     16s] setNanoRouteMode -routeWithSiDriven                             true
+[04/15 12:46:12     16s] setNanoRouteMode -routeWithTimingDriven                         true
+[04/15 12:46:12     16s] setNanoRouteMode -timingEngine                                  {}
+[04/15 12:46:12     16s] setExtractRCMode -engine                                        preRoute
+[04/15 12:46:12     16s] setUsefulSkewMode -maxAllowedDelay                              1
+[04/15 12:46:12     16s] setUsefulSkewMode -maxSkew                                      false
+[04/15 12:46:12     16s] setUsefulSkewMode -noBoundary                                   false
+[04/15 12:46:12     16s] setUsefulSkewMode -useCells                                     {DLY4X4 DLY3X1 DLY2X1 BUFX6 DLY4X1 DLY1X1 BUFX8 DLY3X4 DLY2X4 DLY1X4 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX16 INVX6 INVX4 INVX20 INVX3 INVX2 INVX12 INVX1}
+[04/15 12:46:12     16s] setDelayCalMode -engine                                         aae
+[04/15 12:46:12     16s] setDelayCalMode -ignoreNetLoad                                  false
+[04/15 12:46:12     16s] setDelayCalMode -SIAware                                        true
+[04/15 12:46:12     16s] setOptMode -fixCap                                              true
+[04/15 12:46:12     16s] setOptMode -fixFanoutLoad                                       false
+[04/15 12:46:12     16s] setOptMode -fixTran                                             true
+[04/15 12:46:12     16s] setPlaceMode -place_design_floorplan_mode                       false
+[04/15 12:46:12     16s] setPlaceMode -place_detail_check_route                          false
+[04/15 12:46:12     16s] setPlaceMode -place_detail_preserve_routing                     true
+[04/15 12:46:12     16s] setPlaceMode -place_detail_remove_affected_routing              false
+[04/15 12:46:12     16s] setPlaceMode -place_detail_swap_eeq_cells                       false
+[04/15 12:46:12     16s] setPlaceMode -place_global_clock_gate_aware                     true
+[04/15 12:46:12     16s] setPlaceMode -place_global_cong_effort                          auto
+[04/15 12:46:12     16s] setPlaceMode -place_global_ignore_scan                          true
+[04/15 12:46:12     16s] setPlaceMode -place_global_ignore_spare                         false
+[04/15 12:46:12     16s] setPlaceMode -place_global_module_aware_spare                   false
+[04/15 12:46:12     16s] setPlaceMode -place_global_place_io_pins                        true
+[04/15 12:46:12     16s] setPlaceMode -place_global_reorder_scan                         true
+[04/15 12:46:12     16s] setPlaceMode -powerDriven                                       false
+[04/15 12:46:12     16s] setPlaceMode -timingDriven                                      true
+[04/15 12:46:12     16s] setAnalysisMode -analysisType                                   bcwc
+[04/15 12:46:12     16s] setAnalysisMode -clkSrcPath                                     true
+[04/15 12:46:12     16s] setAnalysisMode -clockPropagation                               sdcControl
+[04/15 12:46:12     16s] setAnalysisMode -virtualIPO                                     false
+[04/15 12:46:12     16s] 
+[04/15 12:46:12     16s] **INFO: setDesignMode -flowEffort standard -> setting 'setOptMode -allEndPoints true' for the duration of this command.
+[04/15 12:46:12     16s] Disable merging buffers from different footprints for postRoute code for non-MSV designs
+[04/15 12:46:13     16s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[04/15 12:46:13     16s] Summary for sequential cells identification: 
+[04/15 12:46:13     16s]   Identified SBFF number: 94
+[04/15 12:46:13     16s]   Identified MBFF number: 0
+[04/15 12:46:13     16s]   Identified SB Latch number: 0
+[04/15 12:46:13     16s]   Identified MB Latch number: 0
+[04/15 12:46:13     16s]   Not identified SBFF number: 24
+[04/15 12:46:13     16s]   Not identified MBFF number: 0
+[04/15 12:46:13     16s]   Not identified SB Latch number: 0
+[04/15 12:46:13     16s]   Not identified MB Latch number: 0
+[04/15 12:46:13     16s]   Number of sequential cells which are not FFs: 32
+[04/15 12:46:13     16s]  Visiting view : WC
+[04/15 12:46:13     16s]    : PowerDomain = none : Weighted F : unweighted  = 22.40 (1.000) with rcCorner = 0
+[04/15 12:46:13     16s]    : PowerDomain = none : Weighted F : unweighted  = 11.60 (1.000) with rcCorner = -1
+[04/15 12:46:13     16s]  Visiting view : BC
+[04/15 12:46:13     16s]    : PowerDomain = none : Weighted F : unweighted  = 8.00 (1.000) with rcCorner = 0
+[04/15 12:46:13     16s]    : PowerDomain = none : Weighted F : unweighted  = 3.80 (1.000) with rcCorner = -1
+[04/15 12:46:13     16s] TLC MultiMap info (StdDelay):
+[04/15 12:46:13     16s]   : MINDELAY + FAST + 1 + no RcCorner := 3.8ps
+[04/15 12:46:13     16s]   : MINDELAY + FAST + 1 + RC := 8ps
+[04/15 12:46:13     16s]   : MAXDELAY + SLOW + 1 + no RcCorner := 11.6ps
+[04/15 12:46:13     16s]   : MAXDELAY + SLOW + 1 + RC := 22.4ps
+[04/15 12:46:13     16s]  Setting StdDelay to: 22.4ps
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[04/15 12:46:13     16s] Need call spDPlaceInit before registerPrioInstLoc.
+[04/15 12:46:13     16s] *** optDesign #1 [begin] : totSession cpu/real = 0:00:16.4/0:00:46.6 (0.4), mem = 1478.6M
+[04/15 12:46:13     16s] *** InitOpt #1 [begin] : totSession cpu/real = 0:00:16.4/0:00:46.6 (0.4), mem = 1478.6M
+[04/15 12:46:13     16s] GigaOpt running with 1 threads.
+[04/15 12:46:13     16s] Info: 1 threads available for lower-level modules during optimization.
+[04/15 12:46:13     16s] OPERPROF: Starting DPlace-Init at level 1, MEM:1478.6M
+[04/15 12:46:13     16s] z: 2, totalTracks: 1
+[04/15 12:46:13     16s] z: 4, totalTracks: 1
+[04/15 12:46:13     16s] z: 6, totalTracks: 1
+[04/15 12:46:13     16s] z: 8, totalTracks: 1
+[04/15 12:46:13     16s] # Building counter llgBox search-tree.
+[04/15 12:46:13     16s] OPERPROF:   Starting spInitSiteArr at level 2, MEM:1478.6M
+[04/15 12:46:13     16s] OPERPROF:     Starting spiInitFpSiteArr at level 3, MEM:1478.6M
+[04/15 12:46:13     16s] Core basic site is CoreSite
+[04/15 12:46:13     16s] **Info: (IMPSP-307): Design contains fractional 17 cells.
+[04/15 12:46:13     16s] OPERPROF:       Starting spiCheckSiteIfFastDPInitAvailable at level 4, MEM:1478.6M
+[04/15 12:46:13     16s] OPERPROF:       Finished spiCheckSiteIfFastDPInitAvailable at level 4, CPU:0.010, REAL:0.002, MEM:1510.6M
+[04/15 12:46:13     16s] Use non-trimmed site array because memory saving is not enough.
+[04/15 12:46:13     16s] SiteArray: non-trimmed site array dimensions = 9 x 94
+[04/15 12:46:13     16s] SiteArray: use 12,288 bytes
+[04/15 12:46:13     16s] SiteArray: current memory after site array memory allocation 1510.6M
+[04/15 12:46:13     16s] SiteArray: FP blocked sites are writable
+[04/15 12:46:13     16s] Estimated cell power/ground rail width = 0.160 um
+[04/15 12:46:13     16s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[04/15 12:46:13     16s] OPERPROF:       Starting RoutingBlockageFromWireViaStBox at level 4, MEM:1510.6M
+[04/15 12:46:13     16s] OPERPROF:       Finished RoutingBlockageFromWireViaStBox at level 4, CPU:0.000, REAL:0.000, MEM:1510.6M
+[04/15 12:46:13     16s] OPERPROF:     Finished spiInitFpSiteArr at level 3, CPU:0.020, REAL:0.015, MEM:1510.6M
+[04/15 12:46:13     16s] OPERPROF:     Starting CMU at level 3, MEM:1510.6M
+[04/15 12:46:13     16s] OPERPROF:     Finished CMU at level 3, CPU:0.000, REAL:0.000, MEM:1510.6M
+[04/15 12:46:13     16s] OPERPROF:   Finished spInitSiteArr at level 2, CPU:0.020, REAL:0.017, MEM:1510.6M
+[04/15 12:46:13     16s] [CPU] DPlace-Init (cpu=0:00:00.0, real=0:00:00.0, mem=1510.6MB).
+[04/15 12:46:13     16s] OPERPROF: Finished DPlace-Init at level 1, CPU:0.040, REAL:0.025, MEM:1510.6M
+[04/15 12:46:13     16s] OPERPROF: Starting spDPlaceCleanup(partial) at level 1, MEM:1510.6M
+[04/15 12:46:13     16s] OPERPROF: Finished spDPlaceCleanup(partial) at level 1, CPU:0.000, REAL:0.002, MEM:1403.6M
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] Creating Lib Analyzer ...
+[04/15 12:46:13     16s] Total number of usable buffers from Lib Analyzer: 8 ( BUFX2 BUFX3 BUFX4 BUFX6 BUFX8 BUFX12 BUFX16 BUFX20)
+[04/15 12:46:13     16s] Total number of usable inverters from Lib Analyzer: 10 ( INVX1 INVXL INVX2 INVX3 INVX4 INVX6 INVX8 INVX12 INVX16 INVX20)
+[04/15 12:46:13     16s] Total number of usable delay cells from Lib Analyzer: 8 ( DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4)
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] {RT RC 0 9 9 {8 0} 1}
+[04/15 12:46:13     16s] ### Start Creating Timing Arc cache for equivalent cells.              totSessionCpu=0:00:16.7 mem=1409.6M
+[04/15 12:46:13     16s] ### Finish Creating Timing Arc cache for equivalent cells.             totSessionCpu=0:00:16.7 mem=1409.6M
+[04/15 12:46:13     16s] Creating Lib Analyzer, finished. 
+[04/15 12:46:13     16s] Setting timing_disable_library_data_to_data_checks to 'true'.
+[04/15 12:46:13     16s] Setting timing_disable_user_data_to_data_checks to 'true'.
+[04/15 12:46:13     16s] Effort level <high> specified for reg2reg path_group
+[04/15 12:46:13     16s] **optDesign ... cpu = 0:00:00, real = 0:00:01, mem = 1105.9M, totSessionCpu=0:00:17 **
+[04/15 12:46:13     16s] Existing Dirty Nets : 0
+[04/15 12:46:13     16s] New Signature Flow (optDesignCheckOptions) ....
+[04/15 12:46:13     16s] #Taking db snapshot
+[04/15 12:46:13     16s] #Taking db snapshot ... done
+[04/15 12:46:13     16s] OPERPROF: Starting checkPlace at level 1, MEM:1412.6M
+[04/15 12:46:13     16s] z: 2, totalTracks: 1
+[04/15 12:46:13     16s] z: 4, totalTracks: 1
+[04/15 12:46:13     16s] z: 6, totalTracks: 1
+[04/15 12:46:13     16s] z: 8, totalTracks: 1
+[04/15 12:46:13     16s] OPERPROF:   Starting spInitSiteArr at level 2, MEM:1412.6M
+[04/15 12:46:13     16s] **Info: (IMPSP-307): Design contains fractional 17 cells.
+[04/15 12:46:13     16s] OPERPROF:   Finished spInitSiteArr at level 2, CPU:0.020, REAL:0.015, MEM:1412.6M
+[04/15 12:46:13     16s] Begin checking placement ... (start mem=1412.6M, init mem=1412.6M)
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] Running CheckPlace using 1 thread in normal mode...
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] ...checkPlace normal is done!
+[04/15 12:46:13     16s] OPERPROF:   Starting checkPlace/Vio-Check at level 2, MEM:1412.6M
+[04/15 12:46:13     16s] OPERPROF:   Finished checkPlace/Vio-Check at level 2, CPU:0.000, REAL:0.000, MEM:1412.6M
+[04/15 12:46:13     16s] *info: Placed = 43            
+[04/15 12:46:13     16s] *info: Unplaced = 0           
+[04/15 12:46:13     16s] Placement Density:69.45%(201/289)
+[04/15 12:46:13     16s] Placement Density (including fixed std cells):69.45%(201/289)
+[04/15 12:46:13     16s] OPERPROF:   Starting spSiteCleanup(true) at level 2, MEM:1412.6M
+[04/15 12:46:13     16s] OPERPROF:   Finished spSiteCleanup(true) at level 2, CPU:0.000, REAL:0.000, MEM:1412.6M
+[04/15 12:46:13     16s] Finished checkPlace (total: cpu=0:00:00.0, real=0:00:00.0; vio checks: cpu=0:00:00.0, real=0:00:00.0; mem=1412.6M)
+[04/15 12:46:13     16s] OPERPROF: Finished checkPlace at level 1, CPU:0.020, REAL:0.018, MEM:1412.6M
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] **ERROR: (IMPOPT-6080):	AAE-SI Optimization can only be turned on when the timing analysis mode is set to OCV.
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] Info: pop threads available for lower-level modules during optimization.
+[04/15 12:46:13     16s] Deleting Lib Analyzer.
+[04/15 12:46:13     16s] Info: Destroy the CCOpt slew target map.
+[04/15 12:46:13     16s] clean pInstBBox. size 0
+[04/15 12:46:13     16s] All LLGs are deleted
+[04/15 12:46:13     16s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1413.6M
+[04/15 12:46:13     16s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:1413.6M
+[04/15 12:46:13     16s] *** InitOpt #1 [finish] : cpu/real = 0:00:00.4/0:00:00.4 (1.0), totSession cpu/real = 0:00:16.8/0:00:47.0 (0.4), mem = 1413.6M
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] =============================================================================================
+[04/15 12:46:13     16s]  Step TAT Report for InitOpt #1                                                 20.14-s095_1
+[04/15 12:46:13     16s] =============================================================================================
+[04/15 12:46:13     16s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[04/15 12:46:13     16s] ---------------------------------------------------------------------------------------------
+[04/15 12:46:13     16s] [ CheckPlace             ]      1   0:00:00.0  (   4.9 % )     0:00:00.0 /  0:00:00.0    1.0
+[04/15 12:46:13     16s] [ LibAnalyzerInit        ]      1   0:00:00.3  (  70.2 % )     0:00:00.3 /  0:00:00.3    1.0
+[04/15 12:46:13     16s] [ PowerInterfaceInit     ]      1   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[04/15 12:46:13     16s] [ MetricInit             ]      1   0:00:00.0  (   0.1 % )     0:00:00.0 /  0:00:00.0    0.0
+[04/15 12:46:13     16s] [ MISC                   ]          0:00:00.1  (  24.8 % )     0:00:00.1 /  0:00:00.1    1.1
+[04/15 12:46:13     16s] ---------------------------------------------------------------------------------------------
+[04/15 12:46:13     16s]  InitOpt #1 TOTAL                   0:00:00.4  ( 100.0 % )     0:00:00.4 /  0:00:00.4    1.0
+[04/15 12:46:13     16s] ---------------------------------------------------------------------------------------------
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] *** optDesign #1 [finish] : cpu/real = 0:00:00.4/0:00:00.4 (1.0), totSession cpu/real = 0:00:16.8/0:00:47.0 (0.4), mem = 1413.6M
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] =============================================================================================
+[04/15 12:46:13     16s]  Final TAT Report for optDesign #1                                              20.14-s095_1
+[04/15 12:46:13     16s] =============================================================================================
+[04/15 12:46:13     16s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[04/15 12:46:13     16s] ---------------------------------------------------------------------------------------------
+[04/15 12:46:13     16s] [ InitOpt                ]      1   0:00:00.4  (  95.0 % )     0:00:00.4 /  0:00:00.4    1.0
+[04/15 12:46:13     16s] [ CheckPlace             ]      1   0:00:00.0  (   4.9 % )     0:00:00.0 /  0:00:00.0    1.0
+[04/15 12:46:13     16s] [ MISC                   ]          0:00:00.0  (   0.1 % )     0:00:00.0 /  0:00:00.0    0.0
+[04/15 12:46:13     16s] ---------------------------------------------------------------------------------------------
+[04/15 12:46:13     16s]  optDesign #1 TOTAL                 0:00:00.4  ( 100.0 % )     0:00:00.4 /  0:00:00.4    1.0
+[04/15 12:46:13     16s] ---------------------------------------------------------------------------------------------
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] TimeStamp Deleting Cell Server Begin ...
+[04/15 12:46:13     16s] 
+[04/15 12:46:13     16s] TimeStamp Deleting Cell Server End ...

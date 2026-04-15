@@ -1,0 +1,1041 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Mon Apr 13 11:10:28 2026
+Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC
+**WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Loading view definition file from /home/user015/Desktop/sscd/day1/counter_power.enc.dat/viewDefinition.tcl
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib)
+*** End library_loading (cpu=0.01min, real=0.00min, mem=14.9M, fe_cpu=0.18min, fe_real=0.58min, fe_mem=796.1M) ***
+*** Netlist is unique.
+Loading preference file /home/user015/Desktop/sscd/day1/counter_power.enc.dat/gui.pref.tcl ...
+Loading place ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+**WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via RV specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+MAXDELAY MINDELAY
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> zoomBox 1.61500 24.83650 2.19250 25.31750
+<CMD> selectWire 0.8000 0.9700 2.6000 34.1800 8 VSS
+<CMD> zoomBox 0.98200 24.56500 2.88850 25.48650
+<CMD> zoomBox 0.16850 24.04450 3.82250 25.81100
+<CMD> zoomBox -0.90100 23.36100 5.05000 26.23800
+<CMD> zoomBox -3.43700 21.73850 7.96300 27.25000
+<CMD> zoomBox -8.29750 18.63050 13.54400 29.19000
+<CMD> zoomBox -17.60600 12.67650 24.23550 32.90550
+<CMD> zoomBox -29.84300 4.85050 38.29050 37.79050
+<CMD> zoomBox -49.76850 -7.89250 61.17600 45.74500
+<CMD> addEndCap -preCap FILL2 -postCap FILL2 -prefix ENDCAP
+**WARN: (IMPSP-5224):	Option '-preCap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -rightEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5224):	Option '-postcap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -leftEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5534):	'setEndCapMode -leftEdge' and 'setEndCapMode -rightEdge' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftBottomCorner' and 'setEndCapMode -rightBottomCorner' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftTopCorner' and 'setEndCapMode -rightTopCorner' are using the same endcap cells
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Estimated cell power/ground rail width = 0.160 um
+Minimum row-size in sites for endcap insertion = 5.
+Minimum number of sites for row blockage       = 1.
+Inserted 11 pre-endcap <FILL2> cells (prefix ENDCAP).
+Inserted 11 post-endcap <FILL2> cells (prefix ENDCAP).
+For 22 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+<CMD> zoomBox -34.37750 -4.53050 59.92500 41.06150
+**ERROR: (IMPSYT-16281):	Enter a cell name.
+<CMD> addWellTap -cell FILL2 -cellInterval 8 -prefix WELLTAP
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+For 44 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+Inserted 44 well-taps <FILL2> cells (prefix WELLTAP).
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+<CMD> setNanoRouteMode -quiet -droutePostRouteWidenWireRule VLMDefaultSetup
+<CMD> setNanoRouteMode -quiet -timingEngine {}
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setPlaceMode -reset
+<CMD> setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+AAE DB initialization (MEM=1494.99 CPU=0:00:00.0 REAL=0:00:00.0) 
+
+*summary: 7 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.2) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.3311 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1504.53)
+Total number of fetched objects 61
+End delay calculation. (MEM=1546.2 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1519.12 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+Did not delete 66 physical insts as they were marked preplaced.
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1509.6M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.4 mem=1517.6M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.5 mem=1517.6M) ***
+No user-set net weight.
+Net fanout histogram:
+2		: 37 (60.7%) nets
+3		: 7 (11.5%) nets
+4     -	14	: 17 (27.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=124 (66 fixed + 58 movable) #buf cell=0 #inv cell=12 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=61 #term=213 #term/net=3.49, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=11
+stdCell: 124 single + 0 double + 0 multi
+Total standard cell length = 0.1856 (mm), area = 0.0003 (mm^2)
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Average module density = 0.756.
+Density for the design = 0.756.
+       = stdcell_area 796 sites (272 um^2) / alloc_area 1053 sites (360 um^2).
+Pin Density = 0.1760.
+            = total # of pins 213 / total area 1210.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 5.093e-13 (5.09e-13 0.00e+00)
+              Est.  stn bbox = 5.330e-13 (5.33e-13 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1549.0M
+Iteration  2: Total net bbox = 5.093e-13 (5.09e-13 0.00e+00)
+              Est.  stn bbox = 5.330e-13 (5.33e-13 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1549.0M
+Iteration  3: Total net bbox = 3.694e-01 (1.36e-01 2.34e-01)
+              Est.  stn bbox = 4.088e-01 (1.46e-01 2.62e-01)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1550.4M
+Active setup views:
+    WC
+Iteration  4: Total net bbox = 3.935e+02 (1.70e+02 2.23e+02)
+              Est.  stn bbox = 4.440e+02 (1.98e+02 2.46e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1550.4M
+Iteration  5: Total net bbox = 4.710e+02 (2.33e+02 2.38e+02)
+              Est.  stn bbox = 5.310e+02 (2.67e+02 2.64e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1550.4M
+Iteration  6: Total net bbox = 6.610e+02 (3.53e+02 3.08e+02)
+              Est.  stn bbox = 7.602e+02 (4.05e+02 3.55e+02)
+              cpu = 0:00:00.0 real = 0:00:01.0 mem = 1550.4M
+*** cost = 6.610e+02 (3.53e+02 3.08e+02) (cpu for global=0:00:00.0) real=0:00:01.0***
+Info: 0 clock gating cells identified, 0 (on average) moved 0/1
+Solver runtime cpu: 0:00:00.0 real: 0:00:00.0
+Core Placement runtime cpu: 0:00:00.0 real: 0:00:01.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+**WARN: (IMPSP-270):	Cannot find a legal location for MASTER CELL 'SDFFRHQX8'.
+Type 'man IMPSP-270' for more detail.
+*** Starting refinePlace (0:01:23 mem=1570.4M) ***
+Total net bbox length = 6.655e+02 (3.465e+02 3.189e+02) (ext = 1.219e+02)
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[5]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[6]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[4]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[1]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[2]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[3]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**ERROR: (IMPSP-2021):	Could not legalize <6> instances in the design. Check warning message IMPSP-270, IMPSP-452, IMPSP-2024, IMPSP-2039, IMPSP-2040, IMPSP-2042 or IMPSP-2020 in log file for more details.
+Type 'man IMPSP-2021' for more detail.
+Move report: Detail placement moves 58 insts, mean move: 2.12 um, max move: 12.71 um 
+	Max move on inst (fopt3067): (17.01, 14.40) --> (27.40, 16.72)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1572.4MB
+Summary Report:
+Instances move: 58 (out of 58 movable)
+Instances flipped: 0
+Mean displacement: 2.12 um
+Max displacement: 12.71 um (Instance: fopt3067) (17.008, 14.4035) -> (27.4, 16.72)
+	Length: 9 sites, height: 1 rows, site name: CoreSite, cell type: INVX8
+Total net bbox length = 7.174e+02 (3.592e+02 3.582e+02) (ext = 1.176e+02)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1572.4MB
+*** Finished refinePlace (0:01:23 mem=1572.4M) ***
+*** End of Placement (cpu=0:00:00.6, real=0:00:02.0, mem=1567.4M) ***
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+default core: bins with density > 0.750 = 25.00 % ( 1 / 4 )
+Density distribution unevenness ratio = 1.447%
+*** Free Virtual Timing Model ...(mem=1567.4M)
+Starting IO pin assignment...
+The design is not routed. Using placement based method for pin assignment.
+Completed IO pin assignment.
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.3311 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1550.91)
+Total number of fetched objects 61
+End delay calculation. (MEM=1594.12 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1594.12 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] Metal1 has no routable track
+[NR-eGR] Metal2 has single uniform track structure
+[NR-eGR] Metal3 has single uniform track structure
+[NR-eGR] Metal4 has single uniform track structure
+[NR-eGR] Metal5 has single uniform track structure
+[NR-eGR] Metal6 has single uniform track structure
+[NR-eGR] Metal7 has single uniform track structure
+[NR-eGR] Metal8 has single uniform track structure
+[NR-eGR] Metal9 has single uniform track structure
+[NR-eGR] Read 356 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 0
+[NR-eGR] #PG Blockages       : 356
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=61  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 61 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 61 net(s) in layer range [2, 9]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 8.037000e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (0)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]  Metal1  (1)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal4  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal5  (5)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal6  (6)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal7  (7)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal8  (8)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal9  (9)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.01 seconds, mem = 1592.6M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1592.61 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1592.61 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1592.61 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1592.61 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1592.61 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1592.61 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Metal1  (1F) length: 0.000000e+00um, number of vias: 202
+[NR-eGR] Metal2  (2V) length: 2.419100e+02um, number of vias: 268
+[NR-eGR] Metal3  (3H) length: 4.003000e+02um, number of vias: 118
+[NR-eGR] Metal4  (4V) length: 1.779350e+02um, number of vias: 1
+[NR-eGR] Metal5  (5H) length: 1.130000e+01um, number of vias: 2
+[NR-eGR] Metal6  (6V) length: 1.900000e-01um, number of vias: 0
+[NR-eGR] Metal7  (7H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal8  (8V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal9  (9H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 8.316350e+02um, number of vias: 591
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 5.226500e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.00 seconds, mem = 1533.6M
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 2, mem = 1533.6M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-270            1  Cannot find a legal location for MASTER ...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+ERROR     IMPSP-9099           2  Scan chains exist in this design but are...
+ERROR     IMPSP-2021           1  Could not legalize <%d> instances in the...
+WARNING   IMPSP-2020           6  Cannot find a legal location for instanc...
+*** Message Summary: 11 warning(s), 3 error(s)
+
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8 DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX6 INVX8 INVXL} -maxAllowedDelay 1
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8 DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX6 INVX8 INVXL} -maxAllowedDelay 1
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.3311 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1544.48)
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Total number of fetched objects 61
+End delay calculation. (MEM=1579.69 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1579.69 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+Did not delete 66 physical insts as they were marked preplaced.
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1570.2M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.4 mem=1570.2M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.5 mem=1570.2M) ***
+No user-set net weight.
+Net fanout histogram:
+2		: 37 (60.7%) nets
+3		: 7 (11.5%) nets
+4     -	14	: 17 (27.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=124 (66 fixed + 58 movable) #buf cell=0 #inv cell=12 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=61 #term=213 #term/net=3.49, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=11
+stdCell: 124 single + 0 double + 0 multi
+Total standard cell length = 0.1856 (mm), area = 0.0003 (mm^2)
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Average module density = 0.763.
+Density for the design = 0.763.
+       = stdcell_area 796 sites (272 um^2) / alloc_area 1043 sites (357 um^2).
+Pin Density = 0.1760.
+            = total # of pins 213 / total area 1210.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 3.730e+02 (1.63e+02 2.10e+02)
+              Est.  stn bbox = 4.223e+02 (1.80e+02 2.43e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1571.8M
+Iteration  2: Total net bbox = 3.730e+02 (1.63e+02 2.10e+02)
+              Est.  stn bbox = 4.223e+02 (1.80e+02 2.43e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1571.8M
+Iteration  3: Total net bbox = 2.857e+02 (1.23e+02 1.63e+02)
+              Est.  stn bbox = 3.292e+02 (1.37e+02 1.92e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1573.2M
+Active setup views:
+    WC
+Iteration  4: Total net bbox = 4.994e+02 (2.34e+02 2.65e+02)
+              Est.  stn bbox = 5.781e+02 (2.68e+02 3.10e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1573.2M
+Iteration  5: Total net bbox = 5.561e+02 (2.68e+02 2.88e+02)
+              Est.  stn bbox = 6.434e+02 (3.10e+02 3.34e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1573.2M
+Iteration  6: Total net bbox = 6.337e+02 (3.43e+02 2.91e+02)
+              Est.  stn bbox = 7.329e+02 (3.94e+02 3.38e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1573.2M
+*** cost = 6.337e+02 (3.43e+02 2.91e+02) (cpu for global=0:00:00.0) real=0:00:00.0***
+Info: 0 clock gating cells identified, 0 (on average) moved 0/1
+Solver runtime cpu: 0:00:00.0 real: 0:00:00.0
+Core Placement runtime cpu: 0:00:00.0 real: 0:00:00.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+**WARN: (IMPSP-270):	Cannot find a legal location for MASTER CELL 'SDFFRHQX8'.
+Type 'man IMPSP-270' for more detail.
+*** Starting refinePlace (0:01:27 mem=1577.2M) ***
+Total net bbox length = 6.376e+02 (3.464e+02 2.913e+02) (ext = 1.179e+02)
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[5]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[6]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[4]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[2]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[1]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[3]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**ERROR: (IMPSP-2021):	Could not legalize <6> instances in the design. Check warning message IMPSP-270, IMPSP-452, IMPSP-2024, IMPSP-2039, IMPSP-2040, IMPSP-2042 or IMPSP-2020 in log file for more details.
+Type 'man IMPSP-2021' for more detail.
+Move report: Detail placement moves 58 insts, mean move: 1.59 um, max move: 6.76 um 
+	Max move on inst (count_reg[0]): (23.37, 14.10) --> (17.40, 13.30)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1579.2MB
+Summary Report:
+Instances move: 58 (out of 58 movable)
+Instances flipped: 0
+Mean displacement: 1.59 um
+Max displacement: 6.76 um (Instance: count_reg[0]) (23.3665, 14.096) -> (17.4, 13.3)
+	Length: 33 sites, height: 1 rows, site name: CoreSite, cell type: DFFRHQX8
+	Violation at original loc: Placement Blockage Violation
+Total net bbox length = 6.836e+02 (3.510e+02 3.326e+02) (ext = 1.126e+02)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1579.2MB
+*** Finished refinePlace (0:01:27 mem=1579.2M) ***
+*** End of Placement (cpu=0:00:00.6, real=0:00:01.0, mem=1573.2M) ***
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+default core: bins with density > 0.750 = 25.00 % ( 1 / 4 )
+Density distribution unevenness ratio = 4.219%
+*** Free Virtual Timing Model ...(mem=1573.2M)
+Starting IO pin assignment...
+The design is not routed. Using placement based method for pin assignment.
+Completed IO pin assignment.
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.3311 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1561.7)
+Total number of fetched objects 61
+End delay calculation. (MEM=1604.91 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1604.91 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] Metal1 has no routable track
+[NR-eGR] Metal2 has single uniform track structure
+[NR-eGR] Metal3 has single uniform track structure
+[NR-eGR] Metal4 has single uniform track structure
+[NR-eGR] Metal5 has single uniform track structure
+[NR-eGR] Metal6 has single uniform track structure
+[NR-eGR] Metal7 has single uniform track structure
+[NR-eGR] Metal8 has single uniform track structure
+[NR-eGR] Metal9 has single uniform track structure
+[NR-eGR] Read 356 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 0
+[NR-eGR] #PG Blockages       : 356
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=61  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 61 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 61 net(s) in layer range [2, 9]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 7.746300e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (0)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]  Metal1  (1)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal4  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal5  (5)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal6  (6)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal7  (7)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal8  (8)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal9  (9)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.01 seconds, mem = 1603.4M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1603.40 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1603.40 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1603.40 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1603.40 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1603.40 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1603.40 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Metal1  (1F) length: 0.000000e+00um, number of vias: 202
+[NR-eGR] Metal2  (2V) length: 2.611900e+02um, number of vias: 265
+[NR-eGR] Metal3  (3H) length: 3.817000e+02um, number of vias: 118
+[NR-eGR] Metal4  (4V) length: 1.610250e+02um, number of vias: 0
+[NR-eGR] Metal5  (5H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal6  (6V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal7  (7H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal8  (8V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal9  (9H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 8.039150e+02um, number of vias: 585
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 5.806500e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.00 seconds, mem = 1545.4M
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 1, mem = 1545.4M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-270            1  Cannot find a legal location for MASTER ...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+ERROR     IMPSP-9099           2  Scan chains exist in this design but are...
+ERROR     IMPSP-2021           1  Could not legalize <%d> instances in the...
+WARNING   IMPSP-2020           6  Cannot find a legal location for instanc...
+*** Message Summary: 11 warning(s), 3 error(s)
+
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.3311 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1555.41)
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Total number of fetched objects 61
+End delay calculation. (MEM=1590.62 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1590.62 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+Did not delete 66 physical insts as they were marked preplaced.
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1581.1M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.4 mem=1581.1M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.5 mem=1581.1M) ***
+No user-set net weight.
+Net fanout histogram:
+2		: 37 (60.7%) nets
+3		: 7 (11.5%) nets
+4     -	14	: 17 (27.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=124 (66 fixed + 58 movable) #buf cell=0 #inv cell=12 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=61 #term=213 #term/net=3.49, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=11
+stdCell: 124 single + 0 double + 0 multi
+Total standard cell length = 0.1856 (mm), area = 0.0003 (mm^2)
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Average module density = 0.770.
+Density for the design = 0.770.
+       = stdcell_area 796 sites (272 um^2) / alloc_area 1034 sites (354 um^2).
+Pin Density = 0.1760.
+            = total # of pins 213 / total area 1210.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 3.664e+02 (9.39e+01 2.72e+02)
+              Est.  stn bbox = 4.136e+02 (1.03e+02 3.11e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1577.7M
+Iteration  2: Total net bbox = 3.664e+02 (9.39e+01 2.72e+02)
+              Est.  stn bbox = 4.136e+02 (1.03e+02 3.11e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1577.7M
+Iteration  3: Total net bbox = 2.942e+02 (7.92e+01 2.15e+02)
+              Est.  stn bbox = 3.384e+02 (8.82e+01 2.50e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1579.1M
+Active setup views:
+    WC
+Iteration  4: Total net bbox = 5.057e+02 (2.02e+02 3.04e+02)
+              Est.  stn bbox = 5.853e+02 (2.35e+02 3.50e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1579.1M
+Iteration  5: Total net bbox = 5.642e+02 (2.48e+02 3.16e+02)
+              Est.  stn bbox = 6.489e+02 (2.86e+02 3.63e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1579.1M
+Iteration  6: Total net bbox = 6.402e+02 (3.20e+02 3.20e+02)
+              Est.  stn bbox = 7.370e+02 (3.67e+02 3.70e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1579.1M
+*** cost = 6.402e+02 (3.20e+02 3.20e+02) (cpu for global=0:00:00.0) real=0:00:00.0***
+Info: 0 clock gating cells identified, 0 (on average) moved 0/1
+Solver runtime cpu: 0:00:00.0 real: 0:00:00.0
+Core Placement runtime cpu: 0:00:00.0 real: 0:00:00.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+**WARN: (IMPSP-270):	Cannot find a legal location for MASTER CELL 'SDFFRHQX8'.
+Type 'man IMPSP-270' for more detail.
+*** Starting refinePlace (0:01:35 mem=1582.1M) ***
+Total net bbox length = 6.437e+02 (3.238e+02 3.199e+02) (ext = 1.187e+02)
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[5]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[6]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[4]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[2]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[1]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[3]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**ERROR: (IMPSP-2021):	Could not legalize <6> instances in the design. Check warning message IMPSP-270, IMPSP-452, IMPSP-2024, IMPSP-2039, IMPSP-2040, IMPSP-2042 or IMPSP-2020 in log file for more details.
+Type 'man IMPSP-2021' for more detail.
+Move report: Detail placement moves 58 insts, mean move: 1.93 um, max move: 7.81 um 
+	Max move on inst (count_reg[0]): (23.40, 13.40) --> (17.40, 11.59)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1584.1MB
+Summary Report:
+Instances move: 58 (out of 58 movable)
+Instances flipped: 0
+Mean displacement: 1.93 um
+Max displacement: 7.81 um (Instance: count_reg[0]) (23.4, 13.4045) -> (17.4, 11.59)
+	Length: 33 sites, height: 1 rows, site name: CoreSite, cell type: DFFRHQX8
+	Violation at original loc: Placement Blockage Violation
+Total net bbox length = 6.885e+02 (3.197e+02 3.688e+02) (ext = 1.167e+02)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1584.1MB
+*** Finished refinePlace (0:01:35 mem=1584.1M) ***
+*** End of Placement (cpu=0:00:00.6, real=0:00:00.0, mem=1581.1M) ***
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+default core: bins with density > 0.750 = 25.00 % ( 1 / 4 )
+Density distribution unevenness ratio = 4.219%
+*** Free Virtual Timing Model ...(mem=1581.1M)
+Starting IO pin assignment...
+The design is not routed. Using placement based method for pin assignment.
+Completed IO pin assignment.
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.3311 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1569.62)
+Total number of fetched objects 61
+End delay calculation. (MEM=1612.82 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1612.82 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] Metal1 has no routable track
+[NR-eGR] Metal2 has single uniform track structure
+[NR-eGR] Metal3 has single uniform track structure
+[NR-eGR] Metal4 has single uniform track structure
+[NR-eGR] Metal5 has single uniform track structure
+[NR-eGR] Metal6 has single uniform track structure
+[NR-eGR] Metal7 has single uniform track structure
+[NR-eGR] Metal8 has single uniform track structure
+[NR-eGR] Metal9 has single uniform track structure
+[NR-eGR] Read 356 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 0
+[NR-eGR] #PG Blockages       : 356
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=61  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 61 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 61 net(s) in layer range [2, 9]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 8.002800e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (0)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]  Metal1  (1)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal4  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal5  (5)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal6  (6)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal7  (7)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal8  (8)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal9  (9)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.01 seconds, mem = 1611.3M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1611.31 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1611.31 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1611.31 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1611.31 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1611.31 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1611.31 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Metal1  (1F) length: 0.000000e+00um, number of vias: 202
+[NR-eGR] Metal2  (2V) length: 2.639750e+02um, number of vias: 266
+[NR-eGR] Metal3  (3H) length: 3.817000e+02um, number of vias: 109
+[NR-eGR] Metal4  (4V) length: 1.784200e+02um, number of vias: 0
+[NR-eGR] Metal5  (5H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal6  (6V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal7  (7H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal8  (8V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal9  (9H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 8.240950e+02um, number of vias: 577
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 5.938500e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.00 seconds, mem = 1556.3M
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 1, mem = 1556.3M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-270            1  Cannot find a legal location for MASTER ...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+ERROR     IMPSP-9099           2  Scan chains exist in this design but are...
+ERROR     IMPSP-2021           1  Could not legalize <%d> instances in the...
+WARNING   IMPSP-2020           6  Cannot find a legal location for instanc...
+*** Message Summary: 11 warning(s), 3 error(s)
+
+<CMD> zoomBox -21.42700 5.47800 46.70650 38.41800
+<CMD> zoomBox -41.26150 -3.05600 53.04100 42.53600
+<CMD> pan 4.82000 35.25750
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8 DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX6 INVX8 INVXL} -maxAllowedDelay 1
+<CMD> setPlaceMode -reset
+<CMD> setPlaceMode -fp true -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8 DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX6 INVX8 INVXL} -maxAllowedDelay 1
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8 DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX6 INVX8 INVXL} -maxAllowedDelay 1
+**ERROR: (IMPSYT-6000):	No Object Selected.
+<CMD> setLayerPreference node_overlay -isVisible 1
+**ERROR: (IMPQTF-4003):	Form 'congestMapForm' does not exist.
+<CMD> setLayerPreference congestH -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+<CMD> setLayerPreference congestV -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+<CMD> fit
+<CMD> setLayerPreference node_overlay -isVisible 0
+<CMD> setLayerPreference node_track -isVisible 1
+<CMD> setLayerPreference node_track -isVisible 0
+<CMD> setLayerPreference io -isVisible 0
+<CMD> setLayerPreference io -isVisible 1
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setPlaceMode -fp true
+<CMD> place_design
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+Deleted 0 physical inst  (cell - / prefix -).
+Did not delete 66 physical insts as they were marked preplaced.
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1577.0M)" ...
+No user-set net weight.
+Net fanout histogram:
+2		: 37 (60.7%) nets
+3		: 7 (11.5%) nets
+4     -	14	: 17 (27.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: clkGateAware ignoreScan pinGuide congEffort=low gpeffort=fp 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=124 (66 fixed + 58 movable) #buf cell=0 #inv cell=12 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=61 #term=208 #term/net=3.41, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=11
+stdCell: 124 single + 0 double + 0 multi
+Total standard cell length = 0.1856 (mm), area = 0.0003 (mm^2)
+Average module density = 0.738.
+Density for the design = 0.738.
+       = stdcell_area 796 sites (272 um^2) / alloc_area 1078 sites (369 um^2).
+Pin Density = 0.1719.
+            = total # of pins 208 / total area 1210.
+=== lastAutoLevel = 5 
+**WARN: (IMPSP-9531):	Turning off clkGateAware when timingDriven is off
+Iteration  1: Total net bbox = 3.660e+02 (9.46e+01 2.71e+02)
+              Est.  stn bbox = 4.133e+02 (1.04e+02 3.09e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1580.0M
+Iteration  2: Total net bbox = 3.660e+02 (9.46e+01 2.71e+02)
+              Est.  stn bbox = 4.133e+02 (1.04e+02 3.09e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1580.0M
+Iteration  3: Total net bbox = 2.955e+02 (8.08e+01 2.15e+02)
+              Est.  stn bbox = 3.399e+02 (9.00e+01 2.50e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1580.0M
+Iteration  4: Total net bbox = 4.681e+02 (1.78e+02 2.90e+02)
+              Est.  stn bbox = 5.429e+02 (2.08e+02 3.35e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1580.0M
+Iteration  5: Total net bbox = 5.439e+02 (2.35e+02 3.09e+02)
+              Est.  stn bbox = 6.275e+02 (2.71e+02 3.56e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1580.0M
+Iteration  6: Total net bbox = 6.067e+02 (2.93e+02 3.13e+02)
+              Est.  stn bbox = 6.949e+02 (3.34e+02 3.60e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1580.0M
+*** cost = 6.067e+02 (2.93e+02 3.13e+02) (cpu for global=0:00:00.0) real=0:00:00.0***
+Solver runtime cpu: 0:00:00.0 real: 0:00:00.0
+Core Placement runtime cpu: 0:00:00.0 real: 0:00:00.0
+*** End of Placement (cpu=0:00:00.0, real=0:00:00.0, mem=1580.0M) ***
+Starting IO pin assignment...
+The design is not routed. Using placement based method for pin assignment.
+Completed IO pin assignment.
+*** Finishing placeDesign default flow ***
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+**placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 1580.0M **
+Tdgp not successfully inited but do clear! skip clearing
+INFO: Finished place_design in floorplan mode - no legalization done.
+
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPSP-9531           1  Turning off clkGateAware when timingDriv...
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+ERROR     IMPSP-9099           2  Scan chains exist in this design but are...
+*** Message Summary: 2 warning(s), 2 error(s)
+
+<CMD> setLayerPreference node_layer -isVisible 1
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Mon Apr 13 11:24:56 2026
+  Total CPU time:     0:02:42
+  Total real time:    0:14:31
+  Peak memory (main): 1221.97MB
+
+
+*** Memory Usage v#1 (Current mem = 1590.156M, initial mem = 284.301M) ***
+*** Message Summary: 620 warning(s), 16 error(s)
+
+--- Ending "Innovus" (totcpu=0:02:42, real=0:14:28, mem=1590.2M) ---

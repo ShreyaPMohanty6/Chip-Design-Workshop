@@ -38,4 +38,4 @@ report_area > counter_area.rep
 report_gates > counter_GateCount.rep
 report_power > counter_power.rep
 report_timing_summary > counter_timing_summary.rep
-gui_show
+gui_open

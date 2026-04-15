@@ -20,11 +20,11 @@ add mapped point count[0] count[0] -type PO PO
 
 
 //Sequential Pins
-add mapped point count[5]/q count_reg[5]/Q  -type DFF DFF
 add mapped point count[7]/q count_reg[7]/Q  -type DFF DFF
-add mapped point count[3]/q count_reg[3]/Q  -type DFF DFF
 add mapped point count[6]/q count_reg[6]/Q  -type DFF DFF
 add mapped point count[4]/q count_reg[4]/Q  -type DFF DFF
+add mapped point count[5]/q count_reg[5]/Q  -type DFF DFF
+add mapped point count[3]/q count_reg[3]/Q  -type DFF DFF
 add mapped point count[2]/q count_reg[2]/Q  -type DFF DFF
 add mapped point count[1]/q count_reg[1]/Q  -type DFF DFF
 add mapped point count[0]/q count_reg[0]/Q  -type DFF DFF

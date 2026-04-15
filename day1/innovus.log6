@@ -1,0 +1,586 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Tue Apr  7 15:27:03 2026
+Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> save_global Default.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file 45nm_library/lef/gsclib045_macro.lef
+<CMD> set init_verilog output_2GHZ/counter_netlist.v
+<CMD> set init_mmmc_file Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#% Begin Load MMMC data ... (date=04/07 15:32:44, mem=673.6M)
+#% End Load MMMC data ... (date=04/07 15:32:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=674.0M, current mem=674.0M)
+RC
+
+Loading LEF file 45nm_library/lef/gsclib045_macro.lef ...
+**ERROR: (IMPLF-328):	The layer 'Metal1' specified in macro pin 'ACHCONX2.CON' does not exist
+**ERROR: (IMPLF-328):	The layer 'Metal1' specified in macro pin 'ACHCONX2.CON' does not exist
+**ERROR: (IMPLF-328):	The layer 'Metal1' specified in macro pin 'ACHCONX2.CON' does not exist
+**ERROR: (IMPLF-328):	The layer 'Metal1' specified in macro pin 'ACHCONX2.CON' does not exist
+**ERROR: (IMPLF-328):	The layer 'Metal1' specified in macro pin 'ACHCONX2.CON' does not exist
+**ERROR: (IMPLF-53):	The layer 'Metal1' referenced in pin 'CON' in macro 'ACHCONX2' is not found in the database. A layer must be defined in the LEF technology LAYER section before it can be referenced from a macro. Review the LEF files specified in the init_lef_file variable to see if the layer does not exist or is specified after the one that defines the macro.
+Type 'man IMPLF-53' for more detail.
+**ERROR: (IMPLF-3):	Error found when processing LEF file '45nm_library/lef/gsclib045_macro.lef'. The subsequent file content is ignored. Refer to error messages above for details. Fix the errors, and restart 'Innovus' again.
+Type 'man IMPLF-3' for more detail.
+**ERROR: (IMPLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Innovus.
+**ERROR: (IMPLF-26):	No technology information is defined in the first LEF file.
+Please rearrange the LEF file order and make sure the technology LEF file is the
+first one, exit and restart Innovus.
+**ERROR: (IMPSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Please exit the tools and fix the errors first, then re-load design again.
+<CMD> save_global Default.globals
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
+<CMD> set init_verilog output_2GHZ/counter_netlist.v
+<CMD> set init_mmmc_file Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#% Begin Load MMMC data ... (date=04/07 15:38:41, mem=681.5M)
+Extraction setup Started 
+Extraction setup Started 
+Extraction setup Started 
+The existing analysis_view 'WC' has been replaced with new attributes.
+The existing analysis_view 'BC' has been replaced with new attributes.
+INFO: New setup and hold views overwrite old settings during design initialization
+#% End Load MMMC data ... (date=04/07 15:38:41, total cpu=0:00:00.0, real=0:00:00.0, peak res=681.7M, current mem=681.7M)
+RC
+
+Loading LEF file ../../../../install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef ...
+**WARN: (IMPLF-58):	MACRO 'ACHCONX2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-58' for more detail.
+**WARN: (IMPLF-209):	Cell 'ACHCONX2' has been found in db, no extra pin 'A' can be added for existing macro.
+**WARN: (IMPLF-209):	Cell 'ACHCONX2' has been found in db, no extra pin 'B' can be added for existing macro.
+**WARN: (IMPLF-209):	Cell 'ACHCONX2' has been found in db, no extra pin 'CI' can be added for existing macro.
+**WARN: (IMPLF-209):	Cell 'ACHCONX2' has been found in db, no extra pin 'VSS' can be added for existing macro.
+**WARN: (IMPLF-209):	Cell 'ACHCONX2' has been found in db, no extra pin 'VDD' can be added for existing macro.
+**WARN: (IMPLF-61):	1 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+Type 'man IMPLF-61' for more detail.
+**WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+viaInitial starts at Tue Apr  7 15:38:41 2026
+viaInitial ends at Tue Apr  7 15:38:41 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from Default.view
+Reading SLOW timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib)
+Read 480 cells in library 'slow_vdd1v0' 
+Reading FAST timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib)
+Read 480 cells in library 'fast_vdd1v0' 
+*** End library_loading (cpu=0.01min, real=0.02min, mem=14.9M, fe_cpu=2.37min, fe_real=11.65min, fe_mem=795.9M) ***
+#% Begin Load netlist data ... (date=04/07 15:38:42, mem=693.5M)
+*** Begin netlist parsing (mem=795.9M) ***
+Created 480 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'output_2GHZ/counter_netlist.v'
+
+*** Memory Usage v#1 (Current mem = 795.875M, initial mem = 284.301M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=795.9M) ***
+#% End Load netlist data ... (date=04/07 15:38:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=703.2M, current mem=703.2M)
+Top level cell is counter.
+Hooked 960 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell counter ...
+*** Netlist is unique.
+Set DBUPerIGU to techSite CoreSite width 400.
+**WARN: (IMPTRN-1103):	Cell (0) ACHCONX2's height is less than placement-grid.
+**WARN: (IMPTRN-1103):	Cell (0) ACHCONX2's height is less than placement-grid.
+** info: there are 968 modules.
+** info: there are 64 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 839.301M, initial mem = 284.301M) ***
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Innovus terminated by internal (SEGV) error/signal...
+*** Stack trace:
+*** Stack trace:
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x145e625d]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(syStackTrace+0xb6)[0x145e66df]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x5087bb3]
+/lib64/libpthread.so.0(+0xf62f)[0x7ff39b51462f]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN14peEngineClient10getViaListERSt6vectorI11eeEngineViaSaIS1_EEi+0xa1)[0xdbe42b1]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN21eeExtEngineDesignData12setLayerInfoEv+0x688)[0x569cde8]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0xdb08a38]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_Z10dbMCRCInitv+0x9)[0xdb0f9d9]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_Z28peiInitializeExtractionSetUpb+0x27)[0xdb0fc67]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x10efaf32]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN6TAMmmc24setCurrentSetupHoldViewsEP12TALinkedListS1_S1_P18TAMmmcAnalysisViewS3_S3_S1_+0x1214)[0x1485fd84]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN6TAMmmc17syncSetupHoldListEv+0x4f)[0x148601df]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_Z28TaCmd_set_analysis_view_procPvP10Tcl_InterpiPPcP6tcmCmd+0x63e)[0x15add74e]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN10tcmBaseCmd7executeEP10Tcl_InterpiPPc+0x2d3)[0x16a40613]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN6tcmMgr9cmdParserEPvP10Tcl_InterpiPPc+0x693)[0x16a33ad3]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(TclInvokeStringCommand+0x7f)[0x228fc6df]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(TclNRRunCallbacks+0x46)[0x22901056]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x22903527]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x229cc321]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x22903134]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(Tcl_EvalEx+0x15)[0x22903e55]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(Tcl_Eval+0x14)[0x22903e74]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_Z10qtfTclEvalPcbb+0xa4)[0x12c59d04]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN8qtfsItem10fUpdateVarEv+0x245)[0x12c00095]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5(_ZN11QMetaObject8activateEP7QObjectiiPPv+0x5de)[0x7ff39f14bebe]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN15QAbstractButton7clickedEb+0x31)[0x7ff39eb33041]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(+0x349253)[0x7ff39eb33253]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(+0x34a541)[0x7ff39eb34541]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent+0xcb)[0x7ff39eb346eb]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0x1e7)[0x7ff39e9c0947]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x9b)[0x7ff39e98205b]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0xf6b)[0x7ff39e98a03b]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x107)[0x7ff39f120a87]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb+0x1cc)[0x7ff39e9888fc]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(+0x1eff2d)[0x7ff39e9d9f2d]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(+0x1f281a)[0x7ff39e9dc81a]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x9b)[0x7ff39e98205b]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x229)[0x7ff39e9892f9]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x107)[0x7ff39f120a87]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5(_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+0x6f2)[0x7ff39f5937b2]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5(_ZN22QGuiApplicationPrivate24processWindowSystemEventEPN29QWindowSystemInterfacePrivate17WindowSystemEventE+0x104)[0x7ff39f595224]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5(_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0xba)[0x7ff39f57125a]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_ZN23QUnixEventDispatcherQPA13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x15)[0x22570df5]
+/home/install/INNOVUS201/tools.lnx86/lib/64bit/libtq.so(_ZN17TqEventDispatcher13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x17a)[0x7ff39ff7634a]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0xe9)[0x7ff39f11f0c9]
+/home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5(_ZN16QCoreApplication4execEv+0x83)[0x7ff39f127953]
+/home/install/INNOVUS201/tools.lnx86/lib/64bit/libtq.so(_ZN13TqApplication4execEv+0x176)[0x7ff39ff75896]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(_Z12edi_app_initP10Tcl_Interp+0x2a8)[0x513b848]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(Tcl_MainEx+0x176)[0x229c05c6]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x52ceea2]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus(main+0x10a)[0x460508a]
+/lib64/libc.so.6(__libc_start_main+0xf4)[0x7ff39a92c554]
+/home/install/INNOVUS201/tools.lnx86/innovus/bin/64bit/innovus[0x5084a10]
+========================================
+               pstack
+========================================
+Thread 9 (Thread 0x7ff39074b700 (LWP 16855)):
+#0  0x00007ff39b5139dd in accept () from /lib64/libpthread.so.0
+#1  0x000000002108624e in ProcessInfo::handleConnection(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 8 (Thread 0x7ff38ff4a700 (LWP 16856)):
+#0  0x00007ff39a9ffb43 in select () from /lib64/libc.so.6
+#1  0x000000002107e42b in ProcessInfo::sampleUsage(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 7 (Thread 0x7ff38f749700 (LWP 16860)):
+#0  0x00007ff39b513e9d in nanosleep () from /lib64/libpthread.so.0
+#1  0x000000000694667d in rdaiLicRecheck(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 6 (Thread 0x7ff38e747700 (LWP 16863)):
+#0  0x00007ff39a9cf9fd in nanosleep () from /lib64/libc.so.6
+#1  0x00007ff39a9cf894 in sleep () from /lib64/libc.so.6
+#2  0x0000000014600655 in syiPeakMem(void*) ()
+#3  0x00000000053c072a in create_head(void*) ()
+#4  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 5 (Thread 0x7ff38dc33700 (LWP 16932)):
+#0  0x00007ff39a9fdddd in poll () from /lib64/libc.so.6
+#1  0x00007ff39c408022 in _xcb_conn_wait () from /lib64/libxcb.so.1
+#2  0x00007ff39c409c6f in xcb_wait_for_event () from /lib64/libxcb.so.1
+#3  0x00007ff38dc88a59 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5XcbQpa.so.5
+#4  0x00007ff39ef4217a in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#5  0x00000000053c072a in create_head(void*) ()
+#6  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#7  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 4 (Thread 0x7ff387059700 (LWP 16933)):
+#0  0x00007ff39a9ffb43 in select () from /lib64/libc.so.6
+#1  0x0000000022a03d37 in NotifierThreadProc ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 3 (Thread 0x7ff3860f9700 (LWP 17002)):
+#0  0x00007ff39b5143c1 in sigwait () from /lib64/libpthread.so.0
+#1  0x00000000050853bf in ctrlCHandle(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 2 (Thread 0x7ff369bd7700 (LWP 17018)):
+#0  0x00007ff39b510a35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007ff39ef42fbb in QWaitCondition::wait(QMutex*, unsigned long) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#2  0x00007ff39eb8ee22 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#3  0x00007ff39ef4217a in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#4  0x00000000053c072a in create_head(void*) ()
+#5  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+Thread 1 (Thread 0x7ff3975fcfc0 (LWP 16772)):
+#0  0x00007ff39a9cf659 in waitpid () from /lib64/libc.so.6
+#1  0x00007ff39a94cf62 in do_system () from /lib64/libc.so.6
+#2  0x00007ff39a94d311 in system () from /lib64/libc.so.6
+#3  0x00000000145e6288 in syStackTraceDump(_IO_FILE*, bool) ()
+#4  0x00000000145e66e0 in syStackTrace ()
+#5  0x0000000005087bb4 in rdaiErrorHandler(int, siginfo*, void*) ()
+#6  <signal handler called>
+#7  0x000000000dbe42b1 in peEngineClient::getViaList(std::vector<eeEngineVia, std::allocator<eeEngineVia> >&, int) ()
+#8  0x000000000569cde9 in eeExtEngineDesignData::setLayerInfo() ()
+#9  0x000000000db08a39 in eeExtEngineDesignData::resetDesignData() [clone .constprop.461] ()
+#10 0x000000000db0f9da in dbMCRCInit() ()
+#11 0x000000000db0fc68 in peiInitializeExtractionSetUp(bool) ()
+#12 0x0000000010efaf33 in toiCteSetAnalysisViewPostCallback(TALinkedList*, TALinkedList*) ()
+#13 0x000000001485fd85 in TAMmmc::setCurrentSetupHoldViews(TALinkedList*, TALinkedList*, TALinkedList*, TAMmmcAnalysisView*, TAMmmcAnalysisView*, TAMmmcAnalysisView*, TALinkedList*) ()
+#14 0x00000000148601e0 in TAMmmc::syncSetupHoldList() ()
+#15 0x0000000015add74f in TaCmd_set_analysis_view_proc(void*, Tcl_Interp*, int, char**, tcmCmd*) ()
+#16 0x0000000016a40614 in tcmBaseCmd::execute(Tcl_Interp*, int, char**) ()
+#17 0x0000000016a33ad4 in tcmMgr::cmdParser(void*, Tcl_Interp*, int, char**) ()
+#18 0x00000000228fc6e0 in TclInvokeStringCommand ()
+#19 0x0000000022901057 in TclNRRunCallbacks ()
+#20 0x0000000022903528 in TclEvalEx ()
+#21 0x00000000229cc322 in TclSubstTokens ()
+#22 0x0000000022903135 in TclEvalEx ()
+#23 0x0000000022903e56 in Tcl_EvalEx ()
+#24 0x0000000022903e75 in Tcl_Eval ()
+#25 0x0000000012c59d05 in qtfTclEval(char*, bool, bool) ()
+#26 0x0000000012c00096 in qtfsItem::fUpdateVar() ()
+#27 0x00007ff39f14bebf in QMetaObject::activate(QObject*, int, int, void**) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#28 0x00007ff39eb33042 in QAbstractButton::clicked(bool) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#29 0x00007ff39eb33254 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#30 0x00007ff39eb34542 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#31 0x00007ff39eb346ec in QAbstractButton::mouseReleaseEvent(QMouseEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#32 0x00007ff39e9c0948 in QWidget::event(QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#33 0x00007ff39e98205c in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#34 0x00007ff39e98a03c in QApplication::notify(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#35 0x00007ff39f120a88 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#36 0x00007ff39e9888fd in QApplicationPrivate::sendMouseEvent(QWidget*, QMouseEvent*, QWidget*, QWidget*, QWidget**, QPointer<QWidget>&, bool) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#37 0x00007ff39e9d9f2e in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#38 0x00007ff39e9dc81b in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#39 0x00007ff39e98205c in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#40 0x00007ff39e9892fa in QApplication::notify(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#41 0x00007ff39f120a88 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#42 0x00007ff39f5937b3 in QGuiApplicationPrivate::processMouseEvent(QWindowSystemInterfacePrivate::MouseEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5
+#43 0x00007ff39f595225 in QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5
+#44 0x00007ff39f57125b in QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5
+#45 0x0000000022570df6 in QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) ()
+#46 0x00007ff39ff7634b in TqEventDispatcher::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/install/INNOVUS201/tools.lnx86/lib/64bit/libtq.so
+#47 0x00007ff39f11f0ca in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#48 0x00007ff39f127954 in QCoreApplication::exec() () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#49 0x00007ff39ff75897 in TqApplication::exec() () from /home/install/INNOVUS201/tools.lnx86/lib/64bit/libtq.so
+#50 0x000000000513b849 in edi_app_init(Tcl_Interp*) ()
+#51 0x00000000229c05c7 in Tcl_MainEx ()
+#52 0x00000000052ceea3 in child_main(int, char**) ()
+#53 0x000000000460508b in main ()
+========================================
+                gdb
+========================================
+Using: gdb
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+[New LWP 17018]
+[New LWP 17002]
+[New LWP 16933]
+[New LWP 16932]
+[New LWP 16863]
+[New LWP 16860]
+[New LWP 16856]
+[New LWP 16855]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: Cannot parse .gnu_debugdata section; LZMA support was disabled at compile time
+
+warning: no loadable sections found in added symbol-file system-supplied DSO at 0x7ffeeffcb000
+0x00007ff39a9cf659 in waitpid () from /lib64/libc.so.6
+
+Thread 9 (Thread 0x7ff39074b700 (LWP 16855)):
+#0  0x00007ff39b5139dd in accept () from /lib64/libpthread.so.0
+#1  0x000000002108624e in ProcessInfo::handleConnection(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 8 (Thread 0x7ff38ff4a700 (LWP 16856)):
+#0  0x00007ff39a9ffb43 in select () from /lib64/libc.so.6
+#1  0x000000002107e42b in ProcessInfo::sampleUsage(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 7 (Thread 0x7ff38f749700 (LWP 16860)):
+#0  0x00007ff39b513e9d in nanosleep () from /lib64/libpthread.so.0
+#1  0x000000000694667d in rdaiLicRecheck(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 6 (Thread 0x7ff38e747700 (LWP 16863)):
+#0  0x00007ff39a9cf9fd in nanosleep () from /lib64/libc.so.6
+#1  0x00007ff39a9cf894 in sleep () from /lib64/libc.so.6
+#2  0x0000000014600655 in syiPeakMem(void*) ()
+#3  0x00000000053c072a in create_head(void*) ()
+#4  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 5 (Thread 0x7ff38dc33700 (LWP 16932)):
+#0  0x00007ff39a9fdddd in poll () from /lib64/libc.so.6
+#1  0x00007ff39c408022 in ?? () from /lib64/libxcb.so.1
+#2  0x00007ff39c409c6f in xcb_wait_for_event () from /lib64/libxcb.so.1
+#3  0x00007ff38dc88a59 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5XcbQpa.so.5
+#4  0x00007ff39ef4217a in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#5  0x00000000053c072a in create_head(void*) ()
+#6  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#7  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x7ff387059700 (LWP 16933)):
+#0  0x00007ff39a9ffb43 in select () from /lib64/libc.so.6
+#1  0x0000000022a03d37 in NotifierThreadProc ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7ff3860f9700 (LWP 17002)):
+#0  0x00007ff39b5143c1 in sigwait () from /lib64/libpthread.so.0
+#1  0x00000000050853bf in ctrlCHandle(void*) ()
+#2  0x00000000053c072a in create_head(void*) ()
+#3  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7ff369bd7700 (LWP 17018)):
+#0  0x00007ff39b510a35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007ff39ef42fbb in QWaitCondition::wait(QMutex*, unsigned long) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#2  0x00007ff39eb8ee22 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#3  0x00007ff39ef4217a in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#4  0x00000000053c072a in create_head(void*) ()
+#5  0x00007ff39b50cea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007ff39aa08b0d in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7ff3975fcfc0 (LWP 16772)):
+#0  0x00007ff39a9cf659 in waitpid () from /lib64/libc.so.6
+#1  0x00007ff39a94cf62 in do_system () from /lib64/libc.so.6
+#2  0x00007ff39a94d311 in system () from /lib64/libc.so.6
+#3  0x00000000145e6288 in syStackTraceDump(_IO_FILE*, bool) ()
+#4  0x00000000145e66e0 in syStackTrace ()
+#5  0x0000000005087bb4 in rdaiErrorHandler(int, siginfo*, void*) ()
+#6  <signal handler called>
+#7  0x000000000dbe42b1 in peEngineClient::getViaList(std::vector<eeEngineVia, std::allocator<eeEngineVia> >&, int) ()
+#8  0x000000000569cde9 in eeExtEngineDesignData::setLayerInfo() ()
+#9  0x000000000db08a39 in eeExtEngineDesignData::resetDesignData() [clone .constprop.461] ()
+#10 0x000000000db0f9da in dbMCRCInit() ()
+#11 0x000000000db0fc68 in peiInitializeExtractionSetUp(bool) ()
+#12 0x0000000010efaf33 in toiCteSetAnalysisViewPostCallback(TALinkedList*, TALinkedList*) ()
+#13 0x000000001485fd85 in TAMmmc::setCurrentSetupHoldViews(TALinkedList*, TALinkedList*, TALinkedList*, TAMmmcAnalysisView*, TAMmmcAnalysisView*, TAMmmcAnalysisView*, TALinkedList*) ()
+#14 0x00000000148601e0 in TAMmmc::syncSetupHoldList() ()
+#15 0x0000000015add74f in TaCmd_set_analysis_view_proc(void*, Tcl_Interp*, int, char**, tcmCmd*) ()
+#16 0x0000000016a40614 in tcmBaseCmd::execute(Tcl_Interp*, int, char**) ()
+#17 0x0000000016a33ad4 in tcmMgr::cmdParser(void*, Tcl_Interp*, int, char**) ()
+#18 0x00000000228fc6e0 in TclInvokeStringCommand ()
+#19 0x0000000022901057 in TclNRRunCallbacks ()
+#20 0x0000000022903528 in TclEvalEx ()
+#21 0x00000000229cc322 in TclSubstTokens ()
+#22 0x0000000022903135 in TclEvalEx ()
+#23 0x0000000022903e56 in Tcl_EvalEx ()
+#24 0x0000000022903e75 in Tcl_Eval ()
+#25 0x0000000012c59d05 in qtfTclEval(char*, bool, bool) ()
+#26 0x0000000012c00096 in qtfsItem::fUpdateVar() ()
+#27 0x00007ff39f14bebf in QMetaObject::activate(QObject*, int, int, void**) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#28 0x00007ff39eb33042 in QAbstractButton::clicked(bool) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#29 0x00007ff39eb33254 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#30 0x00007ff39eb34542 in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#31 0x00007ff39eb346ec in QAbstractButton::mouseReleaseEvent(QMouseEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#32 0x00007ff39e9c0948 in QWidget::event(QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#33 0x00007ff39e98205c in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#34 0x00007ff39e98a03c in QApplication::notify(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#35 0x00007ff39f120a88 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#36 0x00007ff39e9888fd in QApplicationPrivate::sendMouseEvent(QWidget*, QMouseEvent*, QWidget*, QWidget*, QWidget**, QPointer<QWidget>&, bool) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#37 0x00007ff39e9d9f2e in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#38 0x00007ff39e9dc81b in ?? () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#39 0x00007ff39e98205c in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#40 0x00007ff39e9892fa in QApplication::notify(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
+#41 0x00007ff39f120a88 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#42 0x00007ff39f5937b3 in QGuiApplicationPrivate::processMouseEvent(QWindowSystemInterfacePrivate::MouseEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5
+#43 0x00007ff39f595225 in QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5
+#44 0x00007ff39f57125b in QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Gui.so.5
+#45 0x0000000022570df6 in QUnixEventDispatcherQPA::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) ()
+#46 0x00007ff39ff7634b in TqEventDispatcher::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/install/INNOVUS201/tools.lnx86/lib/64bit/libtq.so
+#47 0x00007ff39f11f0ca in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#48 0x00007ff39f127954 in QCoreApplication::exec() () from /home/install/INNOVUS201/tools.lnx86/Qt/v5//64bit/lib/libcdsQt5Core.so.5
+#49 0x00007ff39ff75897 in TqApplication::exec() () from /home/install/INNOVUS201/tools.lnx86/lib/64bit/libtq.so
+#50 0x000000000513b849 in edi_app_init(Tcl_Interp*) ()
+#51 0x00000000229c05c7 in Tcl_MainEx ()
+#52 0x00000000052ceea3 in child_main(int, char**) ()
+#53 0x000000000460508b in main ()
+A debugging session is active.
+
+	Inferior 1 [process 16772] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+
+*** Memory Usage v#1 (Current mem = 849.039M, initial mem = 284.301M) ***
+*** Message Summary: 582 warning(s), 10 error(s)
+
+--- Ending "Innovus" (totcpu=0:02:23, real=0:11:55, mem=849.0M) ---

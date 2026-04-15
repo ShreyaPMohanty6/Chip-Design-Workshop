@@ -1,0 +1,1217 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Mon Apr 13 11:25:02 2026
+Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> is_common_ui_mode
+<CMD> restoreDesign /home/user015/Desktop/sscd/day1/counter_power.enc.dat counter
+#% Begin load design ... (date=04/13 11:25:43, mem=654.5M)
+Set Default Input Pin Transition as 0.1 ps.
+Loading design 'counter' saved by 'Innovus' '20.14-s095_1' on 'Tue Apr 7 16:44:47 2026'.
+% Begin Load MMMC data ... (date=04/13 11:25:43, mem=658.2M)
+% End Load MMMC data ... (date=04/13 11:25:43, total cpu=0:00:00.0, real=0:00:00.0, peak res=658.7M, current mem=658.7M)
+RC
+
+Loading LEF file /home/user015/Desktop/sscd/day1/counter_power.enc.dat/libs/lef/gsclib045.fixed.lef ...
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+viaInitial starts at Mon Apr 13 11:25:43 2026
+viaInitial ends at Mon Apr 13 11:25:43 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from /home/user015/Desktop/sscd/day1/counter_power.enc.dat/viewDefinition.tcl
+Reading SLOW timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib)
+Read 480 cells in library 'slow_vdd1v0' 
+Reading FAST timing library '/home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib)
+Read 480 cells in library 'fast_vdd1v0' 
+*** End library_loading (cpu=0.01min, real=0.00min, mem=16.9M, fe_cpu=0.23min, fe_real=0.68min, fe_mem=789.5M) ***
+% Begin Load netlist data ... (date=04/13 11:25:43, mem=677.9M)
+*** Begin netlist parsing (mem=789.5M) ***
+Created 480 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/user015/Desktop/sscd/day1/counter_power.enc.dat/counter.v.bin'
+Reading binary database version 2 in 1-threaded mode
+
+*** Memory Usage v#1 (Current mem = 795.531M, initial mem = 284.301M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=795.5M) ***
+% End Load netlist data ... (date=04/13 11:25:43, total cpu=0:00:00.0, real=0:00:00.0, peak res=687.1M, current mem=687.1M)
+Top level cell is counter.
+Hooked 960 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell counter ...
+*** Netlist is unique.
+** info: there are 968 modules.
+** info: there are 64 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 839.957M, initial mem = 284.301M) ***
+*info: set bottom ioPad orient R0
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Set Shrink Factor to 0.90000
+Loading preference file /home/user015/Desktop/sscd/day1/counter_power.enc.dat/gui.pref.tcl ...
+addRing command will ignore shorts while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will consider rows while creating rings.
+The ring targets are set to core/block ring wires.
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will not extend to closest target.
+When breaking rings, the power planner will consider the existence of blocks.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+Stripes will not be created over regions without power planning wires.
+Offset for stripe breaking is set to 0.
+Stripes will stop at the boundary of the specified area.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Change floorplan default-technical-site to 'CoreSite'.
+*Info: initialize multi-corner CTS.
+Total number of combinational cells: 318
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+Reading floorplan file - /home/user015/Desktop/sscd/day1/counter_power.enc.dat/counter.fp.gz (mem = 1064.3M).
+% Begin Load floorplan data ... (date=04/13 11:25:44, mem=937.8M)
+*info: reset 69 existing net BottomPreferredLayer and AvoidDetour
+Deleting old partition specification.
+Set FPlanBox to (0 0 76000 70300)
+Horizontal Layer M1 offset = 190 (derived)
+Vertical Layer M2 offset = 200 (derived)
+Generated pitch 0.2 in Metal9 is different from 0.33 defined in technology file in unpreferred direction.
+Generated pitch 0.38 in Metal9 is different from 0.33 defined in technology file in preferred direction.
+Generated pitch 0.285 in Metal8 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.285 in Metal7 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal6 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal5 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal4 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.19 in Metal3 is different from 0.2 defined in technology file in preferred direction.
+Generated pitch 0.19 in Metal2 is different from 0.2 defined in technology file in unpreferred direction.
+Generated pitch 0.2 in Metal1 is different from 0.19 defined in technology file in unpreferred direction.
+ ... processed partition successfully.
+Reading binary special route file /home/user015/Desktop/sscd/day1/counter_power.enc.dat/counter.fp.spr.gz (Created by Innovus v20.14-s095_1 on Tue Apr  7 16:44:47 2026, version: 1)
+Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=938.4M, current mem=938.4M)
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+% End Load floorplan data ... (date=04/13 11:25:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=939.7M, current mem=939.7M)
+Reading congestion map file /home/user015/Desktop/sscd/day1/counter_power.enc.dat/counter.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=04/13 11:25:44, mem=939.9M)
+% End Load SymbolTable ... (date=04/13 11:25:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=940.0M, current mem=940.0M)
+Loading place ...
+% Begin Load placement data ... (date=04/13 11:25:44, mem=940.0M)
+Reading placement file - /home/user015/Desktop/sscd/day1/counter_power.enc.dat/counter.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v20.14-s095_1 on Tue Apr  7 16:44:47 2026, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1065.3M) ***
+Total net length = 6.700e-02 (3.350e-02 3.350e-02) (ext = 1.100e-02)
+% End Load placement data ... (date=04/13 11:25:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=940.1M, current mem=940.1M)
+% Begin Load routing data ... (date=04/13 11:25:44, mem=940.1M)
+Reading routing file - /home/user015/Desktop/sscd/day1/counter_power.enc.dat/counter.route.gz.
+Reading Innovus routing data (Created by Innovus v20.14-s095_1 on Tue Apr  7 16:44:47 2026 Format: 20.1) ...
+*** Total 69 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1066.3M) ***
+% End Load routing data ... (date=04/13 11:25:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=945.2M, current mem=944.2M)
+TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/user015/Desktop/sscd/day1/counter_power.enc.dat/counter.prop
+*** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1071.3M) ***
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+Type 'man IMPEXT-6202' for more detail.
+Reading Capacitance Table File /home/user015/Desktop/sscd/day1/counter_power.enc.dat/libs/mmmc/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl ...
+Cap table was created using Encounter 10.10-b056_1.
+Process name: cln28hpl_1p10m+alrdl_5x2yu2yz_typical.
+Set Shrink Factor to 0.90000
+**WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via RV specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+#WARNING (NRDB-21) The number of routing layer 9 in the database does not match with the value of 11 in the Extended Cap Table file.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: WC
+    RC-Corner Name        : RC
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 12 Celsius
+    RC-Corner Cap Table   : '/home/user015/Desktop/sscd/day1/counter_power.enc.dat/libs/mmmc/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/home/user015/Desktop/sscd/day1/counter_power.enc.dat/libs/mmmc/RC/gpdk045.tch'
+ 
+ Analysis View: BC
+    RC-Corner Name        : RC
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 12 Celsius
+    RC-Corner Cap Table   : '/home/user015/Desktop/sscd/day1/counter_power.enc.dat/libs/mmmc/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '/home/user015/Desktop/sscd/day1/counter_power.enc.dat/libs/mmmc/RC/gpdk045.tch'
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Start generating vias ..
+#Skip building auto via since it is not turned on.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Via generation completed.
+% Begin Load power constraints ... (date=04/13 11:25:44, mem=954.5M)
+% End Load power constraints ... (date=04/13 11:25:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=954.6M, current mem=954.6M)
+MAXDELAY MINDELAY
+% Begin load AAE data ... (date=04/13 11:25:44, mem=975.5M)
+% End load AAE data ... (date=04/13 11:25:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=975.5M, current mem=975.5M)
+Total number of combinational cells: 318
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+#% End load design ... (date=04/13 11:25:44, total cpu=0:00:01.2, real=0:00:01.0, peak res=1006.0M, current mem=975.6M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-201          571  Pin '%s' in macro '%s' has no ANTENNADIF...
+WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+WARNING   IMPEXT-2710          1  Basic Cap table for layer M%d is ignored...
+WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+WARNING   IMPCTE-107           1  The following globals have been obsolete...
+WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+*** Message Summary: 580 warning(s), 0 error(s)
+
+<CMD> setDrawView fplan
+<CMD> encMessage warning 1
+<CMD> encMessage debug 0
+<CMD> encMessage info 1
+<CMD> addEndCap -preCap FILL2 -postCap FILL2 -prefix ENDCAP
+**WARN: (IMPSP-5224):	Option '-preCap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -rightEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5224):	Option '-postcap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -leftEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5534):	'setEndCapMode -leftEdge' and 'setEndCapMode -rightEdge' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftBottomCorner' and 'setEndCapMode -rightBottomCorner' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftTopCorner' and 'setEndCapMode -rightTopCorner' are using the same endcap cells
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Estimated cell power/ground rail width = 0.160 um
+Minimum row-size in sites for endcap insertion = 5.
+Minimum number of sites for row blockage       = 1.
+Inserted 11 pre-endcap <FILL2> cells (prefix ENDCAP).
+Inserted 11 post-endcap <FILL2> cells (prefix ENDCAP).
+For 22 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+<CMD> addWellTap -cell FILL2 -cellInterval 8 -prefix WELLTAP
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+For 44 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+Inserted 44 well-taps <FILL2> cells (prefix WELLTAP).
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+<CMD> setNanoRouteMode -quiet -droutePostRouteWidenWireRule VLMDefaultSetup
+<CMD> setNanoRouteMode -quiet -timingEngine {}
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setPlaceMode -reset
+<CMD> setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+AAE DB initialization (MEM=1498.01 CPU=0:00:00.0 REAL=0:00:00.0) 
+
+*summary: 7 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.2) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.4864 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1507.55)
+Total number of fetched objects 61
+End delay calculation. (MEM=1549.22 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1522.14 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+Did not delete 66 physical insts as they were marked preplaced.
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1512.6M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.4 mem=1520.6M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.4 mem=1520.6M) ***
+No user-set net weight.
+Net fanout histogram:
+2		: 37 (60.7%) nets
+3		: 7 (11.5%) nets
+4     -	14	: 17 (27.9%) nets
+15    -	39	: 0 (0.0%) nets
+40    -	79	: 0 (0.0%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=124 (66 fixed + 58 movable) #buf cell=0 #inv cell=12 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=61 #term=213 #term/net=3.49, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=11
+stdCell: 124 single + 0 double + 0 multi
+Total standard cell length = 0.1856 (mm), area = 0.0003 (mm^2)
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+Average module density = 0.756.
+Density for the design = 0.756.
+       = stdcell_area 796 sites (272 um^2) / alloc_area 1053 sites (360 um^2).
+Pin Density = 0.1760.
+            = total # of pins 213 / total area 1210.
+=== lastAutoLevel = 5 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 5.093e-13 (5.09e-13 0.00e+00)
+              Est.  stn bbox = 5.330e-13 (5.33e-13 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1551.0M
+Iteration  2: Total net bbox = 5.093e-13 (5.09e-13 0.00e+00)
+              Est.  stn bbox = 5.330e-13 (5.33e-13 0.00e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1551.0M
+Iteration  3: Total net bbox = 3.694e-01 (1.36e-01 2.34e-01)
+              Est.  stn bbox = 4.088e-01 (1.46e-01 2.62e-01)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1552.4M
+Active setup views:
+    WC
+Iteration  4: Total net bbox = 3.935e+02 (1.70e+02 2.23e+02)
+              Est.  stn bbox = 4.440e+02 (1.98e+02 2.46e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1552.4M
+Iteration  5: Total net bbox = 4.710e+02 (2.33e+02 2.38e+02)
+              Est.  stn bbox = 5.310e+02 (2.67e+02 2.64e+02)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1552.4M
+Iteration  6: Total net bbox = 6.610e+02 (3.53e+02 3.08e+02)
+              Est.  stn bbox = 7.602e+02 (4.05e+02 3.55e+02)
+              cpu = 0:00:00.0 real = 0:00:01.0 mem = 1552.4M
+*** cost = 6.610e+02 (3.53e+02 3.08e+02) (cpu for global=0:00:00.0) real=0:00:01.0***
+Info: 0 clock gating cells identified, 0 (on average) moved 0/1
+Solver runtime cpu: 0:00:00.0 real: 0:00:00.0
+Core Placement runtime cpu: 0:00:00.0 real: 0:00:01.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+**WARN: (IMPSP-270):	Cannot find a legal location for MASTER CELL 'SDFFRHQX8'.
+Type 'man IMPSP-270' for more detail.
+*** Starting refinePlace (0:00:26.5 mem=1572.5M) ***
+Total net bbox length = 6.655e+02 (3.465e+02 3.189e+02) (ext = 1.219e+02)
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[5]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[6]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[4]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[1]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[2]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**WARN: (IMPSP-2020):	Cannot find a legal location for instance 'count_reg[3]' (Cell SDFFRHQX8).
+Type 'man IMPSP-2020' for more detail.
+**ERROR: (IMPSP-2021):	Could not legalize <6> instances in the design. Check warning message IMPSP-270, IMPSP-452, IMPSP-2024, IMPSP-2039, IMPSP-2040, IMPSP-2042 or IMPSP-2020 in log file for more details.
+Type 'man IMPSP-2021' for more detail.
+Move report: Detail placement moves 58 insts, mean move: 2.12 um, max move: 12.71 um 
+	Max move on inst (fopt3067): (17.01, 14.40) --> (27.40, 16.72)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1574.5MB
+Summary Report:
+Instances move: 58 (out of 58 movable)
+Instances flipped: 0
+Mean displacement: 2.12 um
+Max displacement: 12.71 um (Instance: fopt3067) (17.008, 14.4035) -> (27.4, 16.72)
+	Length: 9 sites, height: 1 rows, site name: CoreSite, cell type: INVX8
+Total net bbox length = 7.174e+02 (3.592e+02 3.582e+02) (ext = 1.176e+02)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1574.5MB
+*** Finished refinePlace (0:00:26.6 mem=1574.5M) ***
+*** End of Placement (cpu=0:00:00.6, real=0:00:02.0, mem=1568.5M) ***
+**Info: (IMPSP-307): Design contains fractional 17 cells.
+default core: bins with density > 0.750 = 25.00 % ( 1 / 4 )
+Density distribution unevenness ratio = 1.447%
+*** Free Virtual Timing Model ...(mem=1568.5M)
+Starting IO pin assignment...
+The design is not routed. Using placement based method for pin assignment.
+Completed IO pin assignment.
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.4864 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1554.94)
+Total number of fetched objects 61
+End delay calculation. (MEM=1598.14 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1598.14 CPU=0:00:00.0 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] Metal1 has no routable track
+[NR-eGR] Metal2 has single uniform track structure
+[NR-eGR] Metal3 has single uniform track structure
+[NR-eGR] Metal4 has single uniform track structure
+[NR-eGR] Metal5 has single uniform track structure
+[NR-eGR] Metal6 has single uniform track structure
+[NR-eGR] Metal7 has single uniform track structure
+[NR-eGR] Metal8 has single uniform track structure
+[NR-eGR] Metal9 has single uniform track structure
+[NR-eGR] Read 356 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 0
+[NR-eGR] #PG Blockages       : 356
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=61  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 61 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 61 net(s) in layer range [2, 9]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 0.00% V. EstWL: 8.037000e+02um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon            
+[NR-eGR]                         #Gcell     %Gcell
+[NR-eGR]       Layer                (0)    OverCon 
+[NR-eGR] ----------------------------------------------
+[NR-eGR]  Metal1  (1)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal2  (2)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal3  (3)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal4  (4)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal5  (5)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal6  (6)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal7  (7)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal8  (8)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal9  (9)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] ----------------------------------------------
+[NR-eGR] Total                0( 0.00%)   ( 0.00%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.00% V
+Early Global Route congestion estimation runtime: 0.01 seconds, mem = 1596.6M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1596.63 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1596.63 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1596.63 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1596.63 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1596.63 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1596.63 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Metal1  (1F) length: 0.000000e+00um, number of vias: 202
+[NR-eGR] Metal2  (2V) length: 2.419100e+02um, number of vias: 268
+[NR-eGR] Metal3  (3H) length: 4.003000e+02um, number of vias: 118
+[NR-eGR] Metal4  (4V) length: 1.779350e+02um, number of vias: 1
+[NR-eGR] Metal5  (5H) length: 1.130000e+01um, number of vias: 2
+[NR-eGR] Metal6  (6V) length: 1.900000e-01um, number of vias: 0
+[NR-eGR] Metal7  (7H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal8  (8V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Metal9  (9H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 8.316350e+02um, number of vias: 591
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 5.226500e+01um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.00 seconds, mem = 1536.6M
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**ERROR: (IMPSP-9099):	Scan chains exist in this design but are not defined for 12.50% flops. Placement and timing QoR can be severely impacted in this case!
+It is highly recommend to define scan chains either through input scan def (preferred) or specifyScanChain.
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 2, mem = 1536.6M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+WARNING   IMPSP-270            1  Cannot find a legal location for MASTER ...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+ERROR     IMPSP-9099           2  Scan chains exist in this design but are...
+ERROR     IMPSP-2021           1  Could not legalize <%d> instances in the...
+WARNING   IMPSP-2020           6  Cannot find a legal location for instanc...
+*** Message Summary: 11 warning(s), 3 error(s)
+
+<CMD> setDrawView place
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> setLayerPreference node_layer -isVisible 1
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> setLayerPreference node_layer -isVisible 1
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> setLayerPreference node_layer -isVisible 1
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> setLayerPreference node_layer -isVisible 1
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> setLayerPreference node_layer -isVisible 1
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> zoomBox -18.15250 -1.72850 49.82600 31.13650
+<CMD> setLayerPreference node_layer -isVisible 1
+<CMD> getCTSMode -engine -quiet
+<CMD> getCTSMode -engine -quiet
+<CMD> zoomBox -27.60250 -4.05850 52.37250 34.60650
+<CMD> zoomBox -38.72000 -6.80000 55.36850 38.68850
+<CMD> setLayerPreference groupmain_Congestion -isVisible 1
+**ERROR: (IMPQTF-4003):	Form 'congestMapForm' does not exist.
+<CMD> setLayerPreference congestH -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+<CMD> setLayerPreference congestV -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+<CMD> zoomBox -26.05000 -1.95400 53.92550 36.71100
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix counter_preCTS -outDir timingReports
+AAE DB initialization (MEM=1551.94 CPU=0:00:00.0 REAL=0:00:00.0) 
+*** timeDesign #1 [begin] : totSession cpu/real = 0:04:34.5/0:24:40.3 (0.2), mem = 1551.9M
+Setting timing_disable_library_data_to_data_checks to 'true'.
+Setting timing_disable_user_data_to_data_checks to 'true'.
+Start to check current routing status for nets...
+All nets are already routed correctly.
+End to check current routing status for nets (mem=1537.9M)
+Extraction called for design 'counter' of instances=124 and nets=63 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design counter.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1537.938M)
+Starting delay calculation for Setup views
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1570.99)
+Total number of fetched objects 61
+End delay calculation. (MEM=1625.27 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1598.2 CPU=0:00:00.0 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:00.1 real=0:00:00.0 totSessionCpu=0:04:35 mem=1598.2M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ WC 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.077  |  0.077  |  0.137  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   38    |   20    |   24    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 73.822%
+Routing Overflow: 0.00% H and 0.00% V
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 0.19 sec
+Total Real time: 1.0 sec
+Total Memory Usage: 1568.457031 Mbytes
+*** timeDesign #1 [finish] : cpu/real = 0:00:00.2/0:00:01.1 (0.2), totSession cpu/real = 0:04:34.7/0:24:41.4 (0.2), mem = 1568.5M
+<CMD> zoomBox -6.60300 3.31600 42.51250 27.06150
+<CMD> zoomBox 4.56500 7.46400 34.72850 22.04700
+<CMD> zoomBox 11.42450 10.01200 29.94850 18.96750
+<CMD> zoomBox 14.45350 11.13700 27.83750 17.60750
+<CMD> zoomBox 16.64200 11.95000 26.31200 16.62500
+<CMD> zoomBox 17.49700 12.26700 25.71650 16.24100
+<CMD> zoomBox 18.22300 12.53700 25.21000 15.91500
+<CMD> zoomBox 18.84050 12.76600 24.77950 15.63750
+<CMD> zoomBox 19.63000 13.38450 23.27850 15.14850
+<CMD> zoomBox 18.05000 12.14900 26.27400 16.12500
+<CMD> zoomBox 13.36100 8.48200 35.16800 19.02500
+<CMD> zoomBox 3.92350 1.10000 53.07200 24.86150
+<CMD> zoomBox -17.34650 -15.53750 93.42400 38.01600
+<CMD> zoomBox 5.01500 -4.89650 73.04200 27.99200
+<CMD> pan -25.11650 -5.37100
+<CMD> getCTSMode -engine -quiet
+<CMD> getCTSMode -engine -quiet
+<CMD> create_ccopt_clock_tree_spec
+Creating clock tree spec for modes (timing configs): CONST
+extract_clock_generator_skew_groups=true: create_ccopt_clock_tree_spec will generate skew groups with a name prefix of "_clock_gen" to balance clock generator connected flops with the clock generator they drive.
+Reset timing graph...
+Ignoring AAE DB Resetting ...
+Reset timing graph done.
+Ignoring AAE DB Resetting ...
+Analyzing clock structure...
+Analyzing clock structure done.
+Reset timing graph...
+Ignoring AAE DB Resetting ...
+Reset timing graph done.
+Extracting original clock gating for clk...
+  clock_tree clk contains 8 sinks and 0 clock gates.
+  Extraction for clk complete.
+Extracting original clock gating for clk done.
+The skew group clk/CONST was created. It contains 8 sinks and 1 sources.
+Checking clock tree convergence...
+Checking clock tree convergence done.
+<CMD> ctd_win -side none -id ctd_window
+Clock tree timing engine global stage delay update for MAXDELAY:setup.late...
+Turning off fast DC mode.
+Clock tree timing engine global stage delay update for MAXDELAY:setup.late done. (took cpu=0:00:00.0 real=0:00:00.0)
+<CMD> getCTSMode -engine -quiet
+<CMD> ctd_win -side none -id ctd_window -unit_delay
+RC
+<CMD> reset_parasitics
+Performing RC Extraction ...
+<CMD> extractRC
+Extraction called for design 'counter' of instances=124 and nets=63 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design counter.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1555.707M)
+<CMD> rcOut -spef counter.spef -rc_corner RC
+<CMD> getAnalysisMode -checkType
+-checkType setup                           # enums={setup hold}, default=setup, user setting
+<CMD> get_time_unit
+<CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -late > top.mtarpt
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1563.91)
+Total number of fetched objects 61
+End delay calculation. (MEM=1607.86 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1607.86 CPU=0:00:00.0 REAL=0:00:00.0)
+<CMD> load_timing_debug_report -name default_report top.mtarpt
+Parsing file top.mtarpt...
+<CMD> getAnalysisMode -checkType
+-checkType setup                           # enums={setup hold}, default=setup, user setting
+<CMD> get_time_unit
+<CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1596.34)
+Total number of fetched objects 61
+End delay calculation. (MEM=1626.94 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1626.94 CPU=0:00:00.0 REAL=0:00:00.0)
+<CMD> load_timing_debug_report -name default_report top.mtarpt
+Parsing file top.mtarpt...
+<CMD> getCTSMode -engine -quiet
+<CMD> zoomBox -2.98400 3.69650 46.16600 27.45850
+<CMD> getAnalysisMode -checkType
+-checkType setup                           # enums={setup hold}, default=setup, user setting
+<CMD> setAnalysisMode -cppr both -clockGatingCheck true -timeBorrowing true -useOutputPinCap true -sequentialConstProp false -timingSelfLoopsNoSkew false -enableMultipleDriveNet true -clkSrcPath true -warn true -usefulSkew false -analysisType onChipVariation -log true
+<CMD> getCTSMode -engine -quiet
+<CMD> getCTSMode -engine -quiet
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix counter_postRoute -outDir timingReports
+Switching SI Aware to true by default in postroute mode   
+*** timeDesign #2 [begin] : totSession cpu/real = 0:38:30.2/4:14:15.4 (0.2), mem = 1613.4M
+**WARN: (IMPEXT-3493):	The design extraction status has been reset by set_analysis_view/update_rc_corner or setExtractRCMode  command. The parasitic data can be regenerated either by extracting the design using the extractRC command or by loading the SPEF or RCDB file(s). To prevent resetting of the extraction status, avoid changing extraction modes.
+Type 'man IMPEXT-3493' for more detail.
+**WARN: (IMPOPT-7139):	'setExtractRCMode -coupled false' has been implicitly activated since current delay calulation is under SIAware false mode.
+Extraction called for design 'counter' of instances=124 and nets=63 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design counter.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: RC
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+Metal density calculation for erosion effect completed (CPU=0:00:00.0  MEM=1536.42M)
+extractDetailRC Option : -outfile /tmp/innovus_temp_4864_ECE-15.gsv.ac.in_user015_E9IOO2/counter_4864_0Ix9lO.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1544.4M)
+Extracted 10.3704% (CPU Time= 0:00:00.0  MEM= 1580.4M)
+Extracted 20.4938% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 30.3704% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 40.4938% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 50.3704% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 60.4938% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 70.3704% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 80.4938% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 90.3704% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Extracted 100% (CPU Time= 0:00:00.0  MEM= 1608.4M)
+Number of Extracted Resistors     : 996
+Number of Extracted Ground Cap.   : 1057
+Number of Extracted Coupling Cap. : 0
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.2  Real Time: 0:00:00.0  MEM: 1592.434M)
+**WARN: (IMPEXT-3493):	The design extraction status has been reset by set_analysis_view/update_rc_corner or setExtractRCMode  command. The parasitic data can be regenerated either by extracting the design using the extractRC command or by loading the SPEF or RCDB file(s). To prevent resetting of the extraction status, avoid changing extraction modes.
+Type 'man IMPEXT-3493' for more detail.
+Extraction called for design 'counter' of instances=124 and nets=63 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design counter.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: RC
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (EMS-27):	Message (IMPEXT-3438) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Metal density calculation for erosion effect completed (CPU=0:00:00.0  MEM=1578.97M)
+extractDetailRC Option : -outfile /tmp/innovus_temp_4864_ECE-15.gsv.ac.in_user015_E9IOO2/counter_4864_0Ix9lO.rcdb.d -maxResLength 222.222  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1579.0M)
+Extracted 10.3704% (CPU Time= 0:00:00.0  MEM= 1607.0M)
+Extracted 20.4938% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 30.3704% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 40.4938% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 50.3704% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 60.4938% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 70.3704% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 80.4938% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 90.3704% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Extracted 100% (CPU Time= 0:00:00.0  MEM= 1631.0M)
+Number of Extracted Resistors     : 996
+Number of Extracted Ground Cap.   : 1057
+Number of Extracted Coupling Cap. : 932
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: RC
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1599.0M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.3  Real Time: 0:00:01.0  MEM: 1606.977M)
+Starting delay calculation for Setup views
+AAE DB initialization (MEM=1624.05 CPU=0:00:00.0 REAL=0:00:00.0) 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=1624.05)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Total number of fetched objects 61
+AAE_INFO-618: Total number of nets in the design is 63,  92.1 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1678.42 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1651.34 CPU=0:00:00.1 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1651.3M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1651.3M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=1594.46)
+Glitch Analysis: View WC -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View WC -- Total Number of Nets Analyzed = 61. 
+Total number of fetched objects 61
+AAE_INFO-618: Total number of nets in the design is 63,  1.6 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1639.16 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1639.16 CPU=0:00:00.0 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:00.1 real=0:00:00.0 totSessionCpu=0:38:31 mem=1639.2M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ WC 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.074  |  0.074  |  0.137  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   38    |   20    |   24    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 73.822%
+Total number of glitch violations: 0
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 0.71 sec
+Total Real time: 2.0 sec
+Total Memory Usage: 1612.417969 Mbytes
+*** timeDesign #2 [finish] : cpu/real = 0:00:00.7/0:00:02.0 (0.3), totSession cpu/real = 0:38:30.9/4:14:17.5 (0.2), mem = 1612.4M
+<CMD> getAnalysisMode -checkType
+-checkType setup                           # enums={setup hold}, default=setup, user setting
+<CMD> get_time_unit
+<CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=1602.9)
+Total number of fetched objects 61
+AAE_INFO-618: Total number of nets in the design is 63,  92.1 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1646.94 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1646.94 CPU=0:00:00.0 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1646.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1646.9M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=1600.05)
+Glitch Analysis: View BC -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View BC -- Total Number of Nets Analyzed = 61. 
+Total number of fetched objects 61
+AAE_INFO-618: Total number of nets in the design is 63,  9.5 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1643.74 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1643.74 CPU=0:00:00.0 REAL=0:00:00.0)
+<CMD> load_timing_debug_report -name default_report top.mtarpt
+Parsing file top.mtarpt...
+<CMD> getAnalysisMode -checkType
+-checkType setup                           # enums={setup hold}, default=setup, user setting
+<CMD> get_time_unit
+<CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+<CMD> load_timing_debug_report -name default_report top.mtarpt
+Parsing file top.mtarpt...
+<CMD> getAnalysisMode -checkType
+-checkType setup                           # enums={setup hold}, default=setup, user setting
+<CMD> get_time_unit
+<CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+<CMD> load_timing_debug_report -name default_report top.mtarpt
+Parsing file top.mtarpt...
+Loading  (counter)
+Traverse HInst (counter)
+<CMD> getCTSMode -engine -quiet
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix counter_postRoute -outDir timingReports
+*** timeDesign #3 [begin] : totSession cpu/real = 0:39:26.6/4:19:16.9 (0.2), mem = 1643.7M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'counter' of instances=124 and nets=63 using extraction engine 'postRoute' at effort level 'low' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PostRoute (effortLevel low) RC Extraction called for design counter.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: RC
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/76000 (or 65.7895%) to 1/1 (or 100%).
+**WARN: (IMPEXT-3438):	Stepper size for erosion effect must be 1/5, 1/4, 1/3, 1/2, or 1 times tile size for faster processing. Adjusting given stepper 50000/70300 (or 71.1238%) to 1/1 (or 100%).
+Metal density calculation for erosion effect completed (CPU=0:00:00.0  MEM=1643.74M)
+extractDetailRC Option : -outfile /tmp/innovus_temp_4864_ECE-15.gsv.ac.in_user015_E9IOO2/counter_4864_0Ix9lO.rcdb.d -maxResLength 222.222  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 0.90000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1607.7M)
+Extracted 10.3704% (CPU Time= 0:00:00.0  MEM= 1643.8M)
+Extracted 20.4938% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 30.3704% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 40.4938% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 50.3704% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 60.4938% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 70.3704% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 80.4938% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 90.3704% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Extracted 100% (CPU Time= 0:00:00.0  MEM= 1667.8M)
+Number of Extracted Resistors     : 996
+Number of Extracted Ground Cap.   : 1057
+Number of Extracted Coupling Cap. : 932
+Filtering XCap in 'relativeOnly' mode using values relative_c_threshold=0.03 and total_c_threshold=5fF.
+ Corner: RC
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1651.8M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.2  Real Time: 0:00:01.0  MEM: 1659.754M)
+Starting delay calculation for Setup views
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: counter
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=1640.03)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Creating RPSQ from WeeR and WRes ...
+Total number of fetched objects 61
+AAE_INFO-618: Total number of nets in the design is 63,  92.1 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1667.32 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1667.32 CPU=0:00:00.0 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1667.3M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1667.3M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=1608.43)
+Glitch Analysis: View WC -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View WC -- Total Number of Nets Analyzed = 61. 
+Total number of fetched objects 61
+AAE_INFO-618: Total number of nets in the design is 63,  1.6 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1651.11 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1651.11 CPU=0:00:00.0 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:00.1 real=0:00:00.0 totSessionCpu=0:39:27 mem=1651.1M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ WC 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.074  |  0.074  |  0.137  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   38    |   20    |   24    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 73.822%
+Total number of glitch violations: 0
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 0.45 sec
+Total Real time: 2.0 sec
+Total Memory Usage: 1641.128906 Mbytes
+Reset AAE Options
+*** timeDesign #3 [finish] : cpu/real = 0:00:00.4/0:00:01.4 (0.3), totSession cpu/real = 0:39:27.0/4:19:18.3 (0.2), mem = 1641.1M
+<CMD> saveDesign counter_route.enc
+The in-memory database contained RC information but was not saved. To save 
+the RC information, use saveDesign's -rc option. Note: Saving RC information can be quite large, 
+so it should only be saved when it is really desired.
+#% Begin save design ... (date=04/13 16:14:36, mem=1319.9M)
+% Begin Save ccopt configuration ... (date=04/13 16:14:36, mem=1321.9M)
+% End Save ccopt configuration ... (date=04/13 16:14:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1323.2M, current mem=1323.2M)
+% Begin Save netlist data ... (date=04/13 16:14:36, mem=1323.2M)
+Writing Binary DB to counter_route.enc.dat/counter.v.bin in single-threaded mode...
+% End Save netlist data ... (date=04/13 16:14:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1323.5M, current mem=1323.5M)
+Saving symbol-table file ...
+Saving congestion map file counter_route.enc.dat/counter.route.congmap.gz ...
+% Begin Save AAE data ... (date=04/13 16:14:36, mem=1324.1M)
+Saving AAE Data ...
+% End Save AAE data ... (date=04/13 16:14:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1324.2M, current mem=1324.2M)
+Saving preference file counter_route.enc.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=04/13 16:14:36, mem=1325.1M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=04/13 16:14:37, total cpu=0:00:00.0, real=0:00:01.0, peak res=1325.6M, current mem=1325.6M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save placement data ... (date=04/13 16:14:37, mem=1325.6M)
+** Saving stdCellPlacement_binary (version# 2) ...
+Save Adaptive View Pruning View Names to Binary file
+% End Save placement data ... (date=04/13 16:14:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=1325.6M, current mem=1325.6M)
+% Begin Save routing data ... (date=04/13 16:14:37, mem=1325.6M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1645.1M) ***
+% End Save routing data ... (date=04/13 16:14:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=1325.8M, current mem=1325.8M)
+Saving property file counter_route.enc.dat/counter.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1649.1M) ***
+% Begin Save power constraints data ... (date=04/13 16:14:37, mem=1326.3M)
+% End Save power constraints data ... (date=04/13 16:14:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=1326.4M, current mem=1326.4M)
+RC
+RC
+RC
+Generated self-contained design counter_route.enc.dat
+#% End save design ... (date=04/13 16:14:37, total cpu=0:00:00.2, real=0:00:01.0, peak res=1355.9M, current mem=1330.6M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Mon Apr 13 16:15:09 2026
+  Total CPU time:     0:45:11
+  Total real time:    4:50:08
+  Peak memory (main): 1340.76MB
+
+
+*** Memory Usage v#1 (Current mem = 1701.691M, initial mem = 284.301M) ***
+*** Message Summary: 658 warning(s), 4 error(s)
+
+--- Ending "Innovus" (totcpu=0:45:07, real=4:50:07, mem=1701.7M) ---

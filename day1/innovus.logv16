@@ -1,0 +1,152 @@
+[04/15 16:23:42      0s] 
+[04/15 16:23:42      0s] Cadence Innovus(TM) Implementation System.
+[04/15 16:23:42      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/15 16:23:42      0s] 
+[04/15 16:23:42      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[04/15 16:23:42      0s] Options:	
+[04/15 16:23:42      0s] Date:		Wed Apr 15 16:23:42 2026
+[04/15 16:23:42      0s] Host:		ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+[04/15 16:23:42      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[04/15 16:23:42      0s] 
+[04/15 16:23:42      0s] License:
+[04/15 16:23:43      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[04/15 16:23:43      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/15 16:23:50      6s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 16:23:50      6s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[04/15 16:23:50      6s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 16:23:50      6s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[04/15 16:23:50      6s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[04/15 16:23:50      6s] @(#)CDS: CPE v20.14-s080
+[04/15 16:23:50      6s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/15 16:23:50      6s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[04/15 16:23:50      6s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[04/15 16:23:50      6s] @(#)CDS: RCDB 11.15.0
+[04/15 16:23:50      6s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[04/15 16:23:50      6s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_20629_ECE-15.gsv.ac.in_user015_LcUDrE.
+
+[04/15 16:23:50      6s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[04/15 16:23:51      7s] 
+[04/15 16:23:51      7s] **INFO:  MMMC transition support version v31-84 
+[04/15 16:23:51      7s] 
+[04/15 16:23:51      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/15 16:23:51      7s] <CMD> suppressMessage ENCEXT-2799
+[04/15 16:23:51      7s] <CMD> win
+[04/15 16:24:07     10s] <CMD> encMessage warning 0
+[04/15 16:24:07     10s] Suppress "**WARN ..." messages.
+[04/15 16:24:07     10s] <CMD> encMessage debug 0
+[04/15 16:24:07     10s] <CMD> encMessage info 0
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'ECK' in macro 'TLATNCAX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'DFFHQX8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'NAND4XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'MXI2XL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'TLATNSRXL' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'INVX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI222X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'DLY3X1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X3' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OA22X4' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'QN' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'SDFFSRX2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Q' in macro 'EDFFHQX1' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OAI31X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'OA21X2' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (IMPLF-201):	Pin 'Y' in macro 'CLKAND2X6' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/15 16:24:08     10s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[04/15 16:24:08     10s] To increase the message display limit, refer to the product command reference manual.
+[04/15 16:24:08     10s] Loading view definition file from /home/user015/Desktop/sscd/day1/counter_route.enc.dat/viewDefinition.tcl
+[04/15 16:24:08     10s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib)
+[04/15 16:24:08     10s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user015/Desktop/sscd/day1/45nm_library/lib/fast_vdd1v0_basicCells.lib)
+[04/15 16:24:08     10s] *** End library_loading (cpu=0.01min, real=0.00min, mem=15.9M, fe_cpu=0.18min, fe_real=0.43min, fe_mem=796.4M) ***
+[04/15 16:24:08     10s] *** Netlist is unique.
+[04/15 16:24:08     10s] Loading preference file /home/user015/Desktop/sscd/day1/counter_route.enc.dat/gui.pref.tcl ...
+[04/15 16:24:08     11s] 
+[04/15 16:24:08     11s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[04/15 16:24:08     11s] 
+[04/15 16:24:08     11s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[04/15 16:24:08     11s] 
+[04/15 16:24:08     11s] TimeStamp Deleting Cell Server Begin ...
+[04/15 16:24:08     11s] 
+[04/15 16:24:08     11s] TimeStamp Deleting Cell Server End ...
+[04/15 16:24:08     11s] 
+[04/15 16:24:08     11s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[04/15 16:24:08     11s] 
+[04/15 16:24:08     11s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[04/15 16:24:09     11s] Loading place ...
+[04/15 16:24:09     11s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[04/15 16:24:09     11s] **WARN: (IMPEXT-2760):	Layer M10 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 16:24:09     11s] **WARN: (IMPEXT-2760):	Layer M11 specified in the cap table is ignored because it is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 16:24:09     11s] **WARN: (IMPEXT-2771):	Via VIA9 specified in the cap table is ignored because its top layer, M10, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 16:24:09     11s] **WARN: (IMPEXT-2771):	Via RV specified in the cap table is ignored because its top layer, M11, is greater than the maximum number of layers, 9, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[04/15 16:24:09     11s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M10 is ignored because the layer is not specified in the technology LEF file.
+[04/15 16:24:09     11s] {RT RC 0 9 9 {7 0} 1}
+[04/15 16:24:09     11s] **WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+[04/15 16:24:09     11s] 
+[04/15 16:24:09     11s] TimeStamp Deleting Cell Server Begin ...
+[04/15 16:24:09     11s] 
+[04/15 16:24:09     11s] TimeStamp Deleting Cell Server End ...
+[04/15 16:24:09     11s] 
+[04/15 16:24:09     11s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[04/15 16:24:09     11s] 
+[04/15 16:24:09     11s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[04/15 16:24:09     11s] 
+[04/15 16:24:09     11s] TimeStamp Deleting Cell Server Begin ...
+[04/15 16:24:09     11s] 
+[04/15 16:24:09     11s] TimeStamp Deleting Cell Server End ...
+[04/15 16:24:09     11s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+[04/15 16:24:09     11s] timing_enable_default_delay_arc
+[04/15 16:24:12     11s] <CMD> selectVia 0.8000 9.8200 2.6000 9.9400 4 VSS
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingOffset 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingThreshold 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingJogDistance 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingLayers {}
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingOffset 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingThreshold 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingJogDistance 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingLayers {}
+[04/15 16:24:19     12s] <CMD> set sprCreateIeStripeWidth 10.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeStripeThreshold 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeStripeWidth 10.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeStripeThreshold 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingOffset 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingThreshold 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingJogDistance 1.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeRingLayers {}
+[04/15 16:24:19     12s] <CMD> set sprCreateIeStripeWidth 10.0
+[04/15 16:24:19     12s] <CMD> set sprCreateIeStripeThreshold 1.0
+[04/15 16:24:29     14s] <CMD> deselectAll
+[04/15 16:24:30     14s] <CMD> selectWire 25.9500 4.5700 27.7500 30.5800 8 VDD
+[04/15 16:24:31     14s] <CMD> deselectAll
+[04/15 16:24:31     14s] <CMD> selectWire 4.4000 28.7800 33.6000 30.5800 9 VDD
+[04/15 16:24:32     15s] <CMD> deselectAll
+[04/15 16:24:32     15s] <CMD> selectWire 35.4000 0.9700 37.2000 34.1800 8 VSS
+[04/15 16:24:34     15s] <CMD> deselectAll
+[04/15 16:24:34     15s] <CMD> selectWire 4.4000 28.7800 33.6000 30.5800 9 VDD
+[04/15 16:24:35     15s] <CMD> deselectAll
+[04/15 16:24:59     19s] <CMD> selectWire 28.2000 0.9700 30.0000 34.1800 8 VSS
+[04/15 16:37:47    132s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Wed Apr 15 16:37:47 2026
+  Total CPU time:     0:02:13
+  Total real time:    0:14:06
+  Peak memory (main): 1189.02MB
+
+[04/15 16:37:47    132s] 
+[04/15 16:37:47    132s] *** Memory Usage v#1 (Current mem = 1472.586M, initial mem = 284.301M) ***
+[04/15 16:37:47    132s] 
+[04/15 16:37:47    132s] *** Summary of all messages that are not suppressed in this session:
+[04/15 16:37:47    132s] Severity  ID               Count  Summary                                  
+[04/15 16:37:47    132s] WARNING   IMPLF-201          571  Pin '%s' in macro '%s' has no ANTENNADIF...
+[04/15 16:37:47    132s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[04/15 16:37:47    132s] WARNING   IMPEXT-2710          1  Basic Cap table for layer M%d is ignored...
+[04/15 16:37:47    132s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+[04/15 16:37:47    132s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+[04/15 16:37:47    132s] WARNING   IMPESI-3505          1  setDelayCalMode -eng_%s (default=%s) wil...
+[04/15 16:37:47    132s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[04/15 16:37:47    132s] WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+[04/15 16:37:47    132s] *** Message Summary: 581 warning(s), 0 error(s)
+[04/15 16:37:47    132s] 
+[04/15 16:37:47    132s] --- Ending "Innovus" (totcpu=0:02:13, real=0:14:05, mem=1472.6M) ---

@@ -1,0 +1,120 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Mon Apr 13 11:25:11 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+#@(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+#@(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+#@(#)CDS: CPE v20.14-s080
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+is_common_ui_mode
+restoreDesign /home/user015/Desktop/sscd/day1/counter_power.enc.dat counter
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+addEndCap -preCap FILL2 -postCap FILL2 -prefix ENDCAP
+addWellTap -cell FILL2 -cellInterval 8 -prefix WELLTAP
+setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+setEndCapMode -reset
+setEndCapMode -boundary_tap false
+setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+setNanoRouteMode -quiet -droutePostRouteWidenWireRule VLMDefaultSetup
+setNanoRouteMode -quiet -timingEngine {}
+setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+setPlaceMode -reset
+setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setPlaceMode -fp false
+place_design
+setDrawView place
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+zoomBox -18.15250 -1.72850 49.82600 31.13650
+setLayerPreference node_layer -isVisible 1
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+zoomBox -27.60250 -4.05850 52.37250 34.60650
+zoomBox -38.72000 -6.80000 55.36850 38.68850
+setLayerPreference groupmain_Congestion -isVisible 1
+setLayerPreference congestH -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+setLayerPreference congestV -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+zoomBox -26.05000 -1.95400 53.92550 36.71100
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix counter_preCTS -outDir timingReports
+zoomBox -6.60300 3.31600 42.51250 27.06150
+zoomBox 4.56500 7.46400 34.72850 22.04700
+zoomBox 11.42450 10.01200 29.94850 18.96750
+zoomBox 14.45350 11.13700 27.83750 17.60750
+zoomBox 16.64200 11.95000 26.31200 16.62500
+zoomBox 17.49700 12.26700 25.71650 16.24100
+zoomBox 18.22300 12.53700 25.21000 15.91500
+zoomBox 18.84050 12.76600 24.77950 15.63750
+zoomBox 19.63000 13.38450 23.27850 15.14850
+zoomBox 18.05000 12.14900 26.27400 16.12500
+zoomBox 13.36100 8.48200 35.16800 19.02500
+zoomBox 3.92350 1.10000 53.07200 24.86150
+zoomBox -17.34650 -15.53750 93.42400 38.01600
+zoomBox 5.01500 -4.89650 73.04200 27.99200
+pan -25.11650 -5.37100
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+create_ccopt_clock_tree_spec
+ctd_win -side none -id ctd_window
+getCTSMode -engine -quiet
+ctd_win -side none -id ctd_window -unit_delay
+reset_parasitics
+extractRC
+rcOut -spef counter.spef -rc_corner RC
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -late > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+getCTSMode -engine -quiet
+zoomBox -2.98400 3.69650 46.16600 27.45850
+getAnalysisMode -checkType
+setAnalysisMode -cppr both -clockGatingCheck true -timeBorrowing true -useOutputPinCap true -sequentialConstProp false -timingSelfLoopsNoSkew false -enableMultipleDriveNet true -clkSrcPath true -warn true -usefulSkew false -analysisType onChipVariation -log true
+getCTSMode -engine -quiet
+getCTSMode -engine -quiet
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix counter_postRoute -outDir timingReports
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+getCTSMode -engine -quiet
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix counter_postRoute -outDir timingReports
+saveDesign counter_route.enc

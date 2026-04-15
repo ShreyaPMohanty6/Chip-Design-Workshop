@@ -1,8 +1,11 @@
 
-set_db init_lib_search_path /home/install/FOUNDRY/digital/45nm/LIBS/lib/max
+set_db init_lib_search_path ../45nm_library/lib
 set_db lef_library /home/install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
 
-set_db library  slow.lib    
+
+
+
+set_db library  /home/user015/Desktop/sscd/day1/45nm_library/lib/slow_vdd1v0_basicCells.lib
 read_hdl {./counter.v}
 elaborate
 read_sdc ./constraints_top_2GHz.sdc

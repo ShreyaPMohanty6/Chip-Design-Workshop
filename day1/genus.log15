@@ -1514,3 +1514,130 @@ Output file: counter_power.rep
 @file(run_dft.tcl) 40: report_timing_summary > counter_timing_summary.rep
 @file(run_dft.tcl) 41: gui_show
 #@ End verbose source ./run_dft.tcl
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 2274s, ST: 62s, FG: 62s, CPU: 5.3%}, MEM {curr: 1.2G, peak: 1.2G, phys curr: 0.6G, phys peak: 0.6G}, SYS {load: 0.1, cpu: 24, total: 15.1G, free: 1.4G}
+WARNING (LMC-07702): Unable to validate license feature(s)(first attempt). After the third attempt the application will wait indefinitely until the licenses become available.
+
+Run 'lic_error LMC-07702' for more information.
+WARNING (LMC-07703): Unable to validate license feature(s)(second attempt). After the third attempt the application will wait indefinitely until the licenses become available.
+
+Run 'lic_error LMC-07703' for more information.
+ERROR (LMC-07914): License call failed. Unable to validate license features checked out by the application. Application will now wait until all the licenses become available again.
+
+Run 'lic_error LMC-07914' for more information.
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+
+
+ERROR (LMC-07913): License call failed. Attempting to regain lost licenses.
+
+Run 'lic_error LMC-07913' for more information.
+

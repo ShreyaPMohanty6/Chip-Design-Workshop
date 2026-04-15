@@ -1,0 +1,15 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.11-s111_1, built Mon Apr 26 02:27:38 PDT 2021
+Options: 
+Date:    Tue Apr 07 10:56:00 2026
+Host:    ECE-15.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*1physical cpu*13th Gen Intel(R) Core(TM) i7-13700F 30720KB) (25202844KB)
+PID:     9029
+OS:      Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 4s, ST: 0s, FG: 0s, CPU: 100.0%}, MEM {curr: 0.7G, peak: 0.7G, phys curr: 0.1G, phys peak: 0.1G}, SYS {load: 0.1, cpu: 24, total: 24.0G, free: 0.9G}

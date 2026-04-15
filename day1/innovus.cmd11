@@ -1,0 +1,130 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Wed Apr 15 11:43:18 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+#@(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+#@(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+#@(#)CDS: CPE v20.14-s080
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /home/user015/Desktop/sscd/day1/counter_route.enc.dat counter
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+getAnalysisMode -checkType
+reset_parasitics
+extractRC
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -late > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+all_analysis_views
+all_setup_analysis_views
+all_hold_analysis_views
+get_analysis_view $view -delay_corner
+get_delay_corner $dc -rc_corner
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -late > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+selectInst {count_reg[5]}
+zoomSelected
+editSelect -net {count[5]}
+zoomSelected
+selectInst {count_reg[5]}
+zoomSelected
+all_analysis_views
+all_setup_analysis_views
+all_hold_analysis_views
+get_analysis_view $view -delay_corner
+get_delay_corner $dc -rc_corner
+editSelect -net {count[5]}
+zoomSelected
+selectInst {count_reg[5]}
+zoomSelected
+all_analysis_views
+all_setup_analysis_views
+all_hold_analysis_views
+get_analysis_view $view -delay_corner
+get_delay_corner $dc -rc_corner
+getAnalysisMode -checkType
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt
+setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+setDelayCalMode -engine default -siAware true
+optDesign -postRoute
+setOptMode -fixCap true -fixTran true -fixFanoutLoad false
+setDelayCalMode -engine default -siAware true
+optDesign -postRoute
+zoomBox -21.61700 3.73900 32.59400 29.94800
+zoomBox -50.54300 -11.60500 53.31050 38.60450
+zoomBox -61.22250 -17.26950 60.95850 41.80050
+pan 16.45750 45.27550
+zoomBox -60.81650 -22.35200 82.92650 47.14250
+setDrawView place
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+zoomBox -30.06550 -8.07650 58.21100 34.60200
+zoomBox -11.18100 0.69000 43.03300 26.90050
+selectMarker 21.5500 15.4375 25.4500 16.2925 -1 12 91
+deselectAll
+selectMarker 21.5500 15.4375 25.4500 16.2925 -1 12 91
+deselectAll
+selectMarker 21.5500 15.4375 25.4500 16.2925 -1 12 91
+zoomBox -42.79450 -9.16100 61.06350 41.05050
+zoomBox -68.19700 -17.07650 75.55150 52.42050
+zoomBox -33.82400 -8.53750 70.03450 41.67450
+setLayerPreference node_layer -isVisible 1
+zoomBox -64.21650 -18.13250 79.53350 51.36550
+zoomBox -83.54350 -24.23400 85.57400 57.52800
+zoomBox -47.78850 -12.94600 74.39900 46.12700
+zoomBox -33.82500 -8.53800 70.03450 41.67450
+zoomBox -22.67750 -1.39950 65.60350 41.28100
+zoomBox -34.24700 -6.53350 69.61300 43.67900
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+deselectAll
+gui_select -rect {13.15500 15.32500 15.21600 15.70000}
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_route -isVisible 0
+setLayerPreference node_route -isVisible 1
+setLayerPreference node_layer -isVisible 1
+saveNetlist counter.v
+saveDesign counter_optimised
+saveNetlist counter_physical.v
